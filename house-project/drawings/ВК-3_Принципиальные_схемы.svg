@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1260" height="891" viewBox="0 0 420 297">
+<defs><pattern id="hConcrete" patternUnits="userSpaceOnUse" width="3" height="3" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="3" stroke="#333" stroke-width="0.18"/><circle cx="1.5" cy="1.5" r="0.22" fill="#333"/></pattern><pattern id="hMasonry" patternUnits="userSpaceOnUse" width="2.2" height="2.2" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="2.2" stroke="#444" stroke-width="0.18"/></pattern><pattern id="hAerated" patternUnits="userSpaceOnUse" width="4" height="4" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="4" stroke="#555" stroke-width="0.18"/><circle cx="2" cy="2" r="0.25" fill="none" stroke="#555" stroke-width="0.15"/></pattern><pattern id="hInsul" patternUnits="userSpaceOnUse" width="4" height="4"><path d="M0 2 Q1 0 2 2 T4 2" fill="none" stroke="#666" stroke-width="0.18"/></pattern><pattern id="hWood" patternUnits="userSpaceOnUse" width="3" height="3" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="3" stroke="#7a4a1a" stroke-width="0.15"/><line x1="1.2" y1="0" x2="1.2" y2="3" stroke="#7a4a1a" stroke-width="0.15"/></pattern><pattern id="hEarth" patternUnits="userSpaceOnUse" width="5" height="5"><line x1="0" y1="2.5" x2="2.5" y2="2.5" stroke="#777" stroke-width="0.18"/><line x1="3.5" y1="1" x2="5" y2="1" stroke="#777" stroke-width="0.18"/><line x1="2" y1="4.2" x2="4.5" y2="4.2" stroke="#777" stroke-width="0.18"/></pattern><pattern id="hSand" patternUnits="userSpaceOnUse" width="3" height="3"><circle cx="0.7" cy="0.8" r="0.2" fill="#777"/><circle cx="2.1" cy="2.2" r="0.2" fill="#777"/></pattern><pattern id="hGravel" patternUnits="userSpaceOnUse" width="5" height="5"><circle cx="1.2" cy="1.2" r="0.6" fill="none" stroke="#666" stroke-width="0.15"/><circle cx="3.6" cy="3.4" r="0.8" fill="none" stroke="#666" stroke-width="0.15"/></pattern><pattern id="hGrass" patternUnits="userSpaceOnUse" width="6" height="6"><path d="M1 5 l1 -2 l1 2 M4 4 l1 -2 l1 2" fill="none" stroke="#5a9a3a" stroke-width="0.2"/></pattern><pattern id="hPaving" patternUnits="userSpaceOnUse" width="4" height="4"><rect x="0" y="0" width="4" height="4" fill="none" stroke="#999" stroke-width="0.15"/></pattern><pattern id="hGlass" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(-45)"><line x1="0" y1="0" x2="0" y2="6" stroke="#5b8fc7" stroke-width="0.25"/></pattern><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#000"/></marker><marker id="arrowR" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#c00"/></marker><marker id="arrowB" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#1a5fb4"/></marker></defs>
+<rect x="0" y="0" width="420" height="297" fill="#fff"/>
+<rect x="20.0" y="5.0" width="395.0" height="287.0" fill="none" stroke="#000" stroke-width="0.7"/>
+<rect x="230.0" y="252.0" width="185" height="40" fill="#fff" stroke="#000" stroke-width="0.7"/>
+<line x1="230.0" y1="260.0" x2="415.0" y2="260.0" stroke="#000" stroke-width="0.35"/>
+<line x1="230.0" y1="268.0" x2="415.0" y2="268.0" stroke="#000" stroke-width="0.35"/>
+<line x1="230.0" y1="276.0" x2="415.0" y2="276.0" stroke="#000" stroke-width="0.35"/>
+<line x1="230.0" y1="284.0" x2="415.0" y2="284.0" stroke="#000" stroke-width="0.35"/>
+<line x1="295.0" y1="252.0" x2="295.0" y2="292.0" stroke="#000" stroke-width="0.7"/>
+<line x1="365.0" y1="268.0" x2="365.0" y2="292.0" stroke="#000" stroke-width="0.7"/>
+<line x1="390.0" y1="268.0" x2="390.0" y2="292.0" stroke="#000" stroke-width="0.35"/>
+<text x="232.0" y="256.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.2" text-anchor="start" dominant-baseline="middle" font-weight="normal">Разраб.</text>
+<text x="252.0" y="256.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.2" text-anchor="start" dominant-baseline="middle" font-weight="normal">Claude (ИИ)</text>
+<text x="232.0" y="264.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.2" text-anchor="start" dominant-baseline="middle" font-weight="normal">Пров.</text>
+<text x="252.0" y="264.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.0" text-anchor="start" dominant-baseline="middle" font-weight="normal">— (требуется ГИП/ГАП)</text>
+<text x="232.0" y="272.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.2" text-anchor="start" dominant-baseline="middle" font-weight="normal">Стадия</text>
+<text x="232.0" y="280.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.2" text-anchor="start" dominant-baseline="middle" font-weight="normal">Шифр</text>
+<text x="252.0" y="280.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.4" text-anchor="start" dominant-baseline="middle" font-weight="bold">ВК-3</text>
+<text x="232.0" y="288.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.2" text-anchor="start" dominant-baseline="middle" font-weight="normal">Дата</text>
+<text x="252.0" y="288.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.2" text-anchor="start" dominant-baseline="middle" font-weight="normal">09.2026</text>
+<text x="330.0" y="257.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.6" text-anchor="middle" dominant-baseline="middle" font-weight="bold">Индивидуальный жилой дом, 2 этажа, ~400 м²</text>
+<text x="330.0" y="264.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.2" text-anchor="middle" dominant-baseline="middle" font-weight="normal">Участок 6 соток (20×30 м), 2 этажа + холодный чердак</text>
+<text x="330.0" y="275.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="3.0" text-anchor="middle" dominant-baseline="middle" font-weight="bold">Принципиальные схемы водоснабжения и канализации</text>
+<text x="330.0" y="282.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.3" text-anchor="middle" dominant-baseline="middle" font-weight="normal">Масштаб б/м</text>
+<text x="330.0" y="288.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.2" text-anchor="middle" dominant-baseline="middle" font-weight="normal">Стадия: ЭП</text>
+<text x="377.0" y="272.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.2" text-anchor="middle" dominant-baseline="middle" font-weight="normal">Лист</text>
+<text x="377.0" y="282.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="3.0" text-anchor="middle" dominant-baseline="middle" font-weight="bold">17</text>
+<text x="402.0" y="272.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.2" text-anchor="middle" dominant-baseline="middle" font-weight="normal">Листов</text>
+<text x="402.0" y="282.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="3.0" text-anchor="middle" dominant-baseline="middle" font-weight="bold">20</text>
+<text x="377.0" y="290.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.7" text-anchor="middle" dominant-baseline="middle" font-weight="normal">Эскизный проект — не для строительства</text>
+<text x="30.00" y="20.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="4.2" text-anchor="start" dominant-baseline="middle" font-weight="bold" fill="#000">Принципиальная схема водоснабжения</text>
+<rect x="30.00" y="40.00" width="44.00" height="22.00" fill="#fff" stroke="#1a5fb4" stroke-width="0.35"/>
+<text x="52.00" y="49.50" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.9" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#1a5fb4">Скважина 50–60 м</text>
+<text x="52.00" y="52.50" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.9" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#1a5fb4">насос 3 м³/ч, 60 м, 1,1 кВт</text>
+<line x1="74.00" y1="51.00" x2="82.00" y2="51.00" stroke="#1a5fb4" stroke-width="0.7" marker-end="url(#arrow)" stroke-linecap="round"/>
+<rect x="82.00" y="40.00" width="44.00" height="22.00" fill="#fff" stroke="#1a5fb4" stroke-width="0.35"/>
+<text x="104.00" y="49.50" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.9" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#1a5fb4">Кессон Ø1,5 м</text>
+<text x="104.00" y="52.50" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.9" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#1a5fb4">оголовок, кран, обр. клапан</text>
+<line x1="126.00" y1="51.00" x2="134.00" y2="51.00" stroke="#1a5fb4" stroke-width="0.7" marker-end="url(#arrow)" stroke-linecap="round"/>
+<rect x="134.00" y="40.00" width="44.00" height="22.00" fill="#fff" stroke="#1a5fb4" stroke-width="0.35"/>
+<text x="156.00" y="49.50" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.9" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#1a5fb4">Ввод ПНД Ø32</text>
+<text x="156.00" y="52.50" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.9" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#1a5fb4">глубина 1,6 м, гильза</text>
+<line x1="178.00" y1="51.00" x2="186.00" y2="51.00" stroke="#1a5fb4" stroke-width="0.7" marker-end="url(#arrow)" stroke-linecap="round"/>
+<rect x="186.00" y="40.00" width="44.00" height="22.00" fill="#fff" stroke="#1a5fb4" stroke-width="0.35"/>
+<text x="208.00" y="49.50" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.9" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#1a5fb4">Реле давления 2,5/4 бар</text>
+<text x="208.00" y="52.50" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.9" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#1a5fb4">ГА 100 л, манометр</text>
+<line x1="230.00" y1="51.00" x2="238.00" y2="51.00" stroke="#1a5fb4" stroke-width="0.7" marker-end="url(#arrow)" stroke-linecap="round"/>
+<rect x="238.00" y="40.00" width="44.00" height="22.00" fill="#fff" stroke="#1a5fb4" stroke-width="0.35"/>
+<text x="260.00" y="49.50" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.9" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#1a5fb4">Фильтр 100 мкм</text>
+<text x="260.00" y="52.50" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.9" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#1a5fb4">счётчик ХВС</text>
+<line x1="282.00" y1="51.00" x2="290.00" y2="51.00" stroke="#1a5fb4" stroke-width="0.7" marker-end="url(#arrow)" stroke-linecap="round"/>
+<rect x="290.00" y="40.00" width="44.00" height="22.00" fill="#fff" stroke="#1a5fb4" stroke-width="0.35"/>
+<text x="312.00" y="48.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.9" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#1a5fb4">Водоподготовка</text>
+<text x="312.00" y="51.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.9" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#1a5fb4">аэрация + обезжелезивание</text>
+<text x="312.00" y="54.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.9" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#1a5fb4">+ умягчение + УФ</text>
+<line x1="334.00" y1="51.00" x2="342.00" y2="51.00" stroke="#1a5fb4" stroke-width="0.7" marker-end="url(#arrow)" stroke-linecap="round"/>
+<rect x="342.00" y="40.00" width="44.00" height="22.00" fill="#fff" stroke="#1a5fb4" stroke-width="0.35"/>
+<text x="364.00" y="49.50" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.9" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#1a5fb4">Коллектор ХВС 1.12</text>
+<text x="364.00" y="52.50" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.9" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#1a5fb4">(8 выходов)</text>
+<rect x="342.00" y="40.00" width="44.00" height="22.00" fill="#fff" stroke="#1a5fb4" stroke-width="0.35"/>
+<text x="364.00" y="49.50" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.9" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#1a5fb4">Коллектор ХВС 2.09</text>
+<text x="364.00" y="52.50" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.9" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#1a5fb4">(стояк Ø25 в В2)</text>
+<line x1="364.00" y1="62.00" x2="364.00" y2="75.00" stroke="#1a5fb4" stroke-width="0.7" marker-end="url(#arrow)" stroke-linecap="round"/>
+<rect x="322.00" y="75.00" width="84.00" height="20.00" fill="#fff" stroke="#1a5fb4" stroke-width="0.35"/>
+<text x="364.00" y="85.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.8" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#1a5fb4">Потребители 1 этажа: кухня, санузел 1.05, хозяйственная 1.12, поливочные краны, подпитка отопления</text>
+<line x1="364.00" y1="62.00" x2="364.00" y2="75.00" stroke="#1a5fb4" stroke-width="0.7" marker-end="url(#arrow)" stroke-linecap="round"/>
+<rect x="332.00" y="75.00" width="64.00" height="20.00" fill="#fff" stroke="#1a5fb4" stroke-width="0.35"/>
+<text x="364.00" y="83.50" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.8" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#1a5fb4">Потребители 2 этажа:</text>
+<text x="364.00" y="86.50" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.8" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#1a5fb4">санузлы 2.03, 2.08, 2.11, постирочная 2.09</text>
+<rect x="30.00" y="110.00" width="60.00" height="22.00" fill="#fff" stroke="#c00" stroke-width="0.35"/>
+<text x="60.00" y="119.50" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.9" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#c00">БКН 200 л (котельная)</text>
+<text x="60.00" y="122.50" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.9" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#c00">змеевик от котла, ТЭН 3 кВт</text>
+<line x1="90.00" y1="121.00" x2="120.00" y2="121.00" stroke="#c00" stroke-width="0.7" marker-end="url(#arrow)" stroke-linecap="round"/>
+<rect x="120.00" y="110.00" width="50.00" height="22.00" fill="#fff" stroke="#c00" stroke-width="0.35"/>
+<text x="145.00" y="121.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.9" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#c00">Коллектор ГВС 1.12</text>
+<line x1="170.00" y1="121.00" x2="200.00" y2="121.00" stroke="#c00" stroke-width="0.7" marker-end="url(#arrow)" stroke-linecap="round"/>
+<rect x="200.00" y="110.00" width="50.00" height="22.00" fill="#fff" stroke="#c00" stroke-width="0.35"/>
+<text x="225.00" y="121.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.9" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#c00">Коллектор ГВС 2.09</text>
+<line x1="250.00" y1="128.00" x2="90.00" y2="128.00" stroke="#e08a00" stroke-width="0.7" marker-end="url(#arrow)" stroke-linecap="round"/>
+<text x="170.00" y="136.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.8" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#e08a00">рециркуляция Ø16, насос по таймеру, обратный клапан</text>
+<line x1="60.00" y1="62.00" x2="60.00" y2="110.00" stroke="#1a5fb4" stroke-width="0.7" marker-end="url(#arrow)" stroke-linecap="round"/>
+<text x="63.00" y="90.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.8" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#1a5fb4">ХВС в БКН (предохр. клапан 6 бар, РБ ГВС 12 л)</text>
+<text x="30.00" y="160.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="4.2" text-anchor="start" dominant-baseline="middle" font-weight="bold" fill="#000">Принципиальная схема канализации</text>
+<rect x="30.00" y="175.00" width="50.00" height="24.00" fill="#fff" stroke="#7a4a1a" stroke-width="0.35"/>
+<text x="55.00" y="184.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.8" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#7a4a1a">Ст1 Ø110</text>
+<text x="55.00" y="187.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.8" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#7a4a1a">санузлы 1.05, 2.03</text>
+<text x="55.00" y="190.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.8" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#7a4a1a">вент. выход в В3</text>
+<line x1="55.00" y1="199.00" x2="55.00" y2="212.00" stroke="#7a4a1a" stroke-width="0.7" marker-end="url(#arrow)" stroke-linecap="round"/>
+<rect x="90.00" y="175.00" width="50.00" height="24.00" fill="#fff" stroke="#7a4a1a" stroke-width="0.35"/>
+<text x="115.00" y="184.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.8" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#7a4a1a">Ст2 Ø110</text>
+<text x="115.00" y="187.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.8" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#7a4a1a">1.12, 2.08, 2.09</text>
+<text x="115.00" y="190.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.8" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#7a4a1a">вент. выход в В2</text>
+<line x1="115.00" y1="199.00" x2="115.00" y2="212.00" stroke="#7a4a1a" stroke-width="0.7" marker-end="url(#arrow)" stroke-linecap="round"/>
+<rect x="150.00" y="175.00" width="50.00" height="24.00" fill="#fff" stroke="#7a4a1a" stroke-width="0.35"/>
+<text x="175.00" y="184.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.8" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#7a4a1a">Ст3 Ø110</text>
+<text x="175.00" y="187.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.8" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#7a4a1a">кухня 1.08, санузел 2.11</text>
+<text x="175.00" y="190.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.8" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#7a4a1a">вакуумный клапан</text>
+<line x1="175.00" y1="199.00" x2="175.00" y2="212.00" stroke="#7a4a1a" stroke-width="0.7" marker-end="url(#arrow)" stroke-linecap="round"/>
+<rect x="30.00" y="212.00" width="170.00" height="12.00" fill="#fff" stroke="#7a4a1a" stroke-width="0.35"/>
+<text x="115.00" y="218.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.9" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#7a4a1a">Лежак Ø110 под плитой, i = 0,02, ревизии; выпуск через гильзу, лоток −1,100</text>
+<line x1="200.00" y1="218.00" x2="225.00" y2="218.00" stroke="#7a4a1a" stroke-width="0.7" marker-end="url(#arrow)" stroke-linecap="round"/>
+<rect x="225.00" y="206.00" width="40.00" height="24.00" fill="#fff" stroke="#7a4a1a" stroke-width="0.35"/>
+<text x="245.00" y="216.50" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.9" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#7a4a1a">Колодец Ø1,0</text>
+<text x="245.00" y="219.50" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.9" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#7a4a1a">поворотный</text>
+<line x1="265.00" y1="218.00" x2="290.00" y2="218.00" stroke="#7a4a1a" stroke-width="0.7" marker-end="url(#arrow)" stroke-linecap="round"/>
+<rect x="290.00" y="206.00" width="50.00" height="24.00" fill="#fff" stroke="#7a4a1a" stroke-width="0.35"/>
+<text x="315.00" y="215.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.8" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#7a4a1a">СБО 8 усл. жит.</text>
+<text x="315.00" y="218.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.8" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#7a4a1a">1,6 м³/сут, аэрация</text>
+<text x="315.00" y="221.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.8" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#7a4a1a">эл. 0,3 кВт</text>
+<line x1="340.00" y1="218.00" x2="360.00" y2="218.00" stroke="#7a4a1a" stroke-width="0.7" marker-end="url(#arrow)" stroke-linecap="round"/>
+<rect x="360.00" y="206.00" width="50.00" height="24.00" fill="#fff" stroke="#7a4a1a" stroke-width="0.35"/>
+<text x="385.00" y="215.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.8" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#7a4a1a">Дренажный колодец</text>
+<text x="385.00" y="218.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.8" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#7a4a1a">Ø1,0 (2 кольца) /</text>
+<text x="385.00" y="221.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.8" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#7a4a1a">кювет</text>
+<rect x="225.00" y="240.00" width="100.00" height="14.00" fill="#fff" stroke="#3a8fb7" stroke-width="0.35"/>
+<text x="275.00" y="247.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.8" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#3a8fb7">Ливневая: 6 водосточных труб → Ø110 → дождеприёмный колодец + дренажное поле</text>
+<text x="30.00" y="262.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.0" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">Материалы: ПП внутренняя (Ostendorf/аналог), НПВХ SN4 наружная; уклоны Ø50 — 0,035, Ø110 — 0,02; наружный участок 20 м с утеплением ППУ-скорлупой.</text>
+<text x="30.00" y="266.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.0" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">Обслуживание СБО — откачка ила 1–2 раза в год; расстояние до скважины 30 м, до дома 6,2 м, до границ ≥ 2 м.</text>
+</svg>

@@ -1,0 +1,460 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2523" height="1782" viewBox="0 0 841 594">
+<defs><pattern id="hConcrete" patternUnits="userSpaceOnUse" width="3" height="3" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="3" stroke="#333" stroke-width="0.18"/><circle cx="1.5" cy="1.5" r="0.22" fill="#333"/></pattern><pattern id="hMasonry" patternUnits="userSpaceOnUse" width="2.2" height="2.2" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="2.2" stroke="#444" stroke-width="0.18"/></pattern><pattern id="hAerated" patternUnits="userSpaceOnUse" width="4" height="4" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="4" stroke="#555" stroke-width="0.18"/><circle cx="2" cy="2" r="0.25" fill="none" stroke="#555" stroke-width="0.15"/></pattern><pattern id="hInsul" patternUnits="userSpaceOnUse" width="4" height="4"><path d="M0 2 Q1 0 2 2 T4 2" fill="none" stroke="#666" stroke-width="0.18"/></pattern><pattern id="hWood" patternUnits="userSpaceOnUse" width="3" height="3" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="3" stroke="#7a4a1a" stroke-width="0.15"/><line x1="1.2" y1="0" x2="1.2" y2="3" stroke="#7a4a1a" stroke-width="0.15"/></pattern><pattern id="hEarth" patternUnits="userSpaceOnUse" width="5" height="5"><line x1="0" y1="2.5" x2="2.5" y2="2.5" stroke="#777" stroke-width="0.18"/><line x1="3.5" y1="1" x2="5" y2="1" stroke="#777" stroke-width="0.18"/><line x1="2" y1="4.2" x2="4.5" y2="4.2" stroke="#777" stroke-width="0.18"/></pattern><pattern id="hSand" patternUnits="userSpaceOnUse" width="3" height="3"><circle cx="0.7" cy="0.8" r="0.2" fill="#777"/><circle cx="2.1" cy="2.2" r="0.2" fill="#777"/></pattern><pattern id="hGravel" patternUnits="userSpaceOnUse" width="5" height="5"><circle cx="1.2" cy="1.2" r="0.6" fill="none" stroke="#666" stroke-width="0.15"/><circle cx="3.6" cy="3.4" r="0.8" fill="none" stroke="#666" stroke-width="0.15"/></pattern><pattern id="hGrass" patternUnits="userSpaceOnUse" width="6" height="6"><path d="M1 5 l1 -2 l1 2 M4 4 l1 -2 l1 2" fill="none" stroke="#5a9a3a" stroke-width="0.2"/></pattern><pattern id="hPaving" patternUnits="userSpaceOnUse" width="4" height="4"><rect x="0" y="0" width="4" height="4" fill="none" stroke="#999" stroke-width="0.15"/></pattern><pattern id="hGlass" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(-45)"><line x1="0" y1="0" x2="0" y2="6" stroke="#5b8fc7" stroke-width="0.25"/></pattern><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#000"/></marker><marker id="arrowR" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#c00"/></marker><marker id="arrowB" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#1a5fb4"/></marker></defs>
+<rect x="0" y="0" width="841" height="594" fill="#fff"/>
+<rect x="20.0" y="5.0" width="816.0" height="584.0" fill="none" stroke="#000" stroke-width="0.7"/>
+<rect x="651.0" y="549.0" width="185" height="40" fill="#fff" stroke="#000" stroke-width="0.7"/>
+<line x1="651.0" y1="557.0" x2="836.0" y2="557.0" stroke="#000" stroke-width="0.35"/>
+<line x1="651.0" y1="565.0" x2="836.0" y2="565.0" stroke="#000" stroke-width="0.35"/>
+<line x1="651.0" y1="573.0" x2="836.0" y2="573.0" stroke="#000" stroke-width="0.35"/>
+<line x1="651.0" y1="581.0" x2="836.0" y2="581.0" stroke="#000" stroke-width="0.35"/>
+<line x1="716.0" y1="549.0" x2="716.0" y2="589.0" stroke="#000" stroke-width="0.7"/>
+<line x1="786.0" y1="565.0" x2="786.0" y2="589.0" stroke="#000" stroke-width="0.7"/>
+<line x1="811.0" y1="565.0" x2="811.0" y2="589.0" stroke="#000" stroke-width="0.35"/>
+<text x="653.0" y="553.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.2" text-anchor="start" dominant-baseline="middle" font-weight="normal">Разраб.</text>
+<text x="673.0" y="553.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.2" text-anchor="start" dominant-baseline="middle" font-weight="normal">Claude (ИИ)</text>
+<text x="653.0" y="561.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.2" text-anchor="start" dominant-baseline="middle" font-weight="normal">Пров.</text>
+<text x="673.0" y="561.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.0" text-anchor="start" dominant-baseline="middle" font-weight="normal">— (требуется ГИП/ГАП)</text>
+<text x="653.0" y="569.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.2" text-anchor="start" dominant-baseline="middle" font-weight="normal">Стадия</text>
+<text x="653.0" y="577.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.2" text-anchor="start" dominant-baseline="middle" font-weight="normal">Шифр</text>
+<text x="673.0" y="577.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.4" text-anchor="start" dominant-baseline="middle" font-weight="bold">АР-6</text>
+<text x="653.0" y="585.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.2" text-anchor="start" dominant-baseline="middle" font-weight="normal">Дата</text>
+<text x="673.0" y="585.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.2" text-anchor="start" dominant-baseline="middle" font-weight="normal">09.2026</text>
+<text x="751.0" y="554.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.6" text-anchor="middle" dominant-baseline="middle" font-weight="bold">Индивидуальный жилой дом, 2 этажа, ~400 м²</text>
+<text x="751.0" y="561.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.2" text-anchor="middle" dominant-baseline="middle" font-weight="normal">Участок 6 соток (20×30 м), 2 этажа + холодный чердак</text>
+<text x="751.0" y="572.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="3.0" text-anchor="middle" dominant-baseline="middle" font-weight="bold">Разрезы 1-1, 2-2</text>
+<text x="751.0" y="579.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.3" text-anchor="middle" dominant-baseline="middle" font-weight="normal">Масштаб 1:50</text>
+<text x="751.0" y="585.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.2" text-anchor="middle" dominant-baseline="middle" font-weight="normal">Стадия: ЭП</text>
+<text x="798.0" y="569.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.2" text-anchor="middle" dominant-baseline="middle" font-weight="normal">Лист</text>
+<text x="798.0" y="579.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="3.0" text-anchor="middle" dominant-baseline="middle" font-weight="bold">7</text>
+<text x="823.0" y="569.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.2" text-anchor="middle" dominant-baseline="middle" font-weight="normal">Листов</text>
+<text x="823.0" y="579.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="3.0" text-anchor="middle" dominant-baseline="middle" font-weight="bold">20</text>
+<text x="798.0" y="587.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.7" text-anchor="middle" dominant-baseline="middle" font-weight="normal">Эскизный проект — не для строительства</text>
+<text x="201.00" y="55.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="5" text-anchor="middle" dominant-baseline="middle" font-weight="bold" fill="#000">Разрез 1-1   М 1:50</text>
+<rect x="23.00" y="309.00" width="42.00" height="18.00" fill="url(#hEarth)" stroke="none"/>
+<rect x="337.00" y="309.00" width="42.00" height="18.00" fill="url(#hEarth)" stroke="none"/>
+<rect x="65.00" y="320.00" width="272.00" height="6.00" fill="url(#hEarth)" stroke="none"/>
+<rect x="23.00" y="326.00" width="42.00" height="1.00" fill="url(#hEarth)" stroke="none"/>
+<rect x="337.00" y="326.00" width="42.00" height="1.00" fill="url(#hEarth)" stroke="none"/>
+<line x1="23.00" y1="309.00" x2="47.00" y2="309.00" stroke="#000" stroke-width="0.7" stroke-linecap="round"/>
+<line x1="355.00" y1="309.00" x2="379.00" y2="309.00" stroke="#000" stroke-width="0.7" stroke-linecap="round"/>
+<rect x="47.00" y="309.00" width="24.00" height="2.00" fill="url(#hConcrete)" stroke="#000" stroke-width="0.18"/>
+<rect x="47.00" y="311.00" width="24.00" height="3.00" fill="url(#hSand)" stroke="#000" stroke-width="0.18"/>
+<rect x="47.00" y="314.00" width="24.00" height="1.00" fill="url(#hInsul)" stroke="#000" stroke-width="0.18"/>
+<rect x="331.00" y="309.00" width="24.00" height="2.00" fill="url(#hConcrete)" stroke="#000" stroke-width="0.18"/>
+<rect x="331.00" y="311.00" width="24.00" height="3.00" fill="url(#hSand)" stroke="#000" stroke-width="0.18"/>
+<rect x="331.00" y="314.00" width="24.00" height="1.00" fill="url(#hInsul)" stroke="#000" stroke-width="0.18"/>
+<rect x="59.00" y="314.00" width="284.00" height="6.00" fill="url(#hGravel)" stroke="#000" stroke-width="0.18"/>
+<rect x="65.00" y="312.00" width="272.00" height="2.00" fill="url(#hInsul)" stroke="#000" stroke-width="0.18"/>
+<rect x="65.00" y="306.00" width="272.00" height="6.00" fill="url(#hConcrete)" stroke="#000" stroke-width="0.35"/>
+<rect x="71.00" y="300.00" width="8.00" height="6.00" fill="url(#hConcrete)" stroke="#000" stroke-width="0.35"/>
+<rect x="198.50" y="300.00" width="5.00" height="6.00" fill="url(#hConcrete)" stroke="#000" stroke-width="0.35"/>
+<rect x="323.00" y="300.00" width="8.00" height="6.00" fill="url(#hConcrete)" stroke="#000" stroke-width="0.35"/>
+<rect x="64.00" y="306.00" width="1.00" height="6.00" fill="url(#hInsul)" stroke="#000" stroke-width="0.18"/>
+<rect x="337.00" y="306.00" width="1.00" height="6.00" fill="url(#hInsul)" stroke="#000" stroke-width="0.18"/>
+<rect x="70.00" y="300.00" width="1.00" height="6.00" fill="url(#hInsul)" stroke="#000" stroke-width="0.18"/>
+<rect x="331.00" y="300.00" width="1.00" height="6.00" fill="url(#hInsul)" stroke="#000" stroke-width="0.18"/>
+<line x1="64.00" y1="305.60" x2="70.00" y2="304.80" stroke="#000" stroke-width="0.35" stroke-linecap="round"/>
+<line x1="332.00" y1="304.80" x2="338.00" y2="305.60" stroke="#000" stroke-width="0.35" stroke-linecap="round"/>
+<rect x="79.00" y="303.00" width="119.50" height="3.00" fill="url(#hInsul)" stroke="#000" stroke-width="0.18"/>
+<rect x="79.00" y="300.60" width="119.50" height="2.40" fill="url(#hConcrete)" stroke="#000" stroke-width="0.18"/>
+<rect x="79.00" y="300.00" width="119.50" height="0.60" fill="#ddd" stroke="#000" stroke-width="0.18"/>
+<rect x="203.50" y="303.00" width="119.50" height="3.00" fill="url(#hInsul)" stroke="#000" stroke-width="0.18"/>
+<rect x="203.50" y="300.60" width="119.50" height="2.40" fill="url(#hConcrete)" stroke="#000" stroke-width="0.18"/>
+<rect x="203.50" y="300.00" width="119.50" height="0.60" fill="#ddd" stroke="#000" stroke-width="0.18"/>
+<rect x="71.00" y="170.00" width="8.00" height="130.00" fill="url(#hAerated)" stroke="#000" stroke-width="0.35"/>
+<rect x="323.00" y="170.00" width="8.00" height="130.00" fill="url(#hAerated)" stroke="#000" stroke-width="0.35"/>
+<rect x="198.50" y="240.00" width="5.00" height="60.00" fill="url(#hAerated)" stroke="#000" stroke-width="0.35"/>
+<rect x="198.50" y="174.00" width="5.00" height="62.00" fill="url(#hAerated)" stroke="#000" stroke-width="0.35"/>
+<rect x="153.00" y="240.00" width="4.00" height="18.00" fill="url(#hMasonry)" stroke="#000" stroke-width="0.18"/>
+<rect x="283.00" y="240.00" width="2.00" height="18.00" fill="#d9d9d9" stroke="#000" stroke-width="0.18"/>
+<rect x="153.00" y="258.00" width="4.00" height="42.00" fill="none" stroke="#000" stroke-width="0.18"/>
+<text x="155.00" y="280.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.8" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000" transform="rotate(-90 155.00 280.00)">Д-2п</text>
+<rect x="283.00" y="258.00" width="2.00" height="42.00" fill="none" stroke="#000" stroke-width="0.18"/>
+<text x="284.00" y="280.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.8" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000" transform="rotate(-90 284.00 280.00)">Д-3</text>
+<rect x="139.00" y="174.00" width="2.00" height="60.00" fill="#d9d9d9" stroke="#000" stroke-width="0.18"/>
+<rect x="283.00" y="174.00" width="2.00" height="18.00" fill="#d9d9d9" stroke="#000" stroke-width="0.18"/>
+<rect x="283.00" y="192.00" width="2.00" height="42.00" fill="none" stroke="#000" stroke-width="0.18"/>
+<text x="284.00" y="214.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.8" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000" transform="rotate(-90 284.00 214.00)">Д-3</text>
+<rect x="73.00" y="236.00" width="130.50" height="4.00" fill="url(#hConcrete)" stroke="#000" stroke-width="0.35"/>
+<rect x="71.00" y="236.00" width="2.00" height="4.00" fill="url(#hInsul)" stroke="#000" stroke-width="0.18"/>
+<rect x="73.00" y="234.00" width="130.50" height="2.00" fill="#e5e5e5" stroke="#000" stroke-width="0.18"/>
+<rect x="253.50" y="236.00" width="75.50" height="4.00" fill="url(#hConcrete)" stroke="#000" stroke-width="0.35"/>
+<rect x="329.00" y="236.00" width="2.00" height="4.00" fill="url(#hInsul)" stroke="#000" stroke-width="0.18"/>
+<rect x="253.50" y="234.00" width="75.50" height="2.00" fill="#e5e5e5" stroke="#000" stroke-width="0.18"/>
+<rect x="73.00" y="170.00" width="256.00" height="4.00" fill="url(#hConcrete)" stroke="#000" stroke-width="0.35"/>
+<rect x="71.00" y="170.00" width="2.00" height="4.00" fill="url(#hInsul)" stroke="#000" stroke-width="0.18"/>
+<rect x="329.00" y="170.00" width="2.00" height="4.00" fill="url(#hInsul)" stroke="#000" stroke-width="0.18"/>
+<text x="115.00" y="238.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.9" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#fff">монолитная ж/б плита 200, B25</text>
+<rect x="323.00" y="252.00" width="8.00" height="18.00" fill="#fff" stroke="#000" stroke-width="0.18"/>
+<rect x="327.60" y="252.00" width="1.40" height="18.00" fill="#2e3236" stroke="none"/>
+<rect x="323.00" y="186.00" width="8.00" height="18.00" fill="#fff" stroke="#000" stroke-width="0.18"/>
+<rect x="327.60" y="186.00" width="1.40" height="18.00" fill="#2e3236" stroke="none"/>
+<rect x="230.50" y="289.58" width="23.00" height="6.00" fill="url(#hConcrete)" stroke="#000" stroke-width="0.35"/>
+<line x1="230.50" y1="286.11" x2="253.50" y2="286.11" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="230.50" y1="282.63" x2="253.50" y2="282.63" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="230.50" y1="279.16" x2="253.50" y2="279.16" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="230.50" y1="275.68" x2="253.50" y2="275.68" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="230.50" y1="272.21" x2="253.50" y2="272.21" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="230.50" y1="268.74" x2="253.50" y2="268.74" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="230.50" y1="265.26" x2="253.50" y2="265.26" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<rect x="203.50" y="240.95" width="23.00" height="6.00" fill="url(#hConcrete)" stroke="#000" stroke-width="0.35"/>
+<line x1="203.50" y1="265.26" x2="226.50" y2="265.26" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="203.50" y1="261.79" x2="226.50" y2="261.79" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="203.50" y1="258.32" x2="226.50" y2="258.32" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="203.50" y1="254.84" x2="226.50" y2="254.84" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="203.50" y1="251.37" x2="226.50" y2="251.37" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="203.50" y1="247.89" x2="226.50" y2="247.89" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="203.50" y1="244.42" x2="226.50" y2="244.42" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<rect x="203.50" y="265.26" width="50.00" height="4.00" fill="none" stroke="#000" stroke-width="0.18"/>
+<text x="228.50" y="267.26" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.8" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#555">площадка +1,737</text>
+<rect x="203.50" y="216.00" width="50.00" height="18.00" fill="none" stroke="#000" stroke-width="0.18"/>
+<line x1="207.67" y1="234.00" x2="207.67" y2="216.00" stroke="#777" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="211.83" y1="234.00" x2="211.83" y2="216.00" stroke="#777" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="216.00" y1="234.00" x2="216.00" y2="216.00" stroke="#777" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="220.17" y1="234.00" x2="220.17" y2="216.00" stroke="#777" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="224.33" y1="234.00" x2="224.33" y2="216.00" stroke="#777" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="228.50" y1="234.00" x2="228.50" y2="216.00" stroke="#777" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="232.67" y1="234.00" x2="232.67" y2="216.00" stroke="#777" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="236.83" y1="234.00" x2="236.83" y2="216.00" stroke="#777" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="241.00" y1="234.00" x2="241.00" y2="216.00" stroke="#777" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="245.17" y1="234.00" x2="245.17" y2="216.00" stroke="#777" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="249.33" y1="234.00" x2="249.33" y2="216.00" stroke="#777" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="253.50" y1="234.00" x2="253.50" y2="214.00" stroke="#000" stroke-width="0.35" stroke-linecap="round"/>
+<rect x="253.50" y="254.40" width="21.50" height="46.00" fill="none" stroke="#000" stroke-width="0.18"/>
+<text x="264.25" y="277.40" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.9" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#555">ДБ-2 (терраса)</text>
+<rect x="95.00" y="192.00" width="16.00" height="42.00" fill="none" stroke="#000" stroke-width="0.18"/>
+<text x="103.00" y="213.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.9" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#555">Д-3</text>
+<rect x="159.00" y="192.00" width="18.00" height="42.00" fill="none" stroke="#000" stroke-width="0.18"/>
+<text x="168.00" y="213.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.9" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#555">Д-2</text>
+<rect x="215.00" y="192.00" width="18.00" height="42.00" fill="none" stroke="#000" stroke-width="0.18"/>
+<text x="224.00" y="213.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.9" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#555">Д-2</text>
+<rect x="265.00" y="192.00" width="18.00" height="42.00" fill="none" stroke="#000" stroke-width="0.18"/>
+<text x="274.00" y="213.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.9" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#555">Д-2</text>
+<rect x="195.00" y="130.00" width="12.00" height="18.00" fill="none" stroke="#000" stroke-width="0.18"/>
+<text x="201.00" y="139.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.9" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#555">жалюзи</text>
+<rect x="79.00" y="165.00" width="244.00" height="5.00" fill="url(#hInsul)" stroke="#000" stroke-width="0.18"/>
+<rect x="72.00" y="167.00" width="3.00" height="3.00" fill="url(#hWood)" stroke="#000" stroke-width="0.18"/>
+<rect x="327.00" y="167.00" width="3.00" height="3.00" fill="url(#hWood)" stroke="#000" stroke-width="0.18"/>
+<polygon points="59.00,168.93 201.00,86.94 343.00,168.93 343.00,173.55 201.00,91.56 59.00,173.55" fill="url(#hWood)" stroke="#000" stroke-width="0.35" stroke-linejoin="round"/>
+<polygon points="59.00,166.93 201.00,84.94 343.00,166.93 343.00,168.93 201.00,86.94 59.00,168.93" fill="#4d5156" stroke="#000" stroke-width="0.18" stroke-linejoin="round"/>
+<rect x="134.00" y="129.67" width="2.00" height="4.00" fill="url(#hWood)" stroke="#000" stroke-width="0.35"/>
+<rect x="133.50" y="167.00" width="3.00" height="3.00" fill="url(#hWood)" stroke="#000" stroke-width="0.18"/>
+<rect x="134.00" y="133.67" width="2.00" height="33.33" fill="#fff" stroke="#000" stroke-width="0.18"/>
+<rect x="200.00" y="91.56" width="2.00" height="4.00" fill="url(#hWood)" stroke="#000" stroke-width="0.35"/>
+<rect x="199.50" y="167.00" width="3.00" height="3.00" fill="url(#hWood)" stroke="#000" stroke-width="0.18"/>
+<rect x="200.00" y="95.56" width="2.00" height="71.44" fill="#fff" stroke="#000" stroke-width="0.18"/>
+<rect x="266.00" y="129.67" width="2.00" height="4.00" fill="url(#hWood)" stroke="#000" stroke-width="0.35"/>
+<rect x="265.50" y="167.00" width="3.00" height="3.00" fill="url(#hWood)" stroke="#000" stroke-width="0.18"/>
+<rect x="266.00" y="133.67" width="2.00" height="33.33" fill="#fff" stroke="#000" stroke-width="0.18"/>
+<rect x="200.50" y="85.94" width="1.00" height="6.62" fill="url(#hWood)" stroke="#000" stroke-width="0.18"/>
+<line x1="59.00" y1="174.55" x2="59.00" y2="166.93" stroke="#000" stroke-width="0.35" stroke-linecap="round"/>
+<line x1="343.00" y1="174.55" x2="343.00" y2="166.93" stroke="#000" stroke-width="0.35" stroke-linecap="round"/>
+<line x1="59.00" y1="174.55" x2="71.00" y2="174.55" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="343.00" y1="174.55" x2="331.00" y2="174.55" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<polygon points="39.00,320.00 37.60,318.00 40.40,318.00" fill="#000" stroke="#000" stroke-width="0.18" stroke-linejoin="round"/>
+<line x1="39.00" y1="318.00" x2="30.00" y2="318.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<text x="34.50" y="317.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.2" text-anchor="middle" dominant-baseline="auto" font-weight="normal" fill="#000">−1,000</text>
+<polygon points="39.00,312.00 37.60,310.00 40.40,310.00" fill="#000" stroke="#000" stroke-width="0.18" stroke-linejoin="round"/>
+<line x1="39.00" y1="310.00" x2="30.00" y2="310.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<text x="34.50" y="309.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.2" text-anchor="middle" dominant-baseline="auto" font-weight="normal" fill="#000">−0,600</text>
+<polygon points="39.00,306.00 37.60,304.00 40.40,304.00" fill="#000" stroke="#000" stroke-width="0.18" stroke-linejoin="round"/>
+<line x1="39.00" y1="304.00" x2="30.00" y2="304.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<text x="34.50" y="303.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.2" text-anchor="middle" dominant-baseline="auto" font-weight="normal" fill="#000">−0,300</text>
+<polygon points="39.00,300.00 37.60,298.00 40.40,298.00" fill="#000" stroke="#000" stroke-width="0.18" stroke-linejoin="round"/>
+<line x1="39.00" y1="298.00" x2="30.00" y2="298.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<text x="34.50" y="297.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.2" text-anchor="middle" dominant-baseline="auto" font-weight="normal" fill="#000">±0,000</text>
+<polygon points="39.00,240.00 37.60,238.00 40.40,238.00" fill="#000" stroke="#000" stroke-width="0.18" stroke-linejoin="round"/>
+<line x1="39.00" y1="238.00" x2="30.00" y2="238.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<text x="34.50" y="237.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.2" text-anchor="middle" dominant-baseline="auto" font-weight="normal" fill="#000">+3,000</text>
+<polygon points="39.00,234.00 37.60,232.00 40.40,232.00" fill="#000" stroke="#000" stroke-width="0.18" stroke-linejoin="round"/>
+<line x1="39.00" y1="232.00" x2="30.00" y2="232.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<text x="34.50" y="231.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.2" text-anchor="middle" dominant-baseline="auto" font-weight="normal" fill="#000">+3,300</text>
+<polygon points="39.00,174.00 37.60,172.00 40.40,172.00" fill="#000" stroke="#000" stroke-width="0.18" stroke-linejoin="round"/>
+<line x1="39.00" y1="172.00" x2="30.00" y2="172.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<text x="34.50" y="171.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.2" text-anchor="middle" dominant-baseline="auto" font-weight="normal" fill="#000">+6,300</text>
+<polygon points="39.00,170.00 37.60,168.00 40.40,168.00" fill="#000" stroke="#000" stroke-width="0.18" stroke-linejoin="round"/>
+<line x1="39.00" y1="168.00" x2="30.00" y2="168.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<text x="34.50" y="167.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.2" text-anchor="middle" dominant-baseline="auto" font-weight="normal" fill="#000">+6,500</text>
+<polygon points="39.00,162.00 37.60,160.00 40.40,160.00" fill="#000" stroke="#000" stroke-width="0.18" stroke-linejoin="round"/>
+<line x1="39.00" y1="160.00" x2="30.00" y2="160.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<text x="34.50" y="159.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.2" text-anchor="middle" dominant-baseline="auto" font-weight="normal" fill="#000">+6,900</text>
+<polygon points="39.00,86.94 37.60,84.94 40.40,84.94" fill="#000" stroke="#000" stroke-width="0.18" stroke-linejoin="round"/>
+<line x1="39.00" y1="84.94" x2="30.00" y2="84.94" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<text x="34.50" y="83.94" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.2" text-anchor="middle" dominant-baseline="auto" font-weight="normal" fill="#000">+10,650</text>
+<polygon points="39.00,309.00 37.60,307.00 40.40,307.00" fill="#000" stroke="#000" stroke-width="0.18" stroke-linejoin="round"/>
+<line x1="39.00" y1="307.00" x2="30.00" y2="307.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<text x="34.50" y="306.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.2" text-anchor="middle" dominant-baseline="auto" font-weight="normal" fill="#000">−0,450</text>
+<line x1="363.00" y1="309.00" x2="371.00" y2="309.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="363.00" y1="300.00" x2="371.00" y2="300.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="363.00" y1="240.00" x2="371.00" y2="240.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="363.00" y1="236.00" x2="371.00" y2="236.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="363.00" y1="234.00" x2="371.00" y2="234.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="363.00" y1="174.00" x2="371.00" y2="174.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="363.00" y1="170.00" x2="371.00" y2="170.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="363.00" y1="86.94" x2="371.00" y2="86.94" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="369.00" y1="309.00" x2="369.00" y2="86.94" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="368.16" y1="309.84" x2="369.84" y2="308.16" stroke="#000" stroke-width="0.35" stroke-linecap="round"/>
+<text x="367.80" y="304.50" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.0" text-anchor="middle" dominant-baseline="auto" font-weight="normal" fill="#000" transform="rotate(-90 367.80 304.50)">450</text>
+<line x1="368.16" y1="300.84" x2="369.84" y2="299.16" stroke="#000" stroke-width="0.35" stroke-linecap="round"/>
+<text x="367.80" y="270.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.0" text-anchor="middle" dominant-baseline="auto" font-weight="normal" fill="#000" transform="rotate(-90 367.80 270.00)">3000</text>
+<line x1="368.16" y1="240.84" x2="369.84" y2="239.16" stroke="#000" stroke-width="0.35" stroke-linecap="round"/>
+<text x="367.80" y="238.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.0" text-anchor="middle" dominant-baseline="auto" font-weight="normal" fill="#000" transform="rotate(-90 367.80 238.00)">200</text>
+<line x1="368.16" y1="236.84" x2="369.84" y2="235.16" stroke="#000" stroke-width="0.35" stroke-linecap="round"/>
+<text x="367.80" y="235.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.0" text-anchor="middle" dominant-baseline="auto" font-weight="normal" fill="#000" transform="rotate(-90 367.80 235.00)">100</text>
+<line x1="368.16" y1="234.84" x2="369.84" y2="233.16" stroke="#000" stroke-width="0.35" stroke-linecap="round"/>
+<text x="367.80" y="204.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.0" text-anchor="middle" dominant-baseline="auto" font-weight="normal" fill="#000" transform="rotate(-90 367.80 204.00)">3000</text>
+<line x1="368.16" y1="174.84" x2="369.84" y2="173.16" stroke="#000" stroke-width="0.35" stroke-linecap="round"/>
+<text x="367.80" y="172.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.0" text-anchor="middle" dominant-baseline="auto" font-weight="normal" fill="#000" transform="rotate(-90 367.80 172.00)">200</text>
+<line x1="368.16" y1="170.84" x2="369.84" y2="169.16" stroke="#000" stroke-width="0.35" stroke-linecap="round"/>
+<text x="367.80" y="128.47" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.0" text-anchor="middle" dominant-baseline="auto" font-weight="normal" fill="#000" transform="rotate(-90 367.80 128.47)">4150</text>
+<line x1="368.16" y1="87.78" x2="369.84" y2="86.10" stroke="#000" stroke-width="0.35" stroke-linecap="round"/>
+<line x1="75.00" y1="326.00" x2="75.00" y2="338.00" stroke="#000" stroke-width="0.18" stroke-dasharray="4 1.5" stroke-linecap="round"/>
+<circle cx="75.00" cy="342.00" r="4.00" fill="#fff" stroke="#000" stroke-width="0.35"/>
+<text x="75.00" y="342.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="3.6" text-anchor="middle" dominant-baseline="middle" font-weight="bold" fill="#000">1</text>
+<line x1="201.00" y1="326.00" x2="201.00" y2="338.00" stroke="#000" stroke-width="0.18" stroke-dasharray="4 1.5" stroke-linecap="round"/>
+<circle cx="201.00" cy="342.00" r="4.00" fill="#fff" stroke="#000" stroke-width="0.35"/>
+<text x="201.00" y="342.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="3.6" text-anchor="middle" dominant-baseline="middle" font-weight="bold" fill="#000">2</text>
+<line x1="327.00" y1="326.00" x2="327.00" y2="338.00" stroke="#000" stroke-width="0.18" stroke-dasharray="4 1.5" stroke-linecap="round"/>
+<circle cx="327.00" cy="342.00" r="4.00" fill="#fff" stroke="#000" stroke-width="0.35"/>
+<text x="327.00" y="342.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="3.6" text-anchor="middle" dominant-baseline="middle" font-weight="bold" fill="#000">3</text>
+<line x1="75.00" y1="326.00" x2="75.00" y2="350.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="201.00" y1="326.00" x2="201.00" y2="350.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="327.00" y1="326.00" x2="327.00" y2="350.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="75.00" y1="348.00" x2="327.00" y2="348.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="74.16" y1="348.84" x2="75.84" y2="347.16" stroke="#000" stroke-width="0.35" stroke-linecap="round"/>
+<text x="138.00" y="346.80" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.4" text-anchor="middle" dominant-baseline="auto" font-weight="normal" fill="#000">6300</text>
+<line x1="200.16" y1="348.84" x2="201.84" y2="347.16" stroke="#000" stroke-width="0.35" stroke-linecap="round"/>
+<text x="264.00" y="346.80" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.4" text-anchor="middle" dominant-baseline="auto" font-weight="normal" fill="#000">6300</text>
+<line x1="326.16" y1="348.84" x2="327.84" y2="347.16" stroke="#000" stroke-width="0.35" stroke-linecap="round"/>
+<line x1="59.00" y1="326.00" x2="59.00" y2="340.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="71.00" y1="326.00" x2="71.00" y2="340.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="331.00" y1="326.00" x2="331.00" y2="340.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="343.00" y1="326.00" x2="343.00" y2="340.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="59.00" y1="338.00" x2="343.00" y2="338.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="58.16" y1="338.84" x2="59.84" y2="337.16" stroke="#000" stroke-width="0.35" stroke-linecap="round"/>
+<text x="65.00" y="336.80" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.0" text-anchor="middle" dominant-baseline="auto" font-weight="normal" fill="#000">600</text>
+<line x1="70.16" y1="338.84" x2="71.84" y2="337.16" stroke="#000" stroke-width="0.35" stroke-linecap="round"/>
+<text x="201.00" y="336.80" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.0" text-anchor="middle" dominant-baseline="auto" font-weight="normal" fill="#000">13000</text>
+<line x1="330.16" y1="338.84" x2="331.84" y2="337.16" stroke="#000" stroke-width="0.35" stroke-linecap="round"/>
+<text x="337.00" y="336.80" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.0" text-anchor="middle" dominant-baseline="auto" font-weight="normal" fill="#000">600</text>
+<line x1="342.16" y1="338.84" x2="343.84" y2="337.16" stroke="#000" stroke-width="0.35" stroke-linecap="round"/>
+<circle cx="213.00" cy="238.00" r="0.60" fill="#000" stroke="none"/>
+<line x1="213.00" y1="238.00" x2="243.00" y2="218.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="243.00" y1="218.00" x2="247.00" y2="218.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<text x="244.00" y="217.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.0" text-anchor="start" dominant-baseline="auto" font-weight="normal" fill="#000">1 — перекрытие: ж/б плита 200 мм; ЭППС 100 по краю</text>
+<circle cx="255.00" cy="172.00" r="0.60" fill="#000" stroke="none"/>
+<line x1="255.00" y1="172.00" x2="295.00" y2="158.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="295.00" y1="158.00" x2="299.00" y2="158.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<text x="296.00" y="157.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.0" text-anchor="start" dominant-baseline="auto" font-weight="normal" fill="#000">2 — чердачное перекрытие: плита 200 + минвата 250 по пароизоляции</text>
+<circle cx="267.00" cy="122.00" r="0.60" fill="#000" stroke="none"/>
+<line x1="267.00" y1="122.00" x2="297.00" y2="104.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="297.00" y1="104.00" x2="301.00" y2="104.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<text x="298.00" y="103.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.0" text-anchor="start" dominant-baseline="auto" font-weight="normal" fill="#000">3 — кровля: фальц по настилу, стропила 50×200 ш. 600, прогоны 100×200, стойки 100×150</text>
+<circle cx="165.00" cy="309.00" r="0.60" fill="#000" stroke="none"/>
+<line x1="165.00" y1="309.00" x2="205.00" y2="331.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="205.00" y1="331.00" x2="209.00" y2="331.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<text x="206.00" y="330.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.0" text-anchor="start" dominant-baseline="auto" font-weight="normal" fill="#000">4 — пол 1 эт.: ЭППС 150, стяжка 120 с ТП, покрытие; плита 300 на ЭППС 100 и ПГС 400</text>
+<circle cx="327.00" cy="200.00" r="0.60" fill="#000" stroke="none"/>
+<line x1="327.00" y1="200.00" x2="362.00" y2="192.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="362.00" y1="192.00" x2="366.00" y2="192.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<text x="363.00" y="191.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.0" text-anchor="start" dominant-baseline="auto" font-weight="normal" fill="#000">5 — наружная стена: газобетон D400 400 мм, штукатурка 10 мм снаружи, 15 мм внутри</text>
+<text x="614.00" y="55.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="5" text-anchor="middle" dominant-baseline="middle" font-weight="bold" fill="#000">Разрез 2-2   М 1:50</text>
+<rect x="406.00" y="309.00" width="42.00" height="18.00" fill="url(#hEarth)" stroke="none"/>
+<rect x="780.00" y="309.00" width="42.00" height="18.00" fill="url(#hEarth)" stroke="none"/>
+<rect x="448.00" y="320.00" width="332.00" height="6.00" fill="url(#hEarth)" stroke="none"/>
+<rect x="406.00" y="326.00" width="42.00" height="1.00" fill="url(#hEarth)" stroke="none"/>
+<rect x="780.00" y="326.00" width="42.00" height="1.00" fill="url(#hEarth)" stroke="none"/>
+<line x1="406.00" y1="309.00" x2="430.00" y2="309.00" stroke="#000" stroke-width="0.7" stroke-linecap="round"/>
+<line x1="798.00" y1="309.00" x2="822.00" y2="309.00" stroke="#000" stroke-width="0.7" stroke-linecap="round"/>
+<rect x="430.00" y="309.00" width="24.00" height="2.00" fill="url(#hConcrete)" stroke="#000" stroke-width="0.18"/>
+<rect x="430.00" y="311.00" width="24.00" height="3.00" fill="url(#hSand)" stroke="#000" stroke-width="0.18"/>
+<rect x="430.00" y="314.00" width="24.00" height="1.00" fill="url(#hInsul)" stroke="#000" stroke-width="0.18"/>
+<rect x="774.00" y="309.00" width="24.00" height="2.00" fill="url(#hConcrete)" stroke="#000" stroke-width="0.18"/>
+<rect x="774.00" y="311.00" width="24.00" height="3.00" fill="url(#hSand)" stroke="#000" stroke-width="0.18"/>
+<rect x="774.00" y="314.00" width="24.00" height="1.00" fill="url(#hInsul)" stroke="#000" stroke-width="0.18"/>
+<rect x="442.00" y="314.00" width="344.00" height="6.00" fill="url(#hGravel)" stroke="#000" stroke-width="0.18"/>
+<rect x="448.00" y="312.00" width="332.00" height="2.00" fill="url(#hInsul)" stroke="#000" stroke-width="0.18"/>
+<rect x="448.00" y="306.00" width="332.00" height="6.00" fill="url(#hConcrete)" stroke="#000" stroke-width="0.35"/>
+<rect x="454.00" y="300.00" width="8.00" height="6.00" fill="url(#hConcrete)" stroke="#000" stroke-width="0.35"/>
+<rect x="766.00" y="300.00" width="8.00" height="6.00" fill="url(#hConcrete)" stroke="#000" stroke-width="0.35"/>
+<rect x="447.00" y="306.00" width="1.00" height="6.00" fill="url(#hInsul)" stroke="#000" stroke-width="0.18"/>
+<rect x="780.00" y="306.00" width="1.00" height="6.00" fill="url(#hInsul)" stroke="#000" stroke-width="0.18"/>
+<rect x="453.00" y="300.00" width="1.00" height="6.00" fill="url(#hInsul)" stroke="#000" stroke-width="0.18"/>
+<rect x="774.00" y="300.00" width="1.00" height="6.00" fill="url(#hInsul)" stroke="#000" stroke-width="0.18"/>
+<line x1="447.00" y1="305.60" x2="453.00" y2="304.80" stroke="#000" stroke-width="0.35" stroke-linecap="round"/>
+<line x1="775.00" y1="304.80" x2="781.00" y2="305.60" stroke="#000" stroke-width="0.35" stroke-linecap="round"/>
+<rect x="462.00" y="303.00" width="304.00" height="3.00" fill="url(#hInsul)" stroke="#000" stroke-width="0.18"/>
+<rect x="462.00" y="300.60" width="304.00" height="2.40" fill="url(#hConcrete)" stroke="#000" stroke-width="0.18"/>
+<rect x="462.00" y="300.00" width="304.00" height="0.60" fill="#ddd" stroke="#000" stroke-width="0.18"/>
+<rect x="394.00" y="309.00" width="60.00" height="2.00" fill="url(#hSand)" stroke="#000" stroke-width="0.18"/>
+<rect x="394.00" y="303.00" width="60.00" height="3.00" fill="url(#hConcrete)" stroke="#000" stroke-width="0.35"/>
+<rect x="394.00" y="306.00" width="60.00" height="3.00" fill="url(#hGravel)" stroke="#000" stroke-width="0.18"/>
+<rect x="774.00" y="300.60" width="32.00" height="8.40" fill="url(#hConcrete)" stroke="#000" stroke-width="0.35"/>
+<line x1="774.00" y1="306.20" x2="806.00" y2="306.20" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="774.00" y1="303.40" x2="806.00" y2="303.40" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<rect x="766.00" y="170.00" width="8.00" height="130.00" fill="url(#hAerated)" stroke="#000" stroke-width="0.35"/>
+<rect x="766.00" y="129.67" width="8.00" height="40.33" fill="url(#hAerated)" stroke="#000" stroke-width="0.35"/>
+<rect x="454.00" y="170.00" width="8.00" height="130.00" fill="url(#hAerated)" stroke="#000" stroke-width="0.35"/>
+<rect x="454.00" y="129.67" width="8.00" height="40.33" fill="url(#hAerated)" stroke="#000" stroke-width="0.35"/>
+<text x="770.00" y="156.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.8" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000" transform="rotate(-90 770.00 156.00)">фронтон 300</text>
+<rect x="580.00" y="174.00" width="2.00" height="18.00" fill="#d9d9d9" stroke="#000" stroke-width="0.18"/>
+<rect x="580.00" y="192.00" width="2.00" height="42.00" fill="none" stroke="#000" stroke-width="0.18"/>
+<text x="581.00" y="214.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.8" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000" transform="rotate(-90 581.00 214.00)">Д-2</text>
+<rect x="456.00" y="236.00" width="316.00" height="4.00" fill="url(#hConcrete)" stroke="#000" stroke-width="0.35"/>
+<rect x="454.00" y="236.00" width="2.00" height="4.00" fill="url(#hInsul)" stroke="#000" stroke-width="0.18"/>
+<rect x="772.00" y="236.00" width="2.00" height="4.00" fill="url(#hInsul)" stroke="#000" stroke-width="0.18"/>
+<rect x="456.00" y="234.00" width="316.00" height="2.00" fill="#e5e5e5" stroke="#000" stroke-width="0.18"/>
+<rect x="456.00" y="170.00" width="316.00" height="4.00" fill="url(#hConcrete)" stroke="#000" stroke-width="0.35"/>
+<rect x="454.00" y="170.00" width="2.00" height="4.00" fill="url(#hInsul)" stroke="#000" stroke-width="0.18"/>
+<rect x="772.00" y="170.00" width="2.00" height="4.00" fill="url(#hInsul)" stroke="#000" stroke-width="0.18"/>
+<rect x="652.00" y="170.00" width="18.00" height="4.00" fill="#fff" stroke="#000" stroke-width="0.18"/>
+<rect x="652.00" y="173.00" width="18.00" height="1.00" fill="#fff" stroke="#000" stroke-width="0.35"/>
+<text x="661.00" y="162.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.8" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">люк 700×900</text>
+<rect x="766.00" y="252.00" width="8.00" height="30.00" fill="#fff" stroke="#000" stroke-width="0.18"/>
+<rect x="770.60" y="252.00" width="1.40" height="30.00" fill="#2e3236" stroke="none"/>
+<rect x="766.00" y="186.00" width="8.00" height="30.00" fill="#fff" stroke="#000" stroke-width="0.18"/>
+<rect x="770.60" y="186.00" width="1.40" height="30.00" fill="#2e3236" stroke="none"/>
+<rect x="454.00" y="254.40" width="8.00" height="46.00" fill="#fff" stroke="#000" stroke-width="0.18"/>
+<rect x="456.00" y="254.40" width="1.40" height="46.00" fill="#2e3236" stroke="none"/>
+<rect x="692.00" y="258.00" width="18.00" height="42.00" fill="none" stroke="#000" stroke-width="0.18"/>
+<text x="701.00" y="279.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.9" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#555">Д-2</text>
+<rect x="580.00" y="258.00" width="18.00" height="42.00" fill="none" stroke="#000" stroke-width="0.18"/>
+<text x="589.00" y="279.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.9" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#555">Д-2</text>
+<rect x="486.00" y="248.00" width="60.00" height="52.00" fill="none" stroke="#000" stroke-width="0.18"/>
+<text x="516.00" y="274.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.9" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#555">ПР-1 3000×2600 (балка Б-1 250×600 над проёмом)</text>
+<rect x="704.00" y="192.00" width="18.00" height="42.00" fill="none" stroke="#000" stroke-width="0.18"/>
+<text x="713.00" y="213.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.9" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#555">Д-2</text>
+<rect x="582.00" y="188.00" width="24.00" height="46.00" fill="none" stroke="#000" stroke-width="0.18"/>
+<text x="594.00" y="211.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.9" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#555">ПР-2</text>
+<polygon points="683.40,300.00 683.40,296.53 677.80,296.53 677.80,293.05 672.20,293.05 672.20,289.58 666.60,289.58 666.60,286.11 661.00,286.11 661.00,282.63 655.40,282.63 655.40,279.16 649.80,279.16 649.80,275.68 644.20,275.68 644.20,272.21 638.60,272.21 638.60,268.74 633.00,268.74 633.00,265.26 633.00,265.26 610.00,265.26 610.00,269.26 627.00,269.26 665.40,300.00" fill="#eee" stroke="#000" stroke-width="0.35" stroke-linejoin="round"/>
+<polygon points="633.00,265.26 633.00,261.79 638.60,261.79 638.60,258.32 644.20,258.32 644.20,254.84 649.80,254.84 649.80,251.37 655.40,251.37 655.40,247.89 661.00,247.89 661.00,244.42 666.60,244.42 666.60,240.95 672.20,240.95 672.20,237.47 677.80,237.47 677.80,234.00 683.40,234.00 683.40,240.00 675.40,240.00 640.00,269.26 633.00,269.26" fill="#f6f6f6" stroke="#000" stroke-width="0.18" stroke-linejoin="round"/>
+<text x="650.00" y="256.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.8" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#555" transform="rotate(-33 650.00 256.00)">лестница монолитная ж/б, 19×174×280</text>
+<line x1="683.40" y1="234.00" x2="683.40" y2="216.00" stroke="#777" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="677.40" y1="234.00" x2="677.40" y2="216.00" stroke="#777" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="671.40" y1="234.00" x2="671.40" y2="216.00" stroke="#777" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="665.40" y1="234.00" x2="665.40" y2="216.00" stroke="#777" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="659.40" y1="234.00" x2="659.40" y2="216.00" stroke="#777" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="653.40" y1="234.00" x2="653.40" y2="216.00" stroke="#777" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="647.40" y1="234.00" x2="647.40" y2="216.00" stroke="#777" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="641.40" y1="234.00" x2="641.40" y2="216.00" stroke="#777" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="635.40" y1="234.00" x2="635.40" y2="216.00" stroke="#777" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="629.40" y1="234.00" x2="629.40" y2="216.00" stroke="#777" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="623.40" y1="234.00" x2="623.40" y2="216.00" stroke="#777" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="617.40" y1="234.00" x2="617.40" y2="216.00" stroke="#777" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="611.40" y1="234.00" x2="611.40" y2="216.00" stroke="#777" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="683.40" y1="216.00" x2="610.00" y2="216.00" stroke="#000" stroke-width="0.35" stroke-linecap="round"/>
+<line x1="683.40" y1="214.00" x2="683.40" y2="234.00" stroke="#000" stroke-width="0.35" stroke-linecap="round"/>
+<rect x="774.00" y="243.00" width="40.00" height="3.00" fill="none" stroke="#000" stroke-width="0.18"/>
+<line x1="808.00" y1="246.00" x2="808.00" y2="258.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="808.00" y1="258.00" x2="774.00" y2="258.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<rect x="462.00" y="165.00" width="304.00" height="5.00" fill="url(#hInsul)" stroke="#000" stroke-width="0.18"/>
+<rect x="444.00" y="125.05" width="340.00" height="4.62" fill="url(#hWood)" stroke="#000" stroke-width="0.35"/>
+<rect x="444.00" y="123.05" width="340.00" height="2.00" fill="#4d5156" stroke="#000" stroke-width="0.18"/>
+<rect x="434.00" y="129.67" width="360.00" height="4.00" fill="url(#hWood)" stroke="#000" stroke-width="0.35"/>
+<rect x="462.00" y="167.00" width="304.00" height="3.00" fill="url(#hWood)" stroke="#000" stroke-width="0.18"/>
+<rect x="759.00" y="133.67" width="2.00" height="33.33" fill="url(#hWood)" stroke="#000" stroke-width="0.18"/>
+<line x1="760.00" y1="159.00" x2="740.00" y2="133.67" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="760.00" y1="159.00" x2="780.00" y2="133.67" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<rect x="699.00" y="133.67" width="2.00" height="33.33" fill="url(#hWood)" stroke="#000" stroke-width="0.18"/>
+<line x1="700.00" y1="159.00" x2="680.00" y2="133.67" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="700.00" y1="159.00" x2="720.00" y2="133.67" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<rect x="639.00" y="133.67" width="2.00" height="33.33" fill="url(#hWood)" stroke="#000" stroke-width="0.18"/>
+<line x1="640.00" y1="159.00" x2="620.00" y2="133.67" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="640.00" y1="159.00" x2="660.00" y2="133.67" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<rect x="579.00" y="133.67" width="2.00" height="33.33" fill="url(#hWood)" stroke="#000" stroke-width="0.18"/>
+<line x1="580.00" y1="159.00" x2="560.00" y2="133.67" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="580.00" y1="159.00" x2="600.00" y2="133.67" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<rect x="519.00" y="133.67" width="2.00" height="33.33" fill="url(#hWood)" stroke="#000" stroke-width="0.18"/>
+<line x1="520.00" y1="159.00" x2="500.00" y2="133.67" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="520.00" y1="159.00" x2="540.00" y2="133.67" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<rect x="459.00" y="133.67" width="2.00" height="33.33" fill="url(#hWood)" stroke="#000" stroke-width="0.18"/>
+<line x1="460.00" y1="159.00" x2="440.00" y2="133.67" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="460.00" y1="159.00" x2="480.00" y2="133.67" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="444.00" y1="91.56" x2="784.00" y2="91.56" stroke="#000" stroke-width="0.18" stroke-dasharray="3 1" stroke-linecap="round"/>
+<line x1="444.00" y1="86.94" x2="784.00" y2="86.94" stroke="#000" stroke-width="0.35" stroke-linecap="round"/>
+<text x="614.00" y="79.94" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.0" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">конёк +10,650</text>
+<line x1="444.00" y1="130.67" x2="784.00" y2="130.67" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<polygon points="422.00,320.00 420.60,318.00 423.40,318.00" fill="#000" stroke="#000" stroke-width="0.18" stroke-linejoin="round"/>
+<line x1="422.00" y1="318.00" x2="413.00" y2="318.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<text x="417.50" y="317.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.2" text-anchor="middle" dominant-baseline="auto" font-weight="normal" fill="#000">−1,000</text>
+<polygon points="422.00,312.00 420.60,310.00 423.40,310.00" fill="#000" stroke="#000" stroke-width="0.18" stroke-linejoin="round"/>
+<line x1="422.00" y1="310.00" x2="413.00" y2="310.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<text x="417.50" y="309.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.2" text-anchor="middle" dominant-baseline="auto" font-weight="normal" fill="#000">−0,600</text>
+<polygon points="422.00,300.00 420.60,298.00 423.40,298.00" fill="#000" stroke="#000" stroke-width="0.18" stroke-linejoin="round"/>
+<line x1="422.00" y1="298.00" x2="413.00" y2="298.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<text x="417.50" y="297.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.2" text-anchor="middle" dominant-baseline="auto" font-weight="normal" fill="#000">±0,000</text>
+<polygon points="422.00,240.00 420.60,238.00 423.40,238.00" fill="#000" stroke="#000" stroke-width="0.18" stroke-linejoin="round"/>
+<line x1="422.00" y1="238.00" x2="413.00" y2="238.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<text x="417.50" y="237.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.2" text-anchor="middle" dominant-baseline="auto" font-weight="normal" fill="#000">+3,000</text>
+<polygon points="422.00,234.00 420.60,232.00 423.40,232.00" fill="#000" stroke="#000" stroke-width="0.18" stroke-linejoin="round"/>
+<line x1="422.00" y1="232.00" x2="413.00" y2="232.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<text x="417.50" y="231.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.2" text-anchor="middle" dominant-baseline="auto" font-weight="normal" fill="#000">+3,300</text>
+<polygon points="422.00,174.00 420.60,172.00 423.40,172.00" fill="#000" stroke="#000" stroke-width="0.18" stroke-linejoin="round"/>
+<line x1="422.00" y1="172.00" x2="413.00" y2="172.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<text x="417.50" y="171.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.2" text-anchor="middle" dominant-baseline="auto" font-weight="normal" fill="#000">+6,300</text>
+<polygon points="422.00,170.00 420.60,168.00 423.40,168.00" fill="#000" stroke="#000" stroke-width="0.18" stroke-linejoin="round"/>
+<line x1="422.00" y1="168.00" x2="413.00" y2="168.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<text x="417.50" y="167.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.2" text-anchor="middle" dominant-baseline="auto" font-weight="normal" fill="#000">+6,500</text>
+<polygon points="422.00,125.05 420.60,123.05 423.40,123.05" fill="#000" stroke="#000" stroke-width="0.18" stroke-linejoin="round"/>
+<line x1="422.00" y1="123.05" x2="413.00" y2="123.05" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<text x="417.50" y="122.05" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.2" text-anchor="middle" dominant-baseline="auto" font-weight="normal" fill="#000">+8,748</text>
+<polygon points="422.00,86.94 420.60,84.94 423.40,84.94" fill="#000" stroke="#000" stroke-width="0.18" stroke-linejoin="round"/>
+<line x1="422.00" y1="84.94" x2="413.00" y2="84.94" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<text x="417.50" y="83.94" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.2" text-anchor="middle" dominant-baseline="auto" font-weight="normal" fill="#000">+10,650</text>
+<polygon points="806.00,300.60 804.60,298.60 807.40,298.60" fill="#000" stroke="#000" stroke-width="0.18" stroke-linejoin="round"/>
+<line x1="806.00" y1="298.60" x2="815.00" y2="298.60" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<text x="810.50" y="297.60" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.2" text-anchor="middle" dominant-baseline="auto" font-weight="normal" fill="#000">−0,030</text>
+<polygon points="806.00,309.00 804.60,307.00 807.40,307.00" fill="#000" stroke="#000" stroke-width="0.18" stroke-linejoin="round"/>
+<line x1="806.00" y1="307.00" x2="815.00" y2="307.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<text x="810.50" y="306.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.2" text-anchor="middle" dominant-baseline="auto" font-weight="normal" fill="#000">−0,450</text>
+<polygon points="422.00,303.00 420.60,301.00 423.40,301.00" fill="#000" stroke="#000" stroke-width="0.18" stroke-linejoin="round"/>
+<line x1="422.00" y1="301.00" x2="413.00" y2="301.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<text x="417.50" y="300.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.2" text-anchor="middle" dominant-baseline="auto" font-weight="normal" fill="#000">−0,150 (терраса)</text>
+<polygon points="806.00,246.00 804.60,244.00 807.40,244.00" fill="#000" stroke="#000" stroke-width="0.18" stroke-linejoin="round"/>
+<line x1="806.00" y1="244.00" x2="815.00" y2="244.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<text x="810.50" y="243.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.2" text-anchor="middle" dominant-baseline="auto" font-weight="normal" fill="#000">+2,700</text>
+<line x1="770.00" y1="326.00" x2="770.00" y2="338.00" stroke="#000" stroke-width="0.18" stroke-dasharray="4 1.5" stroke-linecap="round"/>
+<circle cx="770.00" cy="342.00" r="4.00" fill="#fff" stroke="#000" stroke-width="0.35"/>
+<text x="770.00" y="342.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="3.6" text-anchor="middle" dominant-baseline="middle" font-weight="bold" fill="#000">А</text>
+<line x1="458.00" y1="326.00" x2="458.00" y2="338.00" stroke="#000" stroke-width="0.18" stroke-dasharray="4 1.5" stroke-linecap="round"/>
+<circle cx="458.00" cy="342.00" r="4.00" fill="#fff" stroke="#000" stroke-width="0.35"/>
+<text x="458.00" y="342.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="3.6" text-anchor="middle" dominant-baseline="middle" font-weight="bold" fill="#000">Б</text>
+<line x1="458.00" y1="326.00" x2="458.00" y2="350.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="770.00" y1="326.00" x2="770.00" y2="350.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="458.00" y1="348.00" x2="770.00" y2="348.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="457.16" y1="348.84" x2="458.84" y2="347.16" stroke="#000" stroke-width="0.35" stroke-linecap="round"/>
+<text x="614.00" y="346.80" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.4" text-anchor="middle" dominant-baseline="auto" font-weight="normal" fill="#000">15600</text>
+<line x1="769.16" y1="348.84" x2="770.84" y2="347.16" stroke="#000" stroke-width="0.35" stroke-linecap="round"/>
+<line x1="394.00" y1="326.00" x2="394.00" y2="340.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="454.00" y1="326.00" x2="454.00" y2="340.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="774.00" y1="326.00" x2="774.00" y2="340.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="806.00" y1="326.00" x2="806.00" y2="340.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="394.00" y1="338.00" x2="806.00" y2="338.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="393.16" y1="338.84" x2="394.84" y2="337.16" stroke="#000" stroke-width="0.35" stroke-linecap="round"/>
+<text x="424.00" y="336.80" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.0" text-anchor="middle" dominant-baseline="auto" font-weight="normal" fill="#000">3000</text>
+<line x1="453.16" y1="338.84" x2="454.84" y2="337.16" stroke="#000" stroke-width="0.35" stroke-linecap="round"/>
+<text x="614.00" y="336.80" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.0" text-anchor="middle" dominant-baseline="auto" font-weight="normal" fill="#000">16000</text>
+<line x1="773.16" y1="338.84" x2="774.84" y2="337.16" stroke="#000" stroke-width="0.35" stroke-linecap="round"/>
+<text x="790.00" y="336.80" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.0" text-anchor="middle" dominant-baseline="auto" font-weight="normal" fill="#000">1600</text>
+<line x1="805.16" y1="338.84" x2="806.84" y2="337.16" stroke="#000" stroke-width="0.35" stroke-linecap="round"/>
+<circle cx="530.00" cy="172.00" r="0.60" fill="#000" stroke="none"/>
+<line x1="530.00" y1="172.00" x2="500.00" y2="158.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="500.00" y1="158.00" x2="496.00" y2="158.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<text x="499.00" y="157.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.0" text-anchor="end" dominant-baseline="auto" font-weight="normal" fill="#000">2 — чердачное перекрытие с утеплением 250 мм</text>
+<circle cx="740.00" cy="238.00" r="0.60" fill="#000" stroke="none"/>
+<line x1="740.00" y1="238.00" x2="770.00" y2="222.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="770.00" y1="222.00" x2="774.00" y2="222.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<text x="771.00" y="221.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.0" text-anchor="start" dominant-baseline="auto" font-weight="normal" fill="#000">1 — монолитная плита 200 мм</text>
+<circle cx="420.00" cy="304.00" r="0.60" fill="#000" stroke="none"/>
+<line x1="420.00" y1="304.00" x2="440.00" y2="326.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="440.00" y1="326.00" x2="444.00" y2="326.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<text x="441.00" y="325.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.0" text-anchor="start" dominant-baseline="auto" font-weight="normal" fill="#000">6 — терраса: плитка по бетонной плите 150 мм на ПГС, деформационный шов у дома</text>
+<text x="35.00" y="395.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="3.2" text-anchor="start" dominant-baseline="middle" font-weight="bold" fill="#000">Примечания</text>
+<text x="35.00" y="402.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.3" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">1. Разрез 1-1 — по оси лестницы (y = 5,0 м), взгляд на юг; разрез 2-2 — по холлу и гостиной (x = 9,6 м), взгляд на запад.</text>
+<text x="35.00" y="406.40" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.3" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">2. Фундамент — монолитная ж/б плита 300 мм (B25 W6 F150) с рёбрами-ростверком 400×300 под несущими стенами, по ЭППС 100 мм</text>
+<text x="35.00" y="410.80" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.3" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">   и уплотнённой подушке из ПГС 400 мм; утеплённая отмостка 1,0 м (ЭППС 50). Требуются инженерно-геологические изыскания!</text>
+<text x="35.00" y="415.20" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.3" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">3. Перекрытия монолитные 200 мм B25, арматура A500C (см. КР-2). По периметру — терморазрыв ЭППС 100 мм (торец плиты).</text>
+<text x="35.00" y="419.60" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.3" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">4. Кровля наслонная: стропила 50×200 ш. 600 по прогонам 100×200 на стойках 100×150 (шаг 3,0 м) и лежнях 150×150 по плите.</text>
+<text x="35.00" y="424.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.3" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">5. Утепление чердачного перекрытия — минеральная вата 250 мм (2 слоя вразбежку) по пароизоляции; чердак холодный, проветриваемый.</text>
+<text x="35.00" y="428.40" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.3" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">6. Лестница монолитная ж/б, ширина марша 1150, 19 подъёмов 174×280, ограждение h = 900 (для детей — 1100, с заполнением ≤ 100 мм).</text>
+</svg>

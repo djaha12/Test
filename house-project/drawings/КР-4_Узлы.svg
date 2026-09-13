@@ -1,0 +1,249 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1782" height="1260" viewBox="0 0 594 420">
+<defs><pattern id="hConcrete" patternUnits="userSpaceOnUse" width="3" height="3" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="3" stroke="#333" stroke-width="0.18"/><circle cx="1.5" cy="1.5" r="0.22" fill="#333"/></pattern><pattern id="hMasonry" patternUnits="userSpaceOnUse" width="2.2" height="2.2" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="2.2" stroke="#444" stroke-width="0.18"/></pattern><pattern id="hAerated" patternUnits="userSpaceOnUse" width="4" height="4" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="4" stroke="#555" stroke-width="0.18"/><circle cx="2" cy="2" r="0.25" fill="none" stroke="#555" stroke-width="0.15"/></pattern><pattern id="hInsul" patternUnits="userSpaceOnUse" width="4" height="4"><path d="M0 2 Q1 0 2 2 T4 2" fill="none" stroke="#666" stroke-width="0.18"/></pattern><pattern id="hWood" patternUnits="userSpaceOnUse" width="3" height="3" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="3" stroke="#7a4a1a" stroke-width="0.15"/><line x1="1.2" y1="0" x2="1.2" y2="3" stroke="#7a4a1a" stroke-width="0.15"/></pattern><pattern id="hEarth" patternUnits="userSpaceOnUse" width="5" height="5"><line x1="0" y1="2.5" x2="2.5" y2="2.5" stroke="#777" stroke-width="0.18"/><line x1="3.5" y1="1" x2="5" y2="1" stroke="#777" stroke-width="0.18"/><line x1="2" y1="4.2" x2="4.5" y2="4.2" stroke="#777" stroke-width="0.18"/></pattern><pattern id="hSand" patternUnits="userSpaceOnUse" width="3" height="3"><circle cx="0.7" cy="0.8" r="0.2" fill="#777"/><circle cx="2.1" cy="2.2" r="0.2" fill="#777"/></pattern><pattern id="hGravel" patternUnits="userSpaceOnUse" width="5" height="5"><circle cx="1.2" cy="1.2" r="0.6" fill="none" stroke="#666" stroke-width="0.15"/><circle cx="3.6" cy="3.4" r="0.8" fill="none" stroke="#666" stroke-width="0.15"/></pattern><pattern id="hGrass" patternUnits="userSpaceOnUse" width="6" height="6"><path d="M1 5 l1 -2 l1 2 M4 4 l1 -2 l1 2" fill="none" stroke="#5a9a3a" stroke-width="0.2"/></pattern><pattern id="hPaving" patternUnits="userSpaceOnUse" width="4" height="4"><rect x="0" y="0" width="4" height="4" fill="none" stroke="#999" stroke-width="0.15"/></pattern><pattern id="hGlass" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(-45)"><line x1="0" y1="0" x2="0" y2="6" stroke="#5b8fc7" stroke-width="0.25"/></pattern><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#000"/></marker><marker id="arrowR" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#c00"/></marker><marker id="arrowB" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#1a5fb4"/></marker></defs>
+<rect x="0" y="0" width="594" height="420" fill="#fff"/>
+<rect x="20.0" y="5.0" width="569.0" height="410.0" fill="none" stroke="#000" stroke-width="0.7"/>
+<rect x="404.0" y="375.0" width="185" height="40" fill="#fff" stroke="#000" stroke-width="0.7"/>
+<line x1="404.0" y1="383.0" x2="589.0" y2="383.0" stroke="#000" stroke-width="0.35"/>
+<line x1="404.0" y1="391.0" x2="589.0" y2="391.0" stroke="#000" stroke-width="0.35"/>
+<line x1="404.0" y1="399.0" x2="589.0" y2="399.0" stroke="#000" stroke-width="0.35"/>
+<line x1="404.0" y1="407.0" x2="589.0" y2="407.0" stroke="#000" stroke-width="0.35"/>
+<line x1="469.0" y1="375.0" x2="469.0" y2="415.0" stroke="#000" stroke-width="0.7"/>
+<line x1="539.0" y1="391.0" x2="539.0" y2="415.0" stroke="#000" stroke-width="0.7"/>
+<line x1="564.0" y1="391.0" x2="564.0" y2="415.0" stroke="#000" stroke-width="0.35"/>
+<text x="406.0" y="379.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.2" text-anchor="start" dominant-baseline="middle" font-weight="normal">Разраб.</text>
+<text x="426.0" y="379.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.2" text-anchor="start" dominant-baseline="middle" font-weight="normal">Claude (ИИ)</text>
+<text x="406.0" y="387.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.2" text-anchor="start" dominant-baseline="middle" font-weight="normal">Пров.</text>
+<text x="426.0" y="387.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.0" text-anchor="start" dominant-baseline="middle" font-weight="normal">— (требуется ГИП/ГАП)</text>
+<text x="406.0" y="395.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.2" text-anchor="start" dominant-baseline="middle" font-weight="normal">Стадия</text>
+<text x="406.0" y="403.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.2" text-anchor="start" dominant-baseline="middle" font-weight="normal">Шифр</text>
+<text x="426.0" y="403.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.4" text-anchor="start" dominant-baseline="middle" font-weight="bold">КР-4</text>
+<text x="406.0" y="411.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.2" text-anchor="start" dominant-baseline="middle" font-weight="normal">Дата</text>
+<text x="426.0" y="411.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.2" text-anchor="start" dominant-baseline="middle" font-weight="normal">09.2026</text>
+<text x="504.0" y="380.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.6" text-anchor="middle" dominant-baseline="middle" font-weight="bold">Индивидуальный жилой дом, 2 этажа, ~400 м²</text>
+<text x="504.0" y="387.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.2" text-anchor="middle" dominant-baseline="middle" font-weight="normal">Участок 6 соток (20×30 м), 2 этажа + холодный чердак</text>
+<text x="504.0" y="398.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="3.0" text-anchor="middle" dominant-baseline="middle" font-weight="bold">Узлы: опирание перекрытия, карниз, стойка кровли, перемычка</text>
+<text x="504.0" y="405.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.3" text-anchor="middle" dominant-baseline="middle" font-weight="normal">Масштаб 1:20</text>
+<text x="504.0" y="411.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.2" text-anchor="middle" dominant-baseline="middle" font-weight="normal">Стадия: ЭП</text>
+<text x="551.0" y="395.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.2" text-anchor="middle" dominant-baseline="middle" font-weight="normal">Лист</text>
+<text x="551.0" y="405.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="3.0" text-anchor="middle" dominant-baseline="middle" font-weight="bold">11</text>
+<text x="576.0" y="395.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.2" text-anchor="middle" dominant-baseline="middle" font-weight="normal">Листов</text>
+<text x="576.0" y="405.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="3.0" text-anchor="middle" dominant-baseline="middle" font-weight="bold">20</text>
+<text x="551.0" y="413.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.7" text-anchor="middle" dominant-baseline="middle" font-weight="normal">Эскизный проект — не для строительства</text>
+<text x="40.00" y="22.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="3.6" text-anchor="start" dominant-baseline="middle" font-weight="bold" fill="#000">Узел 1. Опирание плиты перекрытия на наружную стену; перемычка ПМ-3   М 1:20</text>
+<rect x="85.00" y="142.00" width="20.00" height="60.00" fill="#fff" stroke="#000" stroke-width="0.18"/>
+<rect x="90.00" y="142.00" width="3.50" height="60.00" fill="#2e3236" stroke="none"/>
+<rect x="85.00" y="129.50" width="20.00" height="12.50" fill="url(#hAerated)" stroke="#000" stroke-width="0.35"/>
+<rect x="87.50" y="129.50" width="2.50" height="12.50" fill="url(#hInsul)" stroke="#000" stroke-width="0.18"/>
+<rect x="90.00" y="129.50" width="12.50" height="11.50" fill="url(#hConcrete)" stroke="#000" stroke-width="0.18"/>
+<circle cx="92.00" cy="139.00" r="0.90" fill="#c00" stroke="none"/>
+<circle cx="92.00" cy="131.50" r="0.70" fill="#c00" stroke="none"/>
+<circle cx="100.50" cy="139.00" r="0.90" fill="#c00" stroke="none"/>
+<circle cx="100.50" cy="131.50" r="0.70" fill="#c00" stroke="none"/>
+<rect x="85.00" y="112.00" width="20.00" height="17.50" fill="url(#hAerated)" stroke="#000" stroke-width="0.35"/>
+<rect x="90.00" y="102.00" width="85.00" height="10.00" fill="url(#hConcrete)" stroke="#000" stroke-width="0.35"/>
+<rect x="85.00" y="102.00" width="5.00" height="10.00" fill="url(#hInsul)" stroke="#000" stroke-width="0.18"/>
+<line x1="92.50" y1="110.50" x2="175.00" y2="110.50" stroke="#c00" stroke-width="0.7" stroke-linecap="round"/>
+<line x1="92.50" y1="103.50" x2="175.00" y2="103.50" stroke="#c00" stroke-width="0.7" stroke-linecap="round"/>
+<path d="M110.00 110.50 H92.50 V103.50 H110.00" fill="none" stroke="#c00" stroke-width="0.7" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="85.00" y="112.00" width="20.00" height="1.00" fill="#bbb" stroke="#000" stroke-width="0.18"/>
+<rect x="105.00" y="101.00" width="70.00" height="1.00" fill="url(#hInsul)" stroke="#000" stroke-width="0.18"/>
+<rect x="105.00" y="97.50" width="70.00" height="3.50" fill="url(#hConcrete)" stroke="#000" stroke-width="0.18"/>
+<rect x="105.00" y="97.00" width="70.00" height="0.50" fill="#ddd" stroke="#000" stroke-width="0.18"/>
+<rect x="85.00" y="42.00" width="20.00" height="60.00" fill="url(#hAerated)" stroke="#000" stroke-width="0.35"/>
+<rect x="85.00" y="42.00" width="20.00" height="25.00" fill="#fff" stroke="#000" stroke-width="0.18"/>
+<rect x="90.00" y="42.00" width="3.50" height="25.00" fill="#2e3236" stroke="none"/>
+<rect x="105.00" y="42.00" width="0.75" height="160.00" fill="#ddd" stroke="#000" stroke-width="0.18"/>
+<rect x="84.50" y="42.00" width="0.50" height="160.00" fill="#f2efe8" stroke="none"/>
+<rect x="105.00" y="113.00" width="70.00" height="89.00" fill="none" stroke="none"/>
+<polygon points="190.00,112.00 188.60,110.00 191.40,110.00" fill="#000" stroke="#000" stroke-width="0.18" stroke-linejoin="round"/>
+<line x1="190.00" y1="110.00" x2="198.00" y2="110.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<text x="194.00" y="109.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.0" text-anchor="middle" dominant-baseline="auto" font-weight="normal" fill="#000">+3,000</text>
+<polygon points="190.00,97.00 188.60,95.00 191.40,95.00" fill="#000" stroke="#000" stroke-width="0.18" stroke-linejoin="round"/>
+<line x1="190.00" y1="95.00" x2="198.00" y2="95.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<text x="194.00" y="94.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.0" text-anchor="middle" dominant-baseline="auto" font-weight="normal" fill="#000">+3,300</text>
+<polygon points="190.00,142.00 188.60,140.00 191.40,140.00" fill="#000" stroke="#000" stroke-width="0.18" stroke-linejoin="round"/>
+<line x1="190.00" y1="140.00" x2="198.00" y2="140.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<text x="194.00" y="139.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.0" text-anchor="middle" dominant-baseline="auto" font-weight="normal" fill="#000">+2,400 верх проёма</text>
+<line x1="85.00" y1="207.00" x2="85.00" y2="217.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="90.00" y1="207.00" x2="90.00" y2="217.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="105.00" y1="207.00" x2="105.00" y2="217.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="85.00" y1="215.00" x2="105.00" y2="215.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="84.16" y1="215.84" x2="85.84" y2="214.16" stroke="#000" stroke-width="0.35" stroke-linecap="round"/>
+<text x="87.50" y="217.60" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.0" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">100</text>
+<line x1="89.16" y1="215.84" x2="90.84" y2="214.16" stroke="#000" stroke-width="0.35" stroke-linecap="round"/>
+<text x="97.50" y="217.60" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.0" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">300</text>
+<line x1="104.16" y1="215.84" x2="105.84" y2="214.16" stroke="#000" stroke-width="0.35" stroke-linecap="round"/>
+<circle cx="135.00" cy="107.00" r="0.60" fill="#000" stroke="none"/>
+<line x1="135.00" y1="107.00" x2="160.00" y2="87.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="160.00" y1="87.00" x2="164.00" y2="87.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<text x="161.00" y="86.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.0" text-anchor="start" dominant-baseline="auto" font-weight="normal" fill="#000">плита 200 B25: низ Ø12 ш.200, верх у стены Ø10 ш.200 l=1,2 м, П-обр. Ø10 ш.200</text>
+<circle cx="87.50" cy="107.00" r="0.60" fill="#000" stroke="none"/>
+<line x1="87.50" y1="107.00" x2="65.50" y2="85.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="65.50" y1="85.00" x2="61.50" y2="85.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<text x="64.50" y="84.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.0" text-anchor="end" dominant-baseline="auto" font-weight="normal" fill="#000">ЭППС 100 мм — терморазрыв торца плиты</text>
+<circle cx="95.00" cy="112.50" r="0.60" fill="#000" stroke="none"/>
+<line x1="95.00" y1="112.50" x2="120.00" y2="104.50" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="120.00" y1="104.50" x2="124.00" y2="104.50" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<text x="121.00" y="103.50" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.0" text-anchor="start" dominant-baseline="auto" font-weight="normal" fill="#000">выравнивающий слой ЦПР M100 20 мм; опирание 300 мм</text>
+<circle cx="96.00" cy="135.50" r="0.60" fill="#000" stroke="none"/>
+<line x1="96.00" y1="135.50" x2="121.00" y2="141.50" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="121.00" y1="141.50" x2="125.00" y2="141.50" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<text x="122.00" y="140.50" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.0" text-anchor="start" dominant-baseline="auto" font-weight="normal" fill="#000">ПМ-3: U-блок 400 + ядро 250×200 (2Ø18 низ, 2Ø10 верх, Ø6 ш.150), ЭППС 50 снаружи</text>
+<circle cx="87.00" cy="172.00" r="0.60" fill="#000" stroke="none"/>
+<line x1="87.00" y1="172.00" x2="67.00" y2="182.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="67.00" y1="182.00" x2="63.00" y2="182.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<text x="66.00" y="181.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.0" text-anchor="end" dominant-baseline="auto" font-weight="normal" fill="#000">окно ПВХ 70 мм в четверти, монтаж по ГОСТ 30971 (ПСУЛ + пена + пароизоляционная лента)</text>
+<circle cx="140.00" cy="99.50" r="0.60" fill="#000" stroke="none"/>
+<line x1="140.00" y1="99.50" x2="165.00" y2="69.50" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="165.00" y1="69.50" x2="169.00" y2="69.50" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<text x="166.00" y="68.50" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.0" text-anchor="start" dominant-baseline="auto" font-weight="normal" fill="#000">пол 2 эт.: ПСБ-С 20 (звукоизоляция) + стяжка 70 с ТП + покрытие</text>
+<circle cx="95.00" cy="62.00" r="0.60" fill="#000" stroke="none"/>
+<line x1="95.00" y1="62.00" x2="120.00" y2="12.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="120.00" y1="12.00" x2="124.00" y2="12.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<text x="121.00" y="11.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.0" text-anchor="start" dominant-baseline="auto" font-weight="normal" fill="#000">газобетон D400 B2.5 400 мм на клею 2 мм; подоконный ряд армирован 2Ø8</text>
+<text x="300.00" y="22.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="3.6" text-anchor="start" dominant-baseline="middle" font-weight="bold" fill="#000">Узел 2. Карнизный узел, опирание стропил   М 1:20</text>
+<rect x="325.00" y="103.00" width="20.00" height="45.00" fill="url(#hAerated)" stroke="#000" stroke-width="0.35"/>
+<rect x="330.00" y="93.00" width="95.00" height="10.00" fill="url(#hConcrete)" stroke="#000" stroke-width="0.35"/>
+<rect x="325.00" y="93.00" width="5.00" height="10.00" fill="url(#hInsul)" stroke="#000" stroke-width="0.18"/>
+<line x1="332.50" y1="101.50" x2="425.00" y2="101.50" stroke="#c00" stroke-width="0.7" stroke-linecap="round"/>
+<line x1="332.50" y1="94.50" x2="425.00" y2="94.50" stroke="#c00" stroke-width="0.7" stroke-linecap="round"/>
+<rect x="345.00" y="80.50" width="80.00" height="12.50" fill="url(#hInsul)" stroke="#000" stroke-width="0.18"/>
+<rect x="327.50" y="85.50" width="7.50" height="7.50" fill="url(#hWood)" stroke="#000" stroke-width="0.35"/>
+<line x1="331.25" y1="108.00" x2="331.25" y2="80.50" stroke="#c00" stroke-width="0.35" stroke-linecap="round"/>
+<rect x="325.00" y="85.50" width="2.50" height="7.50" fill="url(#hInsul)" stroke="#000" stroke-width="0.18"/>
+<polygon points="295.00,90.32 425.00,15.26 425.00,26.81 295.00,101.87" fill="url(#hWood)" stroke="#000" stroke-width="0.35" stroke-linejoin="round"/>
+<polygon points="327.50,85.50 335.00,85.50 335.00,78.77" fill="#fff" stroke="#000" stroke-width="0.18" stroke-linejoin="round"/>
+<polygon points="295.00,90.32 425.00,15.26 425.00,12.76 295.00,87.82" fill="#e8d3b0" stroke="#000" stroke-width="0.18" stroke-linejoin="round"/>
+<polygon points="295.00,87.82 425.00,12.76 425.00,10.26 295.00,85.32" fill="#d9c090" stroke="#000" stroke-width="0.18" stroke-linejoin="round"/>
+<polygon points="292.50,86.76 425.00,10.26 425.00,9.51 292.50,86.01" fill="#3c3f42" stroke="#000" stroke-width="0.18" stroke-linejoin="round"/>
+<rect x="292.50" y="85.32" width="2.50" height="19.05" fill="url(#hWood)" stroke="#000" stroke-width="0.18"/>
+<line x1="295.00" y1="104.37" x2="325.00" y2="104.37" stroke="#000" stroke-width="0.35" stroke-linecap="round"/>
+<circle cx="288.50" cy="91.32" r="3.12" fill="#fff" stroke="#000" stroke-width="0.35"/>
+<rect x="324.50" y="95.50" width="0.50" height="52.50" fill="#f2efe8" stroke="none"/>
+<rect x="345.00" y="103.00" width="0.75" height="45.00" fill="#ddd" stroke="#000" stroke-width="0.18"/>
+<polygon points="440.00,93.00 438.60,91.00 441.40,91.00" fill="#000" stroke="#000" stroke-width="0.18" stroke-linejoin="round"/>
+<line x1="440.00" y1="91.00" x2="448.00" y2="91.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<text x="444.00" y="90.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.0" text-anchor="middle" dominant-baseline="auto" font-weight="normal" fill="#000">+6,500</text>
+<polygon points="440.00,73.00 438.60,71.00 441.40,71.00" fill="#000" stroke="#000" stroke-width="0.18" stroke-linejoin="round"/>
+<line x1="440.00" y1="71.00" x2="448.00" y2="71.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<text x="444.00" y="70.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.0" text-anchor="middle" dominant-baseline="auto" font-weight="normal" fill="#000">+6,900</text>
+<polygon points="440.00,90.32 438.60,88.32 441.40,88.32" fill="#000" stroke="#000" stroke-width="0.18" stroke-linejoin="round"/>
+<line x1="440.00" y1="88.32" x2="448.00" y2="88.32" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<text x="444.00" y="87.32" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.0" text-anchor="middle" dominant-baseline="auto" font-weight="normal" fill="#000">+6,554</text>
+<line x1="295.00" y1="153.00" x2="295.00" y2="163.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="325.00" y1="153.00" x2="325.00" y2="163.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="345.00" y1="153.00" x2="345.00" y2="163.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="295.00" y1="161.00" x2="345.00" y2="161.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="294.16" y1="161.84" x2="295.84" y2="160.16" stroke="#000" stroke-width="0.35" stroke-linecap="round"/>
+<text x="310.00" y="163.60" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.0" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">600</text>
+<line x1="324.16" y1="161.84" x2="325.84" y2="160.16" stroke="#000" stroke-width="0.35" stroke-linecap="round"/>
+<text x="335.00" y="163.60" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.0" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">400</text>
+<line x1="344.16" y1="161.84" x2="345.84" y2="160.16" stroke="#000" stroke-width="0.35" stroke-linecap="round"/>
+<circle cx="331.25" cy="89.50" r="0.60" fill="#000" stroke="none"/>
+<line x1="331.25" y1="89.50" x2="301.25" y2="109.50" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="301.25" y1="109.50" x2="297.25" y2="109.50" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<text x="300.25" y="108.50" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.0" text-anchor="end" dominant-baseline="auto" font-weight="normal" fill="#000">мауэрлат 150×150 на шпильках М12 ш.1000, гидроизоляция; ЭППС 50 снаружи</text>
+<circle cx="380.00" cy="87.00" r="0.60" fill="#000" stroke="none"/>
+<line x1="380.00" y1="87.00" x2="405.00" y2="117.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="405.00" y1="117.00" x2="409.00" y2="117.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<text x="406.00" y="116.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.0" text-anchor="start" dominant-baseline="auto" font-weight="normal" fill="#000">минвата 250 мм (2×125 вразбежку) по пароизоляции; ветрозащита сверху; продух карниза</text>
+<circle cx="395.00" cy="37.59" r="0.60" fill="#000" stroke="none"/>
+<line x1="395.00" y1="37.59" x2="415.00" y2="17.59" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="415.00" y1="17.59" x2="419.00" y2="17.59" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<text x="416.00" y="16.59" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.0" text-anchor="start" dominant-baseline="auto" font-weight="normal" fill="#000">стропило 50×200 ш.600; запил ≤ 1/3 h; крепление уголками 90×90</text>
+<circle cx="360.00" cy="47.29" r="0.60" fill="#000" stroke="none"/>
+<line x1="360.00" y1="47.29" x2="380.00" y2="13.29" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="380.00" y1="13.29" x2="384.00" y2="13.29" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<text x="381.00" y="12.29" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.0" text-anchor="start" dominant-baseline="auto" font-weight="normal" fill="#000">фальц 0,5 мм / настил ОСП 12 / обрешётка 50×50 / контробрешётка 50 / мембрана</text>
+<circle cx="294.00" cy="96.32" r="0.60" fill="#000" stroke="none"/>
+<line x1="294.00" y1="96.32" x2="274.00" y2="106.32" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="274.00" y1="106.32" x2="270.00" y2="106.32" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<text x="273.00" y="105.32" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.0" text-anchor="end" dominant-baseline="auto" font-weight="normal" fill="#000">лобовая доска 25×200, софит перфорированный (приток в чердак)</text>
+<circle cx="288.50" cy="91.32" r="0.60" fill="#000" stroke="none"/>
+<line x1="288.50" y1="91.32" x2="268.50" y2="115.32" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="268.50" y1="115.32" x2="264.50" y2="115.32" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<text x="267.50" y="114.32" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.0" text-anchor="end" dominant-baseline="auto" font-weight="normal" fill="#000">желоб Ø125, кронштейны ш.600, капельник</text>
+<circle cx="375.00" cy="98.00" r="0.60" fill="#000" stroke="none"/>
+<line x1="375.00" y1="98.00" x2="400.00" y2="142.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="400.00" y1="142.00" x2="404.00" y2="142.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<text x="401.00" y="141.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.0" text-anchor="start" dominant-baseline="auto" font-weight="normal" fill="#000">чердачная плита 200 с обвязочным поясом; торец — ЭППС 100</text>
+<text x="40.00" y="218.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="3.6" text-anchor="start" dominant-baseline="middle" font-weight="bold" fill="#000">Узел 3. Стойка кровли на лежне, подкосы, прогон   М 1:20</text>
+<rect x="35.00" y="363.00" width="150.00" height="10.00" fill="url(#hConcrete)" stroke="#000" stroke-width="0.35"/>
+<rect x="35.00" y="350.50" width="150.00" height="12.50" fill="url(#hInsul)" stroke="#000" stroke-width="0.18"/>
+<rect x="106.25" y="355.50" width="7.50" height="7.50" fill="url(#hWood)" stroke="#000" stroke-width="0.35"/>
+<rect x="35.00" y="362.25" width="150.00" height="0.75" fill="#333" stroke="none"/>
+<rect x="107.50" y="274.67" width="5.00" height="80.83" fill="url(#hWood)" stroke="#000" stroke-width="0.35"/>
+<rect x="107.50" y="262.17" width="5.00" height="12.50" fill="url(#hWood)" stroke="#000" stroke-width="0.35"/>
+<polygon points="35.00,293.93 185.00,207.32 185.00,218.87 35.00,305.47" fill="url(#hWood)" stroke="#000" stroke-width="0.35" stroke-linejoin="round"/>
+<line x1="107.50" y1="333.00" x2="65.00" y2="275.67" stroke="#000" stroke-width="0.35" stroke-dasharray="2 1" stroke-linecap="round"/>
+<line x1="112.50" y1="333.00" x2="155.00" y2="275.67" stroke="#000" stroke-width="0.35" stroke-dasharray="2 1" stroke-linecap="round"/>
+<text x="110.00" y="287.17" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.8" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">подкосы 100×100 (вдоль прогона), врубка + болт М12</text>
+<polygon points="200.00,363.00 198.60,361.00 201.40,361.00" fill="#000" stroke="#000" stroke-width="0.18" stroke-linejoin="round"/>
+<line x1="200.00" y1="361.00" x2="208.00" y2="361.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<text x="204.00" y="360.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.0" text-anchor="middle" dominant-baseline="auto" font-weight="normal" fill="#000">+6,500</text>
+<polygon points="200.00,262.17 198.60,260.17 201.40,260.17" fill="#000" stroke="#000" stroke-width="0.18" stroke-linejoin="round"/>
+<line x1="200.00" y1="260.17" x2="208.00" y2="260.17" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<text x="204.00" y="259.17" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.0" text-anchor="middle" dominant-baseline="auto" font-weight="normal" fill="#000">+8,517</text>
+<circle cx="110.00" cy="359.25" r="0.60" fill="#000" stroke="none"/>
+<line x1="110.00" y1="359.25" x2="138.00" y2="379.25" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="138.00" y1="379.25" x2="142.00" y2="379.25" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<text x="139.00" y="378.25" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.0" text-anchor="start" dominant-baseline="auto" font-weight="normal" fill="#000">лежень 150×150 на 2 слоях гидроизоляции, анкер М12 ш.1000 к плите</text>
+<circle cx="110.00" cy="318.00" r="0.60" fill="#000" stroke="none"/>
+<line x1="110.00" y1="318.00" x2="138.00" y2="322.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="138.00" y1="322.00" x2="142.00" y2="322.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<text x="139.00" y="321.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.0" text-anchor="start" dominant-baseline="auto" font-weight="normal" fill="#000">стойка 100×150 (С24), крепление к лежню уголками 90×90×2,5 с 2 сторон</text>
+<circle cx="110.00" cy="268.17" r="0.60" fill="#000" stroke="none"/>
+<line x1="110.00" y1="268.17" x2="138.00" y2="256.17" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="138.00" y1="256.17" x2="142.00" y2="256.17" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<text x="139.00" y="255.17" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.0" text-anchor="start" dominant-baseline="auto" font-weight="normal" fill="#000">прогон 100×250, стык над стойкой, накладки 50×150 на болтах</text>
+<circle cx="160.00" cy="226.76" r="0.60" fill="#000" stroke="none"/>
+<line x1="160.00" y1="226.76" x2="180.00" y2="198.76" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="180.00" y1="198.76" x2="184.00" y2="198.76" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<text x="181.00" y="197.76" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.0" text-anchor="start" dominant-baseline="auto" font-weight="normal" fill="#000">стропила 50×200 к прогону — уголки + гвозди 4×100</text>
+<text x="300.00" y="218.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="3.6" text-anchor="start" dominant-baseline="middle" font-weight="bold" fill="#000">Узел 4. Монолитная перемычка ПМ-4 над воротами/порталом (сечение)   М 1:20</text>
+<rect x="350.00" y="307.00" width="20.00" height="15.00" fill="url(#hConcrete)" stroke="#000" stroke-width="0.35"/>
+<rect x="350.00" y="307.00" width="2.50" height="15.00" fill="url(#hInsul)" stroke="#000" stroke-width="0.18"/>
+<rect x="353.50" y="308.50" width="15.00" height="12.00" fill="none" stroke="#c00" stroke-width="0.35"/>
+<circle cx="355.50" cy="319.00" r="1.00" fill="#c00" stroke="none"/>
+<circle cx="361.00" cy="319.00" r="1.00" fill="#c00" stroke="none"/>
+<circle cx="366.50" cy="319.00" r="1.00" fill="#c00" stroke="none"/>
+<circle cx="355.50" cy="310.00" r="0.80" fill="#c00" stroke="none"/>
+<circle cx="366.50" cy="310.00" r="0.80" fill="#c00" stroke="none"/>
+<rect x="350.00" y="277.00" width="20.00" height="30.00" fill="url(#hAerated)" stroke="#000" stroke-width="0.35"/>
+<rect x="350.00" y="322.00" width="20.00" height="25.00" fill="#fff" stroke="#000" stroke-width="0.18"/>
+<text x="360.00" y="334.50" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.0" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">проём</text>
+<line x1="350.00" y1="349.50" x2="350.00" y2="359.50" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="352.50" y1="349.50" x2="352.50" y2="359.50" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="370.00" y1="349.50" x2="370.00" y2="359.50" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="350.00" y1="357.50" x2="370.00" y2="357.50" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="349.16" y1="358.34" x2="350.84" y2="356.66" stroke="#000" stroke-width="0.35" stroke-linecap="round"/>
+<text x="351.25" y="360.10" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.0" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">50</text>
+<line x1="351.66" y1="358.34" x2="353.34" y2="356.66" stroke="#000" stroke-width="0.35" stroke-linecap="round"/>
+<text x="361.25" y="360.10" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.0" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">350</text>
+<line x1="369.16" y1="358.34" x2="370.84" y2="356.66" stroke="#000" stroke-width="0.35" stroke-linecap="round"/>
+<line x1="370.00" y1="322.00" x2="380.00" y2="322.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="370.00" y1="307.00" x2="380.00" y2="307.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="370.00" y1="277.00" x2="380.00" y2="277.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="378.00" y1="322.00" x2="378.00" y2="277.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="377.16" y1="322.84" x2="378.84" y2="321.16" stroke="#000" stroke-width="0.35" stroke-linecap="round"/>
+<text x="376.80" y="314.50" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.0" text-anchor="middle" dominant-baseline="auto" font-weight="normal" fill="#000" transform="rotate(-90 376.80 314.50)">300</text>
+<line x1="377.16" y1="307.84" x2="378.84" y2="306.16" stroke="#000" stroke-width="0.35" stroke-linecap="round"/>
+<text x="376.80" y="292.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.0" text-anchor="middle" dominant-baseline="auto" font-weight="normal" fill="#000" transform="rotate(-90 376.80 292.00)">600</text>
+<line x1="377.16" y1="277.84" x2="378.84" y2="276.16" stroke="#000" stroke-width="0.35" stroke-linecap="round"/>
+<circle cx="361.00" cy="314.50" r="0.60" fill="#000" stroke="none"/>
+<line x1="361.00" y1="314.50" x2="386.00" y2="304.50" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="386.00" y1="304.50" x2="390.00" y2="304.50" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<text x="387.00" y="303.50" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.0" text-anchor="start" dominant-baseline="auto" font-weight="normal" fill="#000">ПМ-4 400×300 B25: низ 3Ø16, верх 2Ø10, хомуты Ø8 ш.200; опирание ≥ 300 мм</text>
+<circle cx="351.25" cy="314.50" r="0.60" fill="#000" stroke="none"/>
+<line x1="351.25" y1="314.50" x2="333.25" y2="304.50" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="333.25" y1="304.50" x2="329.25" y2="304.50" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<text x="332.25" y="303.50" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.0" text-anchor="end" dominant-baseline="auto" font-weight="normal" fill="#000">ЭППС 50 (терморазрыв)</text>
+<circle cx="360.00" cy="292.00" r="0.60" fill="#000" stroke="none"/>
+<line x1="360.00" y1="292.00" x2="385.00" y2="262.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="385.00" y1="262.00" x2="389.00" y2="262.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<text x="386.00" y="261.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.0" text-anchor="start" dominant-baseline="auto" font-weight="normal" fill="#000">кладка D400; над ПМ-4 — ряд с армированием 2Ø8</text>
+<circle cx="360.00" cy="342.00" r="0.60" fill="#000" stroke="none"/>
+<line x1="360.00" y1="342.00" x2="385.00" y2="362.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="385.00" y1="362.00" x2="389.00" y2="362.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<text x="386.00" y="361.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.0" text-anchor="start" dominant-baseline="auto" font-weight="normal" fill="#000">ворота ВС-1 3000×2400 / портал ДБ-2 3000×2300; направляющие крепить к ПМ-4 и стене</text>
+</svg>

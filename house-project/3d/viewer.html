@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<title>3D — Жилой дом 13×16, 2 этажа</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  html, body { margin: 0; height: 100%; background: #e9eef3; font-family: 'DejaVu Sans', Arial, sans-serif; }
+  #c { width: 100%; height: 100%; display: block; }
+  #ui { position: absolute; left: 12px; top: 12px; background: rgba(255,255,255,.92); padding: 10px 12px; border-radius: 8px; font-size: 13px; box-shadow: 0 2px 8px rgba(0,0,0,.15); max-width: 300px; }
+  #ui b { display: block; margin-bottom: 6px; }
+  #ui label { display: block; margin: 3px 0; cursor: pointer; }
+  #ui button { margin: 4px 4px 0 0; font-size: 12px; padding: 3px 8px; }
+</style>
+</head>
+<body>
+<canvas id="c"></canvas>
+<div id="ui">
+  <b>Жилой дом 13×16 м, 2 этажа, участок 6 соток</b>
+  <label><input type="checkbox" id="roof" checked> кровля и чердачное перекрытие</label>
+  <label><input type="checkbox" id="fl2" checked> 2-й этаж (стены и перекрытие)</label>
+  <label><input type="checkbox" id="site" checked> участок, забор, деревья</label>
+  <div>
+    <button data-v="ne">Вид с СВ</button><button data-v="sw">Вид с сада (ЮЗ)</button><button data-v="n">С улицы</button><button data-v="top">Сверху</button><button data-v="int1">Интерьер 1 эт.</button>
+  </div>
+  <div style="margin-top:6px;color:#555">Вращение — ЛКМ, панорама — ПКМ, зум — колесо</div>
+</div>
+<script src="three.min.js"></script>
+<script src="OrbitControls.js"></script>
+<script src="model.js"></script>
+<script>
+const M = window.HOUSE_MODEL;
+const canvas = document.getElementById('c');
+const renderer = new THREE.WebGLRenderer({ canvas, antialias: true, preserveDrawingBuffer: true });
+renderer.setPixelRatio(window.devicePixelRatio || 1);
+renderer.shadowMap.enabled = true;
+renderer.shadowMap.type = THREE.PCFSoftShadowMap;
+const scene = new THREE.Scene();
+scene.background = new THREE.Color(0xdfe8f0);
+scene.fog = new THREE.Fog(0xdfe8f0, 60, 140);
+const camera = new THREE.PerspectiveCamera(45, 2, 0.1, 500);
+const controls = new THREE.OrbitControls(camera, canvas);
+controls.target.set(6.3, 2.5, 7.8);
+
+// three.js: X вправо (восток), Y вверх, Z — на зрителя. Модель: x восток, y юг, z вверх → (x, z, y)
+function V(x, y, z) { return new THREE.Vector3(x, z, y); }
+
+const mats = {
+  wall: new THREE.MeshStandardMaterial({ color: 0xf2efe8, roughness: 0.9 }),
+  wall_int: new THREE.MeshStandardMaterial({ color: 0xf7f5f0, roughness: 0.9 }),
+  plinth: new THREE.MeshStandardMaterial({ color: 0x5b5550, roughness: 0.95 }),
+  wood: new THREE.MeshStandardMaterial({ color: 0xc99a5b, roughness: 0.8 }),
+  slab: new THREE.MeshStandardMaterial({ color: 0xcfcfcf, roughness: 0.9 }),
+  roof: new THREE.MeshStandardMaterial({ color: 0x3c3f42, roughness: 0.6, metalness: 0.3 }),
+  roof_dark: new THREE.MeshStandardMaterial({ color: 0x2b2e31, roughness: 0.6, metalness: 0.4 }),
+  glass: new THREE.MeshStandardMaterial({ color: 0x8fb8d8, roughness: 0.1, metalness: 0.6, transparent: true, opacity: 0.85 }),
+  door: new THREE.MeshStandardMaterial({ color: 0x4a4e52, roughness: 0.7 }),
+  garage: new THREE.MeshStandardMaterial({ color: 0x8a8d90, roughness: 0.7 }),
+  paving: new THREE.MeshStandardMaterial({ color: 0xb8b4ac, roughness: 1.0 }),
+  asphalt: new THREE.MeshStandardMaterial({ color: 0x8c8c8c, roughness: 1.0 }),
+  concrete: new THREE.MeshStandardMaterial({ color: 0xc9c9c9, roughness: 1.0 }),
+  fence: new THREE.MeshStandardMaterial({ color: 0x6b6f72, roughness: 0.8 }),
+  stair: new THREE.MeshStandardMaterial({ color: 0xd9d4cc, roughness: 0.9 }),
+  grass: new THREE.MeshStandardMaterial({ color: 0x7fb069, roughness: 1.0 }),
+  trunk: new THREE.MeshStandardMaterial({ color: 0x6b4a2a, roughness: 1.0 }),
+  crown: new THREE.MeshStandardMaterial({ color: 0x4f8f3f, roughness: 1.0 }),
+  car: new THREE.MeshStandardMaterial({ color: 0x3a5fa0, roughness: 0.4, metalness: 0.5 }),
+};
+const groups = { roof: new THREE.Group(), fl2: new THREE.Group(), site: new THREE.Group(), base: new THREE.Group() };
+Object.values(groups).forEach(g => scene.add(g));
+
+function addBox(it, group, mat) {
+  const w = it.x[1] - it.x[0], d = it.y[1] - it.y[0], h = it.z[1] - it.z[0];
+  const g = new THREE.BoxGeometry(w, h, d);
+  const m = new THREE.Mesh(g, mat || mats[it.m]);
+  m.position.set((it.x[0] + it.x[1]) / 2, (it.z[0] + it.z[1]) / 2, (it.y[0] + it.y[1]) / 2);
+  m.castShadow = true; m.receiveShadow = true;
+  group.add(m);
+  return m;
+}
+function addExtrudeXZ(pts, y1, y2, mat, group) {
+  // pts: [[x, z]] в плоскости XZ, экструзия вдоль y (юг) от y1 до y2
+  const shape = new THREE.Shape();
+  pts.forEach((p, i) => { if (i === 0) shape.moveTo(p[0], p[1]); else shape.lineTo(p[0], p[1]); });
+  shape.closePath();
+  const geo = new THREE.ExtrudeGeometry(shape, { depth: y2 - y1, bevelEnabled: false });
+  // ExtrudeGeometry экструдирует вдоль +z (three) = +y модели → позиция z = y1
+  const m = new THREE.Mesh(geo, mat);
+  m.position.z = y1;
+  m.castShadow = true; m.receiveShadow = true;
+  group.add(m);
+}
+for (const it of M.items) {
+  let grp = groups.base;
+  if (it.m === 'roof' || it.m === 'roof_dark' || (it.t === 'box' && it.z[0] >= 6.29 && it.m === 'slab')) grp = groups.roof;
+  else if (it.t === 'gable') grp = groups.roof;
+  else if (it.t === 'box' && it.z[0] >= 3.19 && it.z[0] < 6.29) grp = groups.fl2;
+  if (it.t === 'box') addBox(it, grp);
+  else if (it.t === 'gable' || it.t === 'roof') addExtrudeXZ(it.pts, it.y, it.y2, mats[it.m], grp);
+}
+// участок
+const s = M.site;
+const ground = new THREE.Mesh(new THREE.PlaneGeometry(s.x[1] - s.x[0], s.y[1] - s.y[0]), mats.grass);
+ground.rotation.x = -Math.PI / 2;
+ground.position.set((s.x[0] + s.x[1]) / 2, s.z, (s.y[0] + s.y[1]) / 2);
+ground.receiveShadow = true;
+groups.site.add(ground);
+const outer = new THREE.Mesh(new THREE.PlaneGeometry(200, 200), new THREE.MeshStandardMaterial({ color: 0x9fbf8a, roughness: 1 }));
+outer.rotation.x = -Math.PI / 2; outer.position.set(6.3, s.z - 0.02, 10); outer.receiveShadow = true; groups.site.add(outer);
+const road = new THREE.Mesh(new THREE.PlaneGeometry(60, 6), mats.asphalt);
+road.rotation.x = -Math.PI / 2; road.position.set(6.3, s.z + 0.005, s.y[0] - 3.5); groups.site.add(road);
+for (const it of M.site_items) addBox(it, groups.site);
+for (const it of M.fence) addBox(it, groups.site);
+for (const t of M.trees) {
+  const trunk = new THREE.Mesh(new THREE.CylinderGeometry(0.12, 0.18, t.h * 0.45, 8), mats.trunk);
+  trunk.position.set(t.x, s.z + t.h * 0.225, t.y); trunk.castShadow = true; groups.site.add(trunk);
+  const crown = new THREE.Mesh(new THREE.SphereGeometry(t.r, 12, 10), mats.crown);
+  crown.position.set(t.x, s.z + t.h * 0.45 + t.r * 0.8, t.y); crown.castShadow = true; groups.site.add(crown);
+}
+for (const o of M.objs) {
+  const c = new THREE.Mesh(new THREE.CylinderGeometry(o.r, o.r, o.h, 16), mats.concrete);
+  c.position.set(o.x, s.z + o.h / 2, o.y); groups.site.add(c);
+}
+for (const c of M.cars) {
+  const body = new THREE.Mesh(new THREE.BoxGeometry(1.8, 0.7, 4.4), mats.car); body.position.set(c.x, s.z + 0.55, c.y); body.castShadow = true; groups.site.add(body);
+  const top = new THREE.Mesh(new THREE.BoxGeometry(1.6, 0.6, 2.2), mats.glass); top.position.set(c.x, s.z + 1.2, c.y - 0.1); groups.site.add(top);
+}
+// свет
+const hemi = new THREE.HemisphereLight(0xffffff, 0x88aa77, 0.7); scene.add(hemi);
+const sun = new THREE.DirectionalLight(0xfff2dd, 1.4);
+sun.position.set(-20, 30, -25); sun.castShadow = true;
+sun.shadow.mapSize.set(2048, 2048);
+sun.shadow.camera.left = -30; sun.shadow.camera.right = 30; sun.shadow.camera.top = 30; sun.shadow.camera.bottom = -30;
+sun.shadow.camera.near = 1; sun.shadow.camera.far = 120;
+sun.target.position.set(6.3, 0, 7.8); scene.add(sun); scene.add(sun.target);
+const fill = new THREE.DirectionalLight(0xdde8ff, 0.4); fill.position.set(30, 20, 30); scene.add(fill);
+
+const views = {
+  ne: { pos: [30, 16, -16], tgt: [6.3, 3, 7.8] },
+  sw: { pos: [-16, 12, 32], tgt: [6.3, 3, 7.8] },
+  n: { pos: [6.3, 6, -30], tgt: [6.3, 3.5, 7.8] },
+  top: { pos: [6.3, 60, 10.5], tgt: [6.3, 0, 10.4] },
+  int1: { pos: [11.5, 1.6, 14.5], tgt: [2.0, 1.4, 11.0] },
+};
+function setView(k) {
+  const vw = views[k];
+  camera.position.set(...vw.pos); controls.target.set(...vw.tgt); controls.update();
+  if (k === 'int1') { groups.roof.visible = false; groups.fl2.visible = false; document.getElementById('roof').checked = false; document.getElementById('fl2').checked = false; }
+}
+document.querySelectorAll('#ui button').forEach(b => b.addEventListener('click', () => setView(b.dataset.v)));
+document.getElementById('roof').addEventListener('change', e => groups.roof.visible = e.target.checked);
+document.getElementById('fl2').addEventListener('change', e => groups.fl2.visible = e.target.checked);
+document.getElementById('site').addEventListener('change', e => groups.site.visible = e.target.checked);
+const q = new URLSearchParams(location.search);
+setView(q.get('view') || 'ne');
+if (q.get('hide') === 'roof') { groups.roof.visible = false; }
+if (q.get('hide') === 'roof_fl2') { groups.roof.visible = false; groups.fl2.visible = false; }
+if (q.get('ui') === '0') document.getElementById('ui').style.display = 'none';
+
+function resize() {
+  const w = canvas.clientWidth, h = canvas.clientHeight;
+  if (canvas.width !== w * (window.devicePixelRatio || 1) || canvas.height !== h * (window.devicePixelRatio || 1)) {
+    renderer.setSize(w, h, false); camera.aspect = w / h; camera.updateProjectionMatrix();
+  }
+}
+function loop() { resize(); controls.update(); renderer.render(scene, camera); requestAnimationFrame(loop); }
+loop();
+window.__ready = true;
+</script>
+</body>
+</html>
