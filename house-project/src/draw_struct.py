@@ -122,7 +122,8 @@ def foundation_sheet(sheet_no, total):
     d.rect(-0.55, LEVELS["raft_bottom"], -0.5, LEVELS["raft_top"], fill="url(#hInsul)", sw="thin")
     d.rect(-0.27, LEVELS["raft_top"] + 0.02, -0.25, 1.1, fill="#555", stroke=None)
     d.rect(-0.28, 0.3, -0.25, 1.1, fill="#f2efe8", stroke=None)
-    d.line(-0.56, LEVELS["raft_top"] + 0.02, -0.28, LEVELS["raft_top"] + 0.06, w="mid")   # отлив
+    d.rect(-0.5, LEVELS["raft_top"], -0.25, LEVELS["raft_top"] + 0.05, fill="url(#hInsul)", sw="thin")   # ЭППС 50 по выступу
+    d.line(-0.56, LEVELS["raft_top"] + 0.05, -0.28, LEVELS["raft_top"] + 0.09, w="mid")   # отлив
     # отмостка
     d.rect(-1.3, ZG - 0.10, -0.55, ZG + 0.02, fill="url(#hConcrete)", sw="thin")
     d.rect(-1.3, ZG - 0.25, -0.55, ZG - 0.10, fill="url(#hSand)", sw="thin")
@@ -150,7 +151,7 @@ def foundation_sheet(sheet_no, total):
     lead(0.0, -0.15, 30, -40, "ребро 400×300: 4Ø12 A500C, хомуты Ø8 ш.300, выпуски из плиты")
     lead(1.0, -0.10, 30, -52, "ЭППС 150 + стяжка 120 (трубы ТП 16 ш.150) + покрытие")
     lead(0.0, 0.8, 30, -70, "газобетон D400 400 мм; 1-й ряд на ЦПР по гидроизоляции (2 слоя)")
-    lead(-0.23, 0.5, -20, -20, "цоколь: ЭППС 50 + клинкер / штукатурка, отлив")
+    lead(-0.23, 0.5, -20, -20, "цоколь: ЭППС 50 по ребру и по верху выступа плиты (непрерывный контур), клинкер, отлив")
     lead(-0.9, ZG - 0.2, -14, -22, "отмостка 1,0 м: бетон 100 (сетка Ø4), ПГС 150, ЭППС 50, i=3 %")
     lead(-1.4, LEVELS["cushion_bottom"] + 0.1, -12, 28, "дренаж Ø110 в щебне и геотекстиле")
     # спецификация арматуры
@@ -220,7 +221,7 @@ def slab_sheet(sheet_no, total):
         v.line(6.8, y, 12.0, y, w="mid", marker="arrow"); v.line(12.0, y, 6.8, y, w="mid", marker="arrow")
     # балка Б-1
     v.rect(6.175, 10.9, 6.425, 14.5, fill="#c00", stroke=None, opacity=0.6)
-    v.text(6.9, 12.7, "Б-1 250×600", size=2.2, rot=-90, color="#c00")
+    v.text(6.9, 12.7, "Б-1 250×700", size=2.2, rot=-90, color="#c00")
     # терморазрыв по периметру
     v.text(6.3, 15.7, "по периметру — торец плиты ЭППС 100 мм, монолитный участок совмещён с обвязочным поясом", size=2.0)
     # ЭППС над гаражом? нет. Обозначить проходы вентшахт
@@ -235,17 +236,17 @@ def slab_sheet(sheet_no, total):
     d = sh.view(ox=360, oy=185, scale=20, flip_y=True)
     sh.ptext(340, 30, "Балка Б-1 (сечение)   М 1:20", size=3.6, anchor="start", weight="bold")
     B = R["beam"]
-    d.rect(-0.125, 0.0, 0.125, 0.6, fill="url(#hConcrete)", sw="mid")
-    d.rect(-1.0, 0.4, -0.125, 0.6, fill="url(#hConcrete)", sw="mid"); d.rect(0.125, 0.4, 1.0, 0.6, fill="url(#hConcrete)", sw="mid")
-    d.rect(-0.095, 0.03, 0.095, 0.57, stroke="#c00", sw="mid")
+    d.rect(-0.125, 0.0, 0.125, 0.7, fill="url(#hConcrete)", sw="mid")
+    d.rect(-1.0, 0.5, -0.125, 0.7, fill="url(#hConcrete)", sw="mid"); d.rect(0.125, 0.5, 1.0, 0.7, fill="url(#hConcrete)", sw="mid")
+    d.rect(-0.095, 0.03, 0.095, 0.67, stroke="#c00", sw="mid")
     for x in (-0.075, -0.025, 0.025, 0.075):
         d.circle(x, 0.055, 1.2, fill="#c00", stroke=None)
     for x in (-0.07, 0.07):
-        d.circle(x, 0.545, 0.9, fill="#c00", stroke=None)
+        d.circle(x, 0.645, 0.9, fill="#c00", stroke=None)
     for x in (-0.9, -0.7, -0.5, -0.3, 0.3, 0.5, 0.7, 0.9):
-        d.circle(x, 0.43, 0.8, fill="#c00", stroke=None); d.circle(x, 0.57, 0.7, fill="#c00", stroke=None)
+        d.circle(x, 0.53, 0.8, fill="#c00", stroke=None); d.circle(x, 0.67, 0.7, fill="#c00", stroke=None)
     d.dim_h([-0.125, 0.125], -0.05, 8, text_size=2.0, flip_text=True)
-    d.dim_v([0.0, 0.4, 0.6], 0.125, 8, text_size=2.0)
+    d.dim_v([0.0, 0.5, 0.7], 0.125, 8, text_size=2.0)
     d.text(0.0, -0.32, f"низ {B['bars']}; верх 2Ø12 (+2Ø16 у опор); хомуты {B['stirrups']}", size=1.9)
     d.text(0.0, -0.45, f"M = {B['M']:.0f} кН·м ≤ M_u = {B['M_u']:.0f} кН·м; Q = {B['Q']:.0f} кН; опирание 600 мм на подушку 250×600×200", size=1.9)
     # ведомость перемычек
@@ -265,7 +266,7 @@ def slab_sheet(sheet_no, total):
     for mk in ("ПМ-1", "ПМ-2", "ПМ-3", "ПМ-4"):
         l = spec.get(mk)
         rows.append([mk, l["core"] if l else "монолит 400×300", l["bars"] if l else "3Ø16 + 2Ø10, хомуты Ø8 ш.200", f"{len(cnt.get(mk, []))}", ", ".join(sorted(set(cnt.get(mk, []))))])
-    rows.append(["Б-1", "балка 250×600 (ось 2)", B["bars"] + "; " + "Ø8 ш.150/250", "1", "ПР-1 3000×2600"])
+    rows.append(["Б-1", "балка 250×700 (ось 2), низ +2,500", B["bars"] + "; " + "Ø8 ш.150/250", "1", "ПР-1 3000×2500"])
     rows.append(["ПМ-5", "U-блок 250, ядро 150×200", "2Ø12 + 2Ø8, хомуты Ø6 ш.150", "5", "двери в стене оси 2 (Д-2), ПР-2"])
     rows.append(["ПМ-6", "заводская газобетонная / 2∠50×5", "—", "16", "двери в перегородках 100/200 мм"])
     sh.table(xr, yy + 4, [("Марка", 14, "c"), ("Сечение", 48, "l"), ("Армирование", 70, "l"), ("шт.", 10, "c"), ("Проёмы", 80, "l")], rows, size=2.0)
@@ -408,14 +409,14 @@ def details_sheet(sheet_no, total):
     d = sh.view(ox=95, oy=262, scale=20, flip_y=True)
     sh.ptext(40, 22, "Узел 1. Опирание плиты перекрытия на наружную стену; перемычка ПМ-3   М 1:20", size=3.6, anchor="start", weight="bold")
     # стена низ (до перемычки 2,4) — с окном
-    d.rect(-0.2, 1.2, 0.2, 2.4, fill="#fff", sw="thin")   # проём окна (вид сбоку — откос)
-    d.rect(-0.2 + 0.10, 1.2, -0.2 + 0.17, 2.4, fill="#2e3236", stroke=None)  # рама
-    d.rect(-0.2, 2.4, 0.2, 2.65, fill="url(#hAerated)", sw="mid")   # U-блок
-    d.rect(-0.15, 2.4, -0.10, 2.65, fill="url(#hInsul)", sw="thin")   # ЭППС в U-блоке
-    d.rect(-0.10, 2.42, 0.15, 2.65, fill="url(#hConcrete)", sw="thin")  # ядро
+    d.rect(-0.2, 1.2, 0.2, 2.5, fill="#fff", sw="thin")   # проём окна (вид сбоку — откос)
+    d.rect(-0.2 + 0.10, 1.2, -0.2 + 0.17, 2.5, fill="#2e3236", stroke=None)  # рама
+    d.rect(-0.2, 2.5, 0.2, 2.75, fill="url(#hAerated)", sw="mid")   # U-блок (11-й ряд)
+    d.rect(-0.15, 2.5, -0.10, 2.75, fill="url(#hInsul)", sw="thin")   # ЭППС в U-блоке
+    d.rect(-0.10, 2.52, 0.15, 2.75, fill="url(#hConcrete)", sw="thin")  # ядро
     for x in (-0.06, 0.11):
-        d.circle(x, 2.46, 0.9, fill="#c00", stroke=None); d.circle(x, 2.61, 0.7, fill="#c00", stroke=None)
-    d.rect(-0.2, 2.65, 0.2, 3.0, fill="url(#hAerated)", sw="mid")
+        d.circle(x, 2.56, 0.9, fill="#c00", stroke=None); d.circle(x, 2.71, 0.7, fill="#c00", stroke=None)
+    d.rect(-0.2, 2.75, 0.2, 3.0, fill="url(#hAerated)", sw="mid")
     # плита
     d.rect(-0.1, 3.0, 1.6, 3.2, fill="url(#hConcrete)", sw="mid")
     d.rect(-0.2, 3.0, -0.1, 3.2, fill="url(#hInsul)", sw="thin")
@@ -430,12 +431,12 @@ def details_sheet(sheet_no, total):
     d.rect(0.2, 1.2, 0.215, 4.4, fill="#ddd", sw="thin"); d.rect(-0.21, 1.2, -0.2, 4.4, fill="#f2efe8", stroke=None)
     d.rect(0.2, 1.2, 1.6, 2.98, fill="none", stroke=None)
     d.level_mark(1.9, 3.0, "+3,000", side="right", len_mm=8, size=2.0); d.level_mark(1.9, 3.3, "+3,300", side="right", len_mm=8, size=2.0)
-    d.level_mark(1.9, 2.4, "+2,400 верх проёма", side="right", len_mm=8, size=2.0)
+    d.level_mark(1.9, 2.5, "+2,500 верх проёма (10-й ряд)", side="right", len_mm=8, size=2.0)
     d.dim_h([-0.2, -0.1, 0.2], 1.1, 8, text_size=2.0, flip_text=True)
     lead(d, 0.8, 3.1, 25, -20, "плита 200 B25: низ Ø12 ш.200, верх у стены Ø10 ш.200 l=1,2 м, П-обр. Ø10 ш.200")
     lead(d, -0.15, 3.1, -22, -22, "ЭППС 100 мм — терморазрыв торца плиты")
     lead(d, 0.0, 2.99, 25, -8, "выравнивающий слой ЦПР M100 20 мм; опирание 300 мм")
-    lead(d, 0.02, 2.53, 25, 6, "ПМ-3: U-блок 400 + ядро 250×200 (2Ø18 низ, 2Ø10 верх, Ø6 ш.150), ЭППС 50 снаружи")
+    lead(d, 0.02, 2.63, 25, 6, "ПМ-3: U-блок 400 (11-й ряд) + ядро 250×200 (2Ø18 низ, 2Ø10 верх, Ø6 ш.150), ЭППС 50 снаружи")
     lead(d, -0.16, 1.8, -20, 10, "окно ПВХ 70 мм в четверти, монтаж по ГОСТ 30971 (ПСУЛ + пена + пароизоляционная лента)")
     lead(d, 0.9, 3.25, 25, -30, "пол 2 эт.: ПСБ-С 20 (звукоизоляция) + стяжка 70 с ТП + покрытие")
     lead(d, 0.0, 4.0, 25, -50, "газобетон D400 B2.5 400 мм на клею 2 мм; подоконный ряд армирован 2Ø8")

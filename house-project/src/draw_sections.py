@@ -42,8 +42,11 @@ def ground_and_raft(v, U, u_out1, u_out2, walls_u, garage=None, terrace=None, po
         v.rect(a + side * 0.05 if side < 0 else a, LEVELS["raft_bottom"], a if side < 0 else a + 0.05, LEVELS["raft_top"], fill="url(#hInsul)", sw="thin")
     v.rect(u_out1 - 0.05, LEVELS["raft_top"], u_out1, 0.0, fill="url(#hInsul)", sw="thin")
     v.rect(u_out2, LEVELS["raft_top"], u_out2 + 0.05, 0.0, fill="url(#hInsul)", sw="thin")
-    v.line(r1 - 0.05, LEVELS["raft_top"] + 0.02, u_out1 - 0.05, LEVELS["raft_top"] + 0.06, w="mid")
-    v.line(u_out2 + 0.05, LEVELS["raft_top"] + 0.06, r2 + 0.05, LEVELS["raft_top"] + 0.02, w="mid")
+    # ЭППС 50 по верху выступа плиты (устранение мостика холода) + отлив из оцинкованной стали
+    v.rect(r1, LEVELS["raft_top"], u_out1 - 0.05, LEVELS["raft_top"] + 0.05, fill="url(#hInsul)", sw="thin")
+    v.rect(u_out2 + 0.05, LEVELS["raft_top"], r2, LEVELS["raft_top"] + 0.05, fill="url(#hInsul)", sw="thin")
+    v.line(r1 - 0.05, LEVELS["raft_top"] + 0.05, u_out1 - 0.05, LEVELS["raft_top"] + 0.09, w="mid")
+    v.line(u_out2 + 0.05, LEVELS["raft_top"] + 0.09, r2 + 0.05, LEVELS["raft_top"] + 0.05, w="mid")
     # пол 1 этажа между рёбрами
     spans = []
     edges = sorted([u for w in walls_u for u in w])
@@ -166,8 +169,8 @@ def section_1_1(sh, ox, oy):
     slab(v, o[0] + 0.1, o[2] - 0.1, 6.3, xps_left=True, xps_right=True, build_up=False)
     v.text(2.0, 3.1, "монолитная ж/б плита 200, B25", size=1.9, color="#fff")
     # окна в разрезанной восточной стене (санузлы)
-    opening_cut(v, EXT_INNER[2], o[2], 1.5, 2.4, outer_side="right")
-    opening_cut(v, EXT_INNER[2], o[2], Z2 + 1.5, Z2 + 2.4, outer_side="right")
+    opening_cut(v, EXT_INNER[2], o[2], 1.5, 2.5, outer_side="right")
+    opening_cut(v, EXT_INNER[2], o[2], Z2 + 1.5, Z2 + 2.5, outer_side="right")
     # лестница (сечение по y=5,0)
     st = STAIR
     rh, t = st["riser_h"], st["tread"]
@@ -193,7 +196,7 @@ def section_1_1(sh, ox, oy):
         v.line(6.425 + i * 2.5 / 12, Z2, 6.425 + i * 2.5 / 12, Z2 + 0.9, w="thin", color="#777")
     v.line(8.925, Z2, 8.925, Z2 + 1.0, w="mid")
     # проёмы за плоскостью разреза
-    beyond_opening(v, 8.925, 10.0, -0.02, 2.28, "ДБ-2 (терраса)")
+    beyond_opening(v, 8.925, 10.0, 0.0, 2.5, "ДБ-2 (терраса)")
     beyond_opening(v, 1.0, 1.8, Z2, Z2 + 2.1, "Д-3")
     beyond_opening(v, 4.2, 5.1, Z2, Z2 + 2.1, "Д-2")
     beyond_opening(v, 7.0, 7.9, Z2, Z2 + 2.1, "Д-2")
@@ -268,15 +271,15 @@ def section_2_2(sh, ox, oy):
     v.rect(U(h[3]), 6.3, U(h[1]), 6.3 + 0.05, fill="#fff", sw="mid")
     v.text(U(5.45), 6.9, "люк 700×900", size=1.8)
     # окна/двери в разрезанных стенах
-    opening_cut(v, U(EXT_INNER[1]), U(o[1]), 0.9, 2.4, outer_side="right")            # ОК-3 прихожая
-    opening_cut(v, U(EXT_INNER[1]), U(o[1]), Z2 + 0.9, Z2 + 2.4, outer_side="right")  # ОК-3 холл
-    opening_cut(v, U(o[3]), U(EXT_INNER[3]), -0.02, 2.28, outer_side="left")           # ДБ-2
+    opening_cut(v, U(EXT_INNER[1]), U(o[1]), 1.0, 2.5, outer_side="right")            # ОК-3 прихожая
+    opening_cut(v, U(EXT_INNER[1]), U(o[1]), Z2 + 1.0, Z2 + 2.5, outer_side="right")  # ОК-3 холл
+    opening_cut(v, U(o[3]), U(EXT_INNER[3]), 0.0, 2.5, outer_side="left")              # ДБ-2
     # за плоскостью (взгляд на запад): стена по оси 2 с проёмами; лестница
     beyond_opening(v, U(3.9), U(3.0), 0, 2.1, "Д-2")
     beyond_opening(v, U(9.5), U(8.6), 0, 2.1, "Д-2")
-    beyond_opening(v, U(14.2), U(11.2), 0, 2.6, "ПР-1 3000×2600 (балка Б-1 250×600 над проёмом)")
+    beyond_opening(v, U(14.2), U(11.2), 0, 2.5, "ПР-1 3000×2500 (балка Б-1 250×700 над проёмом)")
     beyond_opening(v, U(3.3), U(2.4), Z2, Z2 + 2.1, "Д-2")
-    beyond_opening(v, U(9.4), U(8.2), Z2, Z2 + 2.3, "ПР-2")
+    beyond_opening(v, U(9.4), U(8.2), Z2, Z2 + 2.25, "ПР-2")
     # лестница: профиль марша 1 (ближний) и марша 2 (дальний, выше)
     st = STAIR
     rh, t = st["riser_h"], st["tread"]

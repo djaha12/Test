@@ -1,0 +1,203 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1782" height="1260" viewBox="0 0 594 420">
+<defs><pattern id="hConcrete" patternUnits="userSpaceOnUse" width="3" height="3" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="3" stroke="#333" stroke-width="0.18"/><circle cx="1.5" cy="1.5" r="0.22" fill="#333"/></pattern><pattern id="hMasonry" patternUnits="userSpaceOnUse" width="2.2" height="2.2" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="2.2" stroke="#444" stroke-width="0.18"/></pattern><pattern id="hAerated" patternUnits="userSpaceOnUse" width="4" height="4" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="4" stroke="#555" stroke-width="0.18"/><circle cx="2" cy="2" r="0.25" fill="none" stroke="#555" stroke-width="0.15"/></pattern><pattern id="hInsul" patternUnits="userSpaceOnUse" width="4" height="4"><path d="M0 2 Q1 0 2 2 T4 2" fill="none" stroke="#666" stroke-width="0.18"/></pattern><pattern id="hWood" patternUnits="userSpaceOnUse" width="3" height="3" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="3" stroke="#7a4a1a" stroke-width="0.15"/><line x1="1.2" y1="0" x2="1.2" y2="3" stroke="#7a4a1a" stroke-width="0.15"/></pattern><pattern id="hEarth" patternUnits="userSpaceOnUse" width="5" height="5"><line x1="0" y1="2.5" x2="2.5" y2="2.5" stroke="#777" stroke-width="0.18"/><line x1="3.5" y1="1" x2="5" y2="1" stroke="#777" stroke-width="0.18"/><line x1="2" y1="4.2" x2="4.5" y2="4.2" stroke="#777" stroke-width="0.18"/></pattern><pattern id="hSand" patternUnits="userSpaceOnUse" width="3" height="3"><circle cx="0.7" cy="0.8" r="0.2" fill="#777"/><circle cx="2.1" cy="2.2" r="0.2" fill="#777"/></pattern><pattern id="hGravel" patternUnits="userSpaceOnUse" width="5" height="5"><circle cx="1.2" cy="1.2" r="0.6" fill="none" stroke="#666" stroke-width="0.15"/><circle cx="3.6" cy="3.4" r="0.8" fill="none" stroke="#666" stroke-width="0.15"/></pattern><pattern id="hGrass" patternUnits="userSpaceOnUse" width="6" height="6"><path d="M1 5 l1 -2 l1 2 M4 4 l1 -2 l1 2" fill="none" stroke="#5a9a3a" stroke-width="0.2"/></pattern><pattern id="hPaving" patternUnits="userSpaceOnUse" width="4" height="4"><rect x="0" y="0" width="4" height="4" fill="none" stroke="#999" stroke-width="0.15"/></pattern><pattern id="hGlass" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(-45)"><line x1="0" y1="0" x2="0" y2="6" stroke="#5b8fc7" stroke-width="0.25"/></pattern><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#000"/></marker><marker id="arrowR" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#c00"/></marker><marker id="arrowB" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#1a5fb4"/></marker></defs>
+<rect x="0" y="0" width="594" height="420" fill="#fff"/>
+<rect x="20.0" y="5.0" width="569.0" height="410.0" fill="none" stroke="#000" stroke-width="0.7"/>
+<rect x="404.0" y="375.0" width="185" height="40" fill="#fff" stroke="#000" stroke-width="0.7"/>
+<line x1="404.0" y1="383.0" x2="589.0" y2="383.0" stroke="#000" stroke-width="0.35"/>
+<line x1="404.0" y1="391.0" x2="589.0" y2="391.0" stroke="#000" stroke-width="0.35"/>
+<line x1="404.0" y1="399.0" x2="589.0" y2="399.0" stroke="#000" stroke-width="0.35"/>
+<line x1="404.0" y1="407.0" x2="589.0" y2="407.0" stroke="#000" stroke-width="0.35"/>
+<line x1="469.0" y1="375.0" x2="469.0" y2="415.0" stroke="#000" stroke-width="0.7"/>
+<line x1="539.0" y1="391.0" x2="539.0" y2="415.0" stroke="#000" stroke-width="0.7"/>
+<line x1="564.0" y1="391.0" x2="564.0" y2="415.0" stroke="#000" stroke-width="0.35"/>
+<text x="406.0" y="379.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.2" text-anchor="start" dominant-baseline="middle" font-weight="normal">Разраб.</text>
+<text x="426.0" y="379.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.2" text-anchor="start" dominant-baseline="middle" font-weight="normal">Claude (ИИ)</text>
+<text x="406.0" y="387.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.2" text-anchor="start" dominant-baseline="middle" font-weight="normal">Пров.</text>
+<text x="426.0" y="387.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.0" text-anchor="start" dominant-baseline="middle" font-weight="normal">— (требуется ГИП/ГАП)</text>
+<text x="406.0" y="395.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.2" text-anchor="start" dominant-baseline="middle" font-weight="normal">Стадия</text>
+<text x="406.0" y="403.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.2" text-anchor="start" dominant-baseline="middle" font-weight="normal">Шифр</text>
+<text x="426.0" y="403.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.4" text-anchor="start" dominant-baseline="middle" font-weight="bold">СГП-1</text>
+<text x="406.0" y="411.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.2" text-anchor="start" dominant-baseline="middle" font-weight="normal">Дата</text>
+<text x="426.0" y="411.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.2" text-anchor="start" dominant-baseline="middle" font-weight="normal">09.2026</text>
+<text x="504.0" y="380.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.6" text-anchor="middle" dominant-baseline="middle" font-weight="bold">Индивидуальный жилой дом, 2 этажа, ~400 м²</text>
+<text x="504.0" y="387.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.2" text-anchor="middle" dominant-baseline="middle" font-weight="normal">Участок 6 соток (20×30 м), 2 этажа + холодный чердак</text>
+<text x="504.0" y="398.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="3.0" text-anchor="middle" dominant-baseline="middle" font-weight="bold">Стройгенплан на период возведения коробки здания</text>
+<text x="504.0" y="405.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.3" text-anchor="middle" dominant-baseline="middle" font-weight="normal">Масштаб 1:200</text>
+<text x="504.0" y="411.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.2" text-anchor="middle" dominant-baseline="middle" font-weight="normal">Стадия: ЭП</text>
+<text x="551.0" y="395.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.2" text-anchor="middle" dominant-baseline="middle" font-weight="normal">Лист</text>
+<text x="551.0" y="405.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="3.0" text-anchor="middle" dominant-baseline="middle" font-weight="bold">4</text>
+<text x="576.0" y="395.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.2" text-anchor="middle" dominant-baseline="middle" font-weight="normal">Листов</text>
+<text x="576.0" y="405.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="3.0" text-anchor="middle" dominant-baseline="middle" font-weight="bold">32</text>
+<text x="551.0" y="413.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.7" text-anchor="middle" dominant-baseline="middle" font-weight="normal">Эскизный проект — не для строительства</text>
+<text x="300.00" y="20.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="4.2" text-anchor="start" dominant-baseline="middle" font-weight="bold" fill="#000">Стройгенплан (период: фундамент — стены — перекрытия — кровля)   М 1:200</text>
+<rect x="30.00" y="15.00" width="160.00" height="30.00" fill="#e6e6e6" stroke="none"/>
+<text x="72.50" y="27.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.0" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">улица — подъезд</text>
+<text x="72.50" y="34.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.0" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">автобетоносмесителей</text>
+<rect x="60.00" y="50.00" width="100.00" height="150.00" fill="#f4f4ef" stroke="#000" stroke-width="1.0"/>
+<text x="110.00" y="46.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.9" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">временное ограждение (существующий забор + ворота 4 м)</text>
+<rect x="76.00" y="73.50" width="68.00" height="83.00" fill="#d8dce0" stroke="#000" stroke-width="0.7"/>
+<text x="110.00" y="115.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.2" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">строящийся дом (плита 13,6×16,6)</text>
+<rect x="71.00" y="68.50" width="78.00" height="93.00" fill="none" stroke="#000" stroke-width="0.18" stroke-dasharray="2 1"/>
+<text x="110.00" y="159.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.7" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">зона работ / леса (1,0 м)</text>
+<rect x="75.00" y="52.50" width="25.00" height="22.50" fill="#ffe9c7" stroke="#000" stroke-width="0.35"/>
+<text x="87.50" y="62.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.9" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">стоянка автокрана</text>
+<text x="87.50" y="67.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.9" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">25 т, стрела 28 м</text>
+<circle cx="87.50" cy="63.75" r="110.00" fill="none" stroke="#e08a00" stroke-width="0.35"/>
+<text x="167.50" y="141.75" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.9" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#e08a00">R раб. = 22 м</text>
+<circle cx="87.50" cy="63.75" r="135.00" fill="none" stroke="#c00" stroke-width="0.18"/>
+<text x="185.00" y="159.75" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.9" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#c00">опасная зона R = 27 м</text>
+<rect x="105.00" y="20.00" width="30.00" height="20.00" fill="#ffe9c7" stroke="#000" stroke-width="0.35"/>
+<text x="120.00" y="27.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.8" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">бетононасос 28–32 м</text>
+<text x="120.00" y="34.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.6" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">(стоянка на улице, 2 поз.)</text>
+<rect x="62.50" y="85.00" width="12.50" height="85.00" fill="#e3efd8" stroke="#000" stroke-width="0.35"/>
+<text x="68.75" y="125.25" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.7" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">склад блоков</text>
+<text x="68.75" y="129.75" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.7" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">(поддоны в 2 яруса, 42 м²)</text>
+<rect x="145.00" y="80.00" width="12.50" height="80.00" fill="#e3efd8" stroke="#000" stroke-width="0.35"/>
+<text x="151.25" y="117.75" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.7" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">арматура, пиломатериал</text>
+<text x="151.25" y="122.25" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.7" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">(на подкладках, под навесом)</text>
+<rect x="65.00" y="175.00" width="35.00" height="22.50" fill="#f0e6d2" stroke="#000" stroke-width="0.35"/>
+<text x="82.50" y="186.25" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.7" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">ПГС, песок (30 м²)</text>
+<rect x="120.00" y="170.00" width="35.00" height="27.50" fill="#f0e6d2" stroke="#000" stroke-width="0.35"/>
+<text x="137.50" y="183.75" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.7" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">опалубка, инвентарь, леса</text>
+<rect x="127.50" y="54.00" width="30.00" height="12.00" fill="#dfe8f1" stroke="#000" stroke-width="0.35"/>
+<text x="142.50" y="60.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.7" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">бытовка 6×2,4 (прораб, рабочие)</text>
+<rect x="150.00" y="70.00" width="6.50" height="6.50" fill="#dfe8f1" stroke="#000" stroke-width="0.35"/>
+<text x="153.25" y="73.25" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.7" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">туалет</text>
+<rect x="112.50" y="55.00" width="10.00" height="7.50" fill="#ddd" stroke="#000" stroke-width="0.35"/>
+<text x="117.50" y="56.50" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.7" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">контейнер</text>
+<text x="117.50" y="61.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.7" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">ТКО</text>
+<rect x="124.00" y="70.00" width="10.00" height="6.00" fill="#ffd6d6" stroke="#000" stroke-width="0.35"/>
+<text x="129.00" y="70.75" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.7" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">пож. щит</text>
+<text x="129.00" y="75.25" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.7" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">2 ОП-5</text>
+<rect x="64.00" y="62.50" width="8.00" height="10.00" fill="#dfe8f1" stroke="#000" stroke-width="0.35"/>
+<text x="68.00" y="65.25" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.7" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">ЩС 15 кВт</text>
+<text x="68.00" y="69.75" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.7" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">вода 2 м³</text>
+<circle cx="67.50" cy="60.00" r="3.75" fill="#fff" stroke="#000" stroke-width="0.35"/>
+<text x="67.50" y="54.50" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.6" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">скважина (бурится первой)</text>
+<line x1="88.75" y1="47.50" x2="88.75" y2="52.50" stroke="#c00" stroke-width="1.0" stroke-linecap="round"/>
+<text x="88.75" y="42.50" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.7" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">въезд / мойка колёс</text>
+<circle cx="80.00" cy="82.50" r="1.20" fill="#000" stroke="none"/>
+<text x="80.00" y="88.50" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.5" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">прожектор</text>
+<circle cx="140.00" cy="82.50" r="1.20" fill="#000" stroke="none"/>
+<text x="140.00" y="88.50" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.5" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">прожектор</text>
+<line x1="88.75" y1="75.00" x2="88.75" y2="82.50" stroke="#000" stroke-width="0.35" stroke-dasharray="2 1" marker-end="url(#arrow)" stroke-linecap="round"/>
+<text x="98.00" y="80.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.6" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">подача материалов</text>
+<line x1="146.50" y1="86.00" x2="146.50" y2="146.00" stroke="#000" stroke-width="0.35" stroke-dasharray="2 1" stroke-linecap="round"/>
+<text x="150.00" y="116.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.6" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000" transform="rotate(-90 150.00 116.00)">проход 1,5 м</text>
+<line x1="60.00" y1="200.00" x2="60.00" y2="226.50" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="160.00" y1="200.00" x2="160.00" y2="226.50" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="60.00" y1="224.50" x2="160.00" y2="224.50" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="59.16" y1="225.34" x2="60.84" y2="223.66" stroke="#000" stroke-width="0.35" stroke-linecap="round"/>
+<text x="110.00" y="227.10" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.5" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">20000</text>
+<line x1="159.16" y1="225.34" x2="160.84" y2="223.66" stroke="#000" stroke-width="0.35" stroke-linecap="round"/>
+<line x1="160.00" y1="50.00" x2="186.50" y2="50.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="160.00" y1="200.00" x2="186.50" y2="200.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="184.50" y1="50.00" x2="184.50" y2="200.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="183.66" y1="50.84" x2="185.34" y2="49.16" stroke="#000" stroke-width="0.35" stroke-linecap="round"/>
+<text x="183.30" y="125.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.5" text-anchor="middle" dominant-baseline="auto" font-weight="normal" fill="#000" transform="rotate(-90 183.30 125.00)">30000</text>
+<line x1="183.66" y1="200.84" x2="185.34" y2="199.16" stroke="#000" stroke-width="0.35" stroke-linecap="round"/>
+<circle cx="187.50" cy="22.50" r="6.00" fill="#fff" stroke="#000" stroke-width="0.18"/>
+<polygon points="187.50,17.50 185.40,25.50 187.50,23.70 189.60,25.50" fill="#000" stroke="#000" stroke-width="0.18" stroke-linejoin="round"/>
+<text x="187.50" y="14.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="3.5" text-anchor="middle" dominant-baseline="middle" font-weight="bold" fill="#000">С</text>
+<text x="300.00" y="34.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="3.0" text-anchor="start" dominant-baseline="middle" font-weight="bold" fill="#000">Экспликация</text>
+<rect x="300.00" y="38.00" width="238.00" height="6.50" fill="#e9e9e9" stroke="#000" stroke-width="0.35"/>
+<line x1="300.00" y1="38.00" x2="300.00" y2="44.50" stroke="#000" stroke-width="0.35" stroke-linecap="round"/>
+<text x="304.00" y="41.25" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.95" text-anchor="middle" dominant-baseline="middle" font-weight="bold" fill="#000">№</text>
+<line x1="308.00" y1="38.00" x2="308.00" y2="44.50" stroke="#000" stroke-width="0.35" stroke-linecap="round"/>
+<text x="423.00" y="41.25" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.95" text-anchor="middle" dominant-baseline="middle" font-weight="bold" fill="#000">Наименование</text>
+<rect x="300.00" y="44.50" width="238.00" height="5.00" fill="none" stroke="#000" stroke-width="0.18"/>
+<line x1="300.00" y1="44.50" x2="300.00" y2="49.50" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<text x="304.00" y="47.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.95" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">1</text>
+<line x1="308.00" y1="44.50" x2="308.00" y2="49.50" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<text x="309.20" y="47.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.95" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">Строящийся дом, плита 13,6×16,6 м</text>
+<rect x="300.00" y="49.50" width="238.00" height="5.00" fill="none" stroke="#000" stroke-width="0.18"/>
+<line x1="300.00" y1="49.50" x2="300.00" y2="54.50" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<text x="304.00" y="52.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.95" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">2</text>
+<line x1="308.00" y1="49.50" x2="308.00" y2="54.50" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<text x="309.20" y="52.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.95" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">Стоянка автокрана 25 т (КС-45717 или аналог), стрела 28 м, R раб. 22 м; выносные опоры на плиты</text>
+<rect x="300.00" y="54.50" width="238.00" height="5.00" fill="none" stroke="#000" stroke-width="0.18"/>
+<line x1="300.00" y1="54.50" x2="300.00" y2="59.50" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<text x="304.00" y="57.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.95" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">3</text>
+<line x1="308.00" y1="54.50" x2="308.00" y2="59.50" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<text x="309.20" y="57.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.95" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">Стоянка бетононасоса на улице (2 позиции), подача бетона 6–8 м³/ч; автобетоносмесители 7–9 м³</text>
+<rect x="300.00" y="59.50" width="238.00" height="5.00" fill="none" stroke="#000" stroke-width="0.18"/>
+<line x1="300.00" y1="59.50" x2="300.00" y2="64.50" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<text x="304.00" y="62.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.95" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">4</text>
+<line x1="308.00" y1="59.50" x2="308.00" y2="64.50" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<text x="309.20" y="62.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.95" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">Склад газобетона: 65 поддонов D400 + 25 поддонов D500 (партиями по этажам), на выровненной площадке</text>
+<rect x="300.00" y="64.50" width="238.00" height="5.00" fill="none" stroke="#000" stroke-width="0.18"/>
+<line x1="300.00" y1="64.50" x2="300.00" y2="69.50" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<text x="304.00" y="67.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.95" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">5</text>
+<line x1="308.00" y1="64.50" x2="308.00" y2="69.50" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<text x="309.20" y="67.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.95" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">Склад арматуры, пиломатериала под навесом; заготовка каркасов</text>
+<rect x="300.00" y="69.50" width="238.00" height="5.00" fill="none" stroke="#000" stroke-width="0.18"/>
+<line x1="300.00" y1="69.50" x2="300.00" y2="74.50" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<text x="304.00" y="72.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.95" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">6</text>
+<line x1="308.00" y1="69.50" x2="308.00" y2="74.50" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<text x="309.20" y="72.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.95" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">Штабель ПГС/песка; растворный узел (миксер 250 л)</text>
+<rect x="300.00" y="74.50" width="238.00" height="5.00" fill="none" stroke="#000" stroke-width="0.18"/>
+<line x1="300.00" y1="74.50" x2="300.00" y2="79.50" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<text x="304.00" y="77.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.95" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">7</text>
+<line x1="308.00" y1="74.50" x2="308.00" y2="79.50" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<text x="309.20" y="77.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.95" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">Бытовка-прорабская с сушилкой, туалет биотуалет, контейнер ТКО, пожарный щит</text>
+<rect x="300.00" y="79.50" width="238.00" height="5.00" fill="none" stroke="#000" stroke-width="0.18"/>
+<line x1="300.00" y1="79.50" x2="300.00" y2="84.50" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<text x="304.00" y="82.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.95" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">8</text>
+<line x1="308.00" y1="79.50" x2="308.00" y2="84.50" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<text x="309.20" y="82.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.95" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">Временное электроснабжение: ЩС 15 кВт от ЩУ (после получения ТУ), кабель КГ 5×6</text>
+<rect x="300.00" y="84.50" width="238.00" height="5.00" fill="none" stroke="#000" stroke-width="0.18"/>
+<line x1="300.00" y1="84.50" x2="300.00" y2="89.50" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<text x="304.00" y="87.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.95" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">9</text>
+<line x1="308.00" y1="84.50" x2="308.00" y2="89.50" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<text x="309.20" y="87.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.95" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">Водоснабжение: скважина (бурится первой) или ёмкость 2 м³; хозбытовые стоки — биотуалет</text>
+<rect x="300.00" y="89.50" width="238.00" height="5.00" fill="none" stroke="#000" stroke-width="0.18"/>
+<line x1="300.00" y1="89.50" x2="300.00" y2="94.50" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<text x="304.00" y="92.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.95" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">10</text>
+<line x1="308.00" y1="89.50" x2="308.00" y2="94.50" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<text x="309.20" y="92.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.95" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">Опасная зона крана (R = 27 м) — сигнальное ограждение, работа только при отсутствии людей в зоне</text>
+<rect x="300.00" y="38.00" width="238.00" height="56.50" fill="none" stroke="#000" stroke-width="0.35"/>
+<text x="300.00" y="102.50" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="3.0" text-anchor="start" dominant-baseline="middle" font-weight="bold" fill="#000">Технико-экономические показатели СГП</text>
+<rect x="300.00" y="106.50" width="238.00" height="6.50" fill="#e9e9e9" stroke="#000" stroke-width="0.35"/>
+<line x1="300.00" y1="106.50" x2="300.00" y2="113.00" stroke="#000" stroke-width="0.35" stroke-linecap="round"/>
+<text x="345.00" y="109.75" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.95" text-anchor="middle" dominant-baseline="middle" font-weight="bold" fill="#000">Показатель</text>
+<line x1="390.00" y1="106.50" x2="390.00" y2="113.00" stroke="#000" stroke-width="0.35" stroke-linecap="round"/>
+<text x="464.00" y="109.75" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.95" text-anchor="middle" dominant-baseline="middle" font-weight="bold" fill="#000">Значение</text>
+<rect x="300.00" y="113.00" width="238.00" height="5.00" fill="none" stroke="#000" stroke-width="0.18"/>
+<line x1="300.00" y1="113.00" x2="300.00" y2="118.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<text x="301.20" y="115.50" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.95" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">Площадь участка / застройки / складов</text>
+<line x1="390.00" y1="113.00" x2="390.00" y2="118.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<text x="391.20" y="115.50" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.95" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">600 / 226 / 130 м²</text>
+<rect x="300.00" y="118.00" width="238.00" height="5.00" fill="none" stroke="#000" stroke-width="0.18"/>
+<line x1="300.00" y1="118.00" x2="300.00" y2="123.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<text x="301.20" y="120.50" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.95" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">Численность работающих (макс.)</text>
+<line x1="390.00" y1="118.00" x2="390.00" y2="123.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<text x="391.20" y="120.50" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.95" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">8 чел. (кладка) / 12 чел. (бетонирование)</text>
+<rect x="300.00" y="123.00" width="238.00" height="5.00" fill="none" stroke="#000" stroke-width="0.18"/>
+<line x1="300.00" y1="123.00" x2="300.00" y2="128.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<text x="301.20" y="125.50" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.95" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">Потребность в электроэнергии</text>
+<line x1="390.00" y1="123.00" x2="390.00" y2="128.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<text x="391.20" y="125.50" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.95" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">15 кВт (кран-манипулятор, растворный узел, инструмент, освещение)</text>
+<rect x="300.00" y="128.00" width="238.00" height="5.00" fill="none" stroke="#000" stroke-width="0.18"/>
+<line x1="300.00" y1="128.00" x2="300.00" y2="133.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<text x="301.20" y="130.50" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.95" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">Потребность в воде</text>
+<line x1="390.00" y1="128.00" x2="390.00" y2="133.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<text x="391.20" y="130.50" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.95" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">1,5 м³/сут (кладка, уход за бетоном)</text>
+<rect x="300.00" y="133.00" width="238.00" height="5.00" fill="none" stroke="#000" stroke-width="0.18"/>
+<line x1="300.00" y1="133.00" x2="300.00" y2="138.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<text x="301.20" y="135.50" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.95" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">Потребность в кране</text>
+<line x1="390.00" y1="133.00" x2="390.00" y2="138.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<text x="391.20" y="135.50" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.95" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">кран-манипулятор 7 т — разгрузка (по вызову); автокран 25 т — монтаж стропил, поддоны на 2 этаж</text>
+<rect x="300.00" y="138.00" width="238.00" height="5.00" fill="none" stroke="#000" stroke-width="0.18"/>
+<line x1="300.00" y1="138.00" x2="300.00" y2="143.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<text x="301.20" y="140.50" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.95" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">Продолжительность периода</text>
+<line x1="390.00" y1="138.00" x2="390.00" y2="143.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<text x="391.20" y="140.50" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.95" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">≈ 24 недели (см. ГР-1, этапы 3–9)</text>
+<rect x="300.00" y="106.50" width="238.00" height="36.50" fill="none" stroke="#000" stroke-width="0.35"/>
+<text x="300.00" y="151.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="3.0" text-anchor="start" dominant-baseline="middle" font-weight="bold" fill="#000">Указания</text>
+<text x="300.00" y="157.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.95" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">1. До начала работ: вынос осей геодезистом (акт), устройство временного ограждения и ворот, ЩС, площадок складирования, освещения.</text>
+<text x="300.00" y="160.80" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.95" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">2. Последовательность: скважина → срезка грунта и котлован → подушка, дренаж, коммуникации → плита → кладка 1 эт. (поддоны краном на площадки) →</text>
+<text x="300.00" y="164.60" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.95" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">   опалубка и перекрытие → кладка 2 эт. → чердачное перекрытие → стропила (автокран) → кровля → окна. Леса фасадные — с этапа кладки 2 эт.</text>
+<text x="300.00" y="168.40" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.95" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">3. Бетонирование плиты — за 1 смену бетононасосом с улицы (2 стоянки), объём ≈ 76 м³ — 9–10 миксеров; перекрытия — по 42 м³.</text>
+<text x="300.00" y="172.20" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.95" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">4. Охрана труда: каски, ограждение перепадов высот, стропальщик с удостоверением; складирование не ближе 1 м от бровки котлована.</text>
+<text x="300.00" y="176.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.95" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">5. Вывоз грунта и мусора — по договору; мойка колёс на выезде; работы с 8 до 20 ч, тихие часы — по правилам поселения.</text>
+</svg>

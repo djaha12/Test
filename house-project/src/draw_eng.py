@@ -108,9 +108,10 @@ def ov_sheet(floor, sheet_no, total):
             v.s.pline(X - 2.2, Y - 2.2, X + 2.2, Y + 2.2, w="thin", color=GREEN); v.s.pline(X + 2.2, Y - 2.2, X - 2.2, Y + 2.2, w="thin", color=GREEN)
             e = vent.get(name)
             side = 1 if cx < 6.3 else -1
-            v.text_mm(cx, cy, side * 4, 6, f"{name} {e[3].split(' ')[0] if e else ''} {e[2]:.0f} м³/ч" if e else name, size=1.6, color=GREEN, anchor="start" if side > 0 else "end")
+            fire = " (короб EI 30)" if (floor == 2 and name in ("В1", "В7")) else ""
+            v.text_mm(cx, cy, side * 4, 6, (f"{name} {e[3].split(' ')[0] if e else ''} {e[2]:.0f} м³/ч" if e else name) + fire, size=1.6, color=GREEN, anchor="start" if side > 0 else "end")
     if floor == 1:
-        v.rect(2.5, 10.4, 3.3, 10.9, fill="#fff", stroke=GREEN, sw="mid"); v.text(2.9, 11.3, "зонт 400 м³/ч → В4 Ø150", size=1.6, color=GREEN)
+        v.rect(2.5, 10.4, 3.3, 10.9, fill="#fff", stroke=GREEN, sw="mid"); v.text(2.9, 11.3, "зонт 400 м³/ч → В4 Ø150 (+ естеств. Ø160)", size=1.6, color=GREEN)
         v.line(3.3, 10.65, 5.775, 10.55, w="mid", color=GREEN, dash="2 1")
         v.rect(1.0, -0.15, 3.1, -0.05, fill=GREEN, stroke=None); v.text(2.05, -0.5, "приточная решётка в воротах 0,05 м²", size=1.6, color=GREEN)
         v.rect(7.2, 15.35, 7.8, 15.45, fill=GREEN, stroke=None); v.text(7.5, 15.05, "стеновой клапан Ø125", size=1.5, color=GREEN)
@@ -256,8 +257,8 @@ def vk_sheet(floor, sheet_no, total):
         v.circle(0.45, 15.0, 1.4, fill="#fff", stroke=BLUE, sw="thin"); v.text(1.5, 15.05, "поливочный кран", size=1.4, color=BLUE, anchor="start")
         v.circle(12.2, 15.0, 1.4, fill="#fff", stroke=BLUE, sw="thin"); v.text(11.2, 15.05, "поливочный кран", size=1.4, color=BLUE, anchor="end")
     else:
-        F.bath(v, 0.25, 4.65); F.shower(v, 0.22, 6.8, 0.8); F.wc(v, 2.85, 8.0, "N"); F.basin(v, 3.2, 6.2, orient="W")
-        F.washer(v, 3.35, 4.65); F.washer(v, 4.0, 4.65); F.basin(v, 5.0, 4.6, orient="S")
+        F.bath(v, 0.25, 4.7); F.shower(v, 0.22, 6.8, 0.8); F.wc(v, 2.85, 8.0, "N"); F.basin(v, 3.2, 6.2, orient="W")
+        F.washer(v, 3.35, 4.7); F.washer(v, 4.0, 4.7); F.basin(v, 5.0, 4.65, orient="S")
         F.bath(v, 10.55, 6.0); F.wc(v, 11.9, 4.0, "S"); F.basin(v, 12.4, 5.2, orient="W")
         F.shower(v, 0.25, 9.55, 0.9); F.wc(v, 1.75, 9.5, "S"); F.basin(v, 0.2, 11.0, orient="E")
     # стояки
@@ -493,6 +494,7 @@ def eo_sheet(floor, sheet_no, total):
         v.rect(4.85, 3.05, 5.25, 3.2, fill="#fff", sw="mid"); v.text(5.05, 3.6, "ЩС", size=1.6)
         v.text(4.45, 4.0, "ГЗШ, ввод 5×10 из ЩУ", size=1.5)
         v.line(5.0, -0.2, 5.0, 3.05, w="thick", color=RED, dash="8 2 1 2"); v.text(5.3, 1.0, "ввод W", size=1.5, color=RED, rot=-90)
+        v.circle(5.5, 5.6, 1.4, fill="#fff", stroke=RED, sw="mid"); v.text(5.0, 6.2, "стояк 5×6 → ЩР-2 (штраба, отдельно от В2)", size=1.4, color=RED)
         v.rect(3.5, 0.2, 3.9, 0.8, sw="thin", dash="1 1"); v.text(3.2, 1.2, "полоса заземления 40×4 → контур", size=1.4, anchor="start")
     else:
         pts = [((3.5, 4.65), "СМ", "N"), ((4.2, 4.65), "СШ", "N"), ((0.35, 12.0), "СК-2", "W"), ((0.35, 3.2), "СК-3", "W"), ((12.3, 6.0), "ПС", "E"), ((0.3, 7.5), "ПС", "W"), ((2.5, 9.6), "ПС", "N")]
@@ -500,8 +502,8 @@ def eo_sheet(floor, sheet_no, total):
             X, Y = v.P(x, y)
             v.s.prect(X - 2, Y - 2, 4, 4, fill="#fff", stroke="#000", sw="mid"); v.s.pline(X - 2, Y - 2, X + 2, Y + 2, w="thin")
             v.s.ptext(X, Y + 4.5, lbl, size=1.5)
-        v.circle(6.0, 4.8, 1.4, fill="#fff", stroke=RED, sw="mid"); v.text(6.0, 5.6, "стояк 5×6 → щиток 2 эт. (в 2.04)", size=1.4, color=RED)
-        v.rect(10.55, 6.95, 11.0, 7.1, fill="#000", stroke=None); v.text(11.4, 7.5, "ЩР-2", size=1.6, weight="bold")
+        v.circle(5.5, 5.6, 1.4, fill="#fff", stroke=RED, sw="mid"); v.text(5.0, 6.2, "стояк ВВГнг 5×6 в отдельной штрабе (не в вентшахте)", size=1.4, color=RED)
+        v.rect(5.75, 7.4, 6.15, 7.55, fill="#000", stroke=None); v.text(5.3, 7.9, "ЩР-2 (постирочная 2.09)", size=1.6, weight="bold")
     # наружное освещение (1 этаж)
     if floor == 1:
         for (x, y) in ((7.4, -0.6), (2.05, -0.6), (12.9, 8.0), (6.3, 16.2)):
@@ -525,7 +527,7 @@ def eo_sheet(floor, sheet_no, total):
         (s_sw, "выключатель одно-/двухклавишный, h = 900 мм от пола (проходные — в коридорах и спальнях)"),
         (s_sock, "розетка двойная с заземлением, h = 300 мм (кухня — 1100 мм, санузлы — IP44 с УЗО)"),
         (s_pow, "силовой вывод / отдельная линия для оборудования (ВП, ДШ, ПМ, СМ, К, Н, СК, ПС)"),
-        (s_panel, "распределительный щит (ЩР — 1.12; ЩР-2 — 2.04; ЩС — слаботочный)"),
+        (s_panel, "распределительный щит (ЩР — 1.12; ЩР-2 — 2.09; ЩС — слаботочный)"),
         (s_out, "светильник наружного освещения (фасад, крыльцо, ворота), датчик движения/освещённости"),
     ], size=2.0)
     notes = [
@@ -596,7 +598,7 @@ def single_line_sheet(sheet_no, total):
         sh.ptext(x + 4.5, yb + 36, name[:34], size=1.5, rot=-90, anchor="end")
     sh.ptext(35, y1 + 122, f"Итого групп: {n} + резерв; P_уст = {E['P_inst']:.1f} кВт, P_расч = {E['P_calc']:.1f} кВт, I_расч = {E['I_calc']:.0f} А.", size=2.1, anchor="start")
     notes = [
-        "ЩР-2 (2 этаж, в 2.04): питание ВВГнг(A)-LS 5×6 от ЩР через ВА 32A 3P; группы 2 этажа (свет, розетки, СМ/СШ, ПС, СК-2/3) — аналогично.",
+        "ЩР-2 (2 этаж, в постирочной 2.09): питание ВВГнг(A)-LS 5×6 от ЩР через ВА 32A 3P в отдельной штрабе (не в вентшахте); группы 2 этажа — аналогично.",
         "Все розеточные группы — через дифавтоматы 16A/30мА тип A; ванные — 10 мА. Наружные потребители — УЗО 30 мА, IP44/65.",
         "Заземление TN-C-S: разделение PEN в ЩУ, повторный заземлитель у ЩУ (R ≤ 30 Ом), ГЗШ в ЩР; СУП — санузлы, котельная (котёл, трубы, БКН).",
     ]

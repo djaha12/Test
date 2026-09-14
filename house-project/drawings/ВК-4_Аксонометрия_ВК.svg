@@ -1,0 +1,208 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1260" height="891" viewBox="0 0 420 297">
+<defs><pattern id="hConcrete" patternUnits="userSpaceOnUse" width="3" height="3" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="3" stroke="#333" stroke-width="0.18"/><circle cx="1.5" cy="1.5" r="0.22" fill="#333"/></pattern><pattern id="hMasonry" patternUnits="userSpaceOnUse" width="2.2" height="2.2" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="2.2" stroke="#444" stroke-width="0.18"/></pattern><pattern id="hAerated" patternUnits="userSpaceOnUse" width="4" height="4" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="4" stroke="#555" stroke-width="0.18"/><circle cx="2" cy="2" r="0.25" fill="none" stroke="#555" stroke-width="0.15"/></pattern><pattern id="hInsul" patternUnits="userSpaceOnUse" width="4" height="4"><path d="M0 2 Q1 0 2 2 T4 2" fill="none" stroke="#666" stroke-width="0.18"/></pattern><pattern id="hWood" patternUnits="userSpaceOnUse" width="3" height="3" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="3" stroke="#7a4a1a" stroke-width="0.15"/><line x1="1.2" y1="0" x2="1.2" y2="3" stroke="#7a4a1a" stroke-width="0.15"/></pattern><pattern id="hEarth" patternUnits="userSpaceOnUse" width="5" height="5"><line x1="0" y1="2.5" x2="2.5" y2="2.5" stroke="#777" stroke-width="0.18"/><line x1="3.5" y1="1" x2="5" y2="1" stroke="#777" stroke-width="0.18"/><line x1="2" y1="4.2" x2="4.5" y2="4.2" stroke="#777" stroke-width="0.18"/></pattern><pattern id="hSand" patternUnits="userSpaceOnUse" width="3" height="3"><circle cx="0.7" cy="0.8" r="0.2" fill="#777"/><circle cx="2.1" cy="2.2" r="0.2" fill="#777"/></pattern><pattern id="hGravel" patternUnits="userSpaceOnUse" width="5" height="5"><circle cx="1.2" cy="1.2" r="0.6" fill="none" stroke="#666" stroke-width="0.15"/><circle cx="3.6" cy="3.4" r="0.8" fill="none" stroke="#666" stroke-width="0.15"/></pattern><pattern id="hGrass" patternUnits="userSpaceOnUse" width="6" height="6"><path d="M1 5 l1 -2 l1 2 M4 4 l1 -2 l1 2" fill="none" stroke="#5a9a3a" stroke-width="0.2"/></pattern><pattern id="hPaving" patternUnits="userSpaceOnUse" width="4" height="4"><rect x="0" y="0" width="4" height="4" fill="none" stroke="#999" stroke-width="0.15"/></pattern><pattern id="hGlass" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(-45)"><line x1="0" y1="0" x2="0" y2="6" stroke="#5b8fc7" stroke-width="0.25"/></pattern><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#000"/></marker><marker id="arrowR" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#c00"/></marker><marker id="arrowB" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#1a5fb4"/></marker></defs>
+<rect x="0" y="0" width="420" height="297" fill="#fff"/>
+<rect x="20.0" y="5.0" width="395.0" height="287.0" fill="none" stroke="#000" stroke-width="0.7"/>
+<rect x="230.0" y="252.0" width="185" height="40" fill="#fff" stroke="#000" stroke-width="0.7"/>
+<line x1="230.0" y1="260.0" x2="415.0" y2="260.0" stroke="#000" stroke-width="0.35"/>
+<line x1="230.0" y1="268.0" x2="415.0" y2="268.0" stroke="#000" stroke-width="0.35"/>
+<line x1="230.0" y1="276.0" x2="415.0" y2="276.0" stroke="#000" stroke-width="0.35"/>
+<line x1="230.0" y1="284.0" x2="415.0" y2="284.0" stroke="#000" stroke-width="0.35"/>
+<line x1="295.0" y1="252.0" x2="295.0" y2="292.0" stroke="#000" stroke-width="0.7"/>
+<line x1="365.0" y1="268.0" x2="365.0" y2="292.0" stroke="#000" stroke-width="0.7"/>
+<line x1="390.0" y1="268.0" x2="390.0" y2="292.0" stroke="#000" stroke-width="0.35"/>
+<text x="232.0" y="256.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.2" text-anchor="start" dominant-baseline="middle" font-weight="normal">Разраб.</text>
+<text x="252.0" y="256.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.2" text-anchor="start" dominant-baseline="middle" font-weight="normal">Claude (ИИ)</text>
+<text x="232.0" y="264.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.2" text-anchor="start" dominant-baseline="middle" font-weight="normal">Пров.</text>
+<text x="252.0" y="264.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.0" text-anchor="start" dominant-baseline="middle" font-weight="normal">— (требуется ГИП/ГАП)</text>
+<text x="232.0" y="272.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.2" text-anchor="start" dominant-baseline="middle" font-weight="normal">Стадия</text>
+<text x="232.0" y="280.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.2" text-anchor="start" dominant-baseline="middle" font-weight="normal">Шифр</text>
+<text x="252.0" y="280.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.4" text-anchor="start" dominant-baseline="middle" font-weight="bold">ВК-4</text>
+<text x="232.0" y="288.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.2" text-anchor="start" dominant-baseline="middle" font-weight="normal">Дата</text>
+<text x="252.0" y="288.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.2" text-anchor="start" dominant-baseline="middle" font-weight="normal">09.2026</text>
+<text x="330.0" y="257.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.6" text-anchor="middle" dominant-baseline="middle" font-weight="bold">Индивидуальный жилой дом, 2 этажа, ~400 м²</text>
+<text x="330.0" y="264.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.2" text-anchor="middle" dominant-baseline="middle" font-weight="normal">Участок 6 соток (20×30 м), 2 этажа + холодный чердак</text>
+<text x="330.0" y="275.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="3.0" text-anchor="middle" dominant-baseline="middle" font-weight="bold">Аксонометрические схемы водоснабжения (В1, Т3) и канализации (К1)</text>
+<text x="330.0" y="282.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.3" text-anchor="middle" dominant-baseline="middle" font-weight="normal">Масштаб 1:125</text>
+<text x="330.0" y="288.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.2" text-anchor="middle" dominant-baseline="middle" font-weight="normal">Стадия: ЭП</text>
+<text x="377.0" y="272.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.2" text-anchor="middle" dominant-baseline="middle" font-weight="normal">Лист</text>
+<text x="377.0" y="282.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="3.0" text-anchor="middle" dominant-baseline="middle" font-weight="bold">27</text>
+<text x="402.0" y="272.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.2" text-anchor="middle" dominant-baseline="middle" font-weight="normal">Листов</text>
+<text x="402.0" y="282.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="3.0" text-anchor="middle" dominant-baseline="middle" font-weight="bold">32</text>
+<text x="377.0" y="290.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.7" text-anchor="middle" dominant-baseline="middle" font-weight="normal">Эскизный проект — не для строительства</text>
+<text x="30.00" y="16.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="4.0" text-anchor="start" dominant-baseline="middle" font-weight="bold" fill="#000">Аксонометрические схемы В1, Т3, К1 (без масштаба по вертикали 1:125)</text>
+<polygon points="180.00,260.40 264.52,211.60 159.22,150.80 74.69,199.60" fill="none" stroke="#999" stroke-width="0.18" stroke-linejoin="round"/>
+<line x1="222.26" y1="236.00" x2="116.95" y2="175.20" stroke="#bbb" stroke-width="0.18" stroke-dasharray="2 1" stroke-linecap="round"/>
+<text x="162.22" y="152.80" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.0" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#666">±0,000</text>
+<polygon points="180.00,234.00 264.52,185.20 159.22,124.40 74.69,173.20" fill="none" stroke="#999" stroke-width="0.18" stroke-linejoin="round"/>
+<line x1="222.26" y1="209.60" x2="116.95" y2="148.80" stroke="#bbb" stroke-width="0.18" stroke-dasharray="2 1" stroke-linecap="round"/>
+<text x="162.22" y="126.40" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.0" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#666">+3,300</text>
+<polygon points="180.00,208.40 264.52,159.60 159.22,98.80 74.69,147.60" fill="none" stroke="#999" stroke-width="0.18" stroke-linejoin="round"/>
+<line x1="222.26" y1="184.00" x2="116.95" y2="123.20" stroke="#bbb" stroke-width="0.18" stroke-dasharray="2 1" stroke-linecap="round"/>
+<text x="162.22" y="100.80" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.0" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#666">+6,500 (чердак)</text>
+<line x1="221.57" y1="209.04" x2="221.57" y2="130.17" stroke="#7a4a1a" stroke-width="0.7" stroke-linecap="round"/>
+<text x="223.57" y="128.17" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.8" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#7a4a1a">Ст1 (вент.)</text>
+<circle cx="221.57" cy="200.64" r="0.70" fill="#7a4a1a" stroke="none"/>
+<text x="223.57" y="197.84" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.3" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#7a4a1a">ревизия</text>
+<circle cx="221.57" cy="174.24" r="0.70" fill="#7a4a1a" stroke="none"/>
+<text x="223.57" y="171.44" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.3" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#7a4a1a">ревизия</text>
+<line x1="184.85" y1="225.20" x2="184.85" y2="127.99" stroke="#7a4a1a" stroke-width="0.7" stroke-linecap="round"/>
+<text x="186.85" y="125.99" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.8" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#7a4a1a">Ст2 (вент.)</text>
+<circle cx="184.85" cy="216.80" r="0.70" fill="#7a4a1a" stroke="none"/>
+<text x="186.85" y="214.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.3" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#7a4a1a">ревизия</text>
+<circle cx="184.85" cy="190.40" r="0.70" fill="#7a4a1a" stroke="none"/>
+<text x="186.85" y="187.60" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.3" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#7a4a1a">ревизия</text>
+<line x1="110.03" y1="226.00" x2="110.03" y2="171.60" stroke="#7a4a1a" stroke-width="0.7" stroke-linecap="round"/>
+<text x="112.03" y="169.60" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.8" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#7a4a1a">Ст3 (вак. клапан)</text>
+<circle cx="110.03" cy="217.60" r="0.70" fill="#7a4a1a" stroke="none"/>
+<text x="112.03" y="214.80" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.3" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#7a4a1a">ревизия</text>
+<circle cx="110.03" cy="191.20" r="0.70" fill="#7a4a1a" stroke="none"/>
+<text x="112.03" y="188.40" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.3" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#7a4a1a">ревизия</text>
+<line x1="110.03" y1="226.00" x2="111.06" y2="226.60" stroke="#7a4a1a" stroke-width="0.7" stroke-linecap="round"/>
+<line x1="111.06" y1="225.40" x2="196.63" y2="178.00" stroke="#7a4a1a" stroke-width="0.7" stroke-linecap="round"/>
+<line x1="184.85" y1="225.20" x2="149.52" y2="204.16" stroke="#7a4a1a" stroke-width="0.7" stroke-linecap="round"/>
+<line x1="221.57" y1="209.04" x2="181.39" y2="186.40" stroke="#7a4a1a" stroke-width="0.7" stroke-linecap="round"/>
+<line x1="196.63" y1="178.00" x2="208.41" y2="171.52" stroke="#7a4a1a" stroke-width="0.7" marker-end="url(#arrow)" stroke-linecap="round"/>
+<text x="211.41" y="174.52" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.8" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#7a4a1a">К1 Ø110 → колодец → СБО, лоток −1,100</text>
+<text x="142.98" y="208.40" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.6" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#7a4a1a">Ø110, i = 0,02 (под плитой, в ПГС)</text>
+<line x1="220.88" y1="189.20" x2="221.57" y2="200.64" stroke="#7a4a1a" stroke-width="0.35" stroke-dasharray="2 1" stroke-linecap="round"/>
+<circle cx="220.88" cy="189.20" r="0.80" fill="#fff" stroke="none"/>
+<circle cx="220.88" cy="189.20" r="0.90" fill="#fff" stroke="#7a4a1a" stroke-width="0.18"/>
+<text x="220.88" y="187.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.3" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#7a4a1a">Ун</text>
+<line x1="230.58" y1="192.40" x2="221.57" y2="200.64" stroke="#7a4a1a" stroke-width="0.35" stroke-dasharray="2 1" stroke-linecap="round"/>
+<circle cx="230.58" cy="192.40" r="0.80" fill="#fff" stroke="none"/>
+<circle cx="230.58" cy="192.40" r="0.90" fill="#fff" stroke="#7a4a1a" stroke-width="0.18"/>
+<text x="230.58" y="190.20" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.3" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#7a4a1a">Ум</text>
+<line x1="217.41" y1="194.40" x2="221.57" y2="200.64" stroke="#7a4a1a" stroke-width="0.35" stroke-dasharray="2 1" stroke-linecap="round"/>
+<circle cx="217.41" cy="194.40" r="0.80" fill="#fff" stroke="none"/>
+<circle cx="217.41" cy="194.40" r="0.90" fill="#fff" stroke="#7a4a1a" stroke-width="0.18"/>
+<text x="217.41" y="192.20" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.3" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#7a4a1a">Д</text>
+<line x1="187.62" y1="229.20" x2="184.85" y2="216.80" stroke="#7a4a1a" stroke-width="0.35" stroke-dasharray="2 1" stroke-linecap="round"/>
+<circle cx="187.62" cy="229.20" r="0.80" fill="#fff" stroke="none"/>
+<circle cx="187.62" cy="229.20" r="0.90" fill="#fff" stroke="#7a4a1a" stroke-width="0.18"/>
+<text x="187.62" y="227.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.3" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#7a4a1a">СМ×2</text>
+<line x1="198.01" y1="224.00" x2="184.85" y2="216.80" stroke="#7a4a1a" stroke-width="0.35" stroke-dasharray="2 1" stroke-linecap="round"/>
+<circle cx="198.01" cy="224.00" r="0.80" fill="#fff" stroke="none"/>
+<circle cx="198.01" cy="224.00" r="0.90" fill="#fff" stroke="#7a4a1a" stroke-width="0.18"/>
+<text x="198.01" y="221.80" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.3" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#7a4a1a">Ум</text>
+<line x1="190.74" y1="232.60" x2="184.85" y2="216.80" stroke="#7a4a1a" stroke-width="0.35" stroke-dasharray="2 1" stroke-linecap="round"/>
+<circle cx="190.74" cy="232.60" r="0.80" fill="#fff" stroke="none"/>
+<circle cx="190.74" cy="232.60" r="0.90" fill="#fff" stroke="#7a4a1a" stroke-width="0.18"/>
+<text x="190.74" y="230.40" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.3" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#7a4a1a">трап</text>
+<line x1="98.25" y1="209.60" x2="110.03" y2="217.60" stroke="#7a4a1a" stroke-width="0.35" stroke-dasharray="2 1" stroke-linecap="round"/>
+<circle cx="98.25" cy="209.60" r="0.80" fill="#fff" stroke="none"/>
+<circle cx="98.25" cy="209.60" r="0.90" fill="#fff" stroke="#7a4a1a" stroke-width="0.18"/>
+<text x="98.25" y="207.40" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.3" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#7a4a1a">М+ПМ</text>
+<line x1="230.58" y1="168.40" x2="221.57" y2="174.24" stroke="#7a4a1a" stroke-width="0.35" stroke-dasharray="2 1" stroke-linecap="round"/>
+<circle cx="230.58" cy="168.40" r="0.80" fill="#fff" stroke="none"/>
+<circle cx="230.58" cy="168.40" r="0.90" fill="#fff" stroke="#7a4a1a" stroke-width="0.18"/>
+<text x="230.58" y="166.20" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.3" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#7a4a1a">Ун</text>
+<line x1="227.11" y1="165.60" x2="221.57" y2="174.24" stroke="#7a4a1a" stroke-width="0.35" stroke-dasharray="2 1" stroke-linecap="round"/>
+<circle cx="227.11" cy="165.60" r="0.80" fill="#fff" stroke="none"/>
+<circle cx="227.11" cy="165.60" r="0.90" fill="#fff" stroke="#7a4a1a" stroke-width="0.18"/>
+<text x="227.11" y="163.40" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.3" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#7a4a1a">Ум</text>
+<line x1="215.33" y1="163.60" x2="221.57" y2="174.24" stroke="#7a4a1a" stroke-width="0.35" stroke-dasharray="2 1" stroke-linecap="round"/>
+<circle cx="215.33" cy="163.60" r="0.80" fill="#fff" stroke="none"/>
+<circle cx="215.33" cy="163.60" r="0.90" fill="#fff" stroke="#7a4a1a" stroke-width="0.18"/>
+<text x="215.33" y="161.40" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.3" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#7a4a1a">В</text>
+<line x1="147.09" y1="192.60" x2="184.85" y2="190.40" stroke="#7a4a1a" stroke-width="0.35" stroke-dasharray="2 1" stroke-linecap="round"/>
+<circle cx="147.09" cy="192.60" r="0.80" fill="#fff" stroke="none"/>
+<circle cx="147.09" cy="192.60" r="0.90" fill="#fff" stroke="#7a4a1a" stroke-width="0.18"/>
+<text x="147.09" y="190.40" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.3" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#7a4a1a">Ун</text>
+<line x1="152.29" y1="210.40" x2="184.85" y2="190.40" stroke="#7a4a1a" stroke-width="0.35" stroke-dasharray="2 1" stroke-linecap="round"/>
+<circle cx="152.29" cy="210.40" r="0.80" fill="#fff" stroke="none"/>
+<circle cx="152.29" cy="210.40" r="0.90" fill="#fff" stroke="#7a4a1a" stroke-width="0.18"/>
+<text x="152.29" y="208.20" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.3" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#7a4a1a">В</text>
+<line x1="157.14" y1="198.00" x2="184.85" y2="190.40" stroke="#7a4a1a" stroke-width="0.35" stroke-dasharray="2 1" stroke-linecap="round"/>
+<circle cx="157.14" cy="198.00" r="0.80" fill="#fff" stroke="none"/>
+<circle cx="157.14" cy="198.00" r="0.90" fill="#fff" stroke="#7a4a1a" stroke-width="0.18"/>
+<text x="157.14" y="195.80" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.3" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#7a4a1a">Ум</text>
+<line x1="134.27" y1="203.20" x2="184.85" y2="190.40" stroke="#7a4a1a" stroke-width="0.35" stroke-dasharray="2 1" stroke-linecap="round"/>
+<circle cx="134.27" cy="203.20" r="0.80" fill="#fff" stroke="none"/>
+<circle cx="134.27" cy="203.20" r="0.90" fill="#fff" stroke="#7a4a1a" stroke-width="0.18"/>
+<text x="134.27" y="201.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.3" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#7a4a1a">Д</text>
+<line x1="170.65" y1="199.80" x2="184.85" y2="190.40" stroke="#7a4a1a" stroke-width="0.35" stroke-dasharray="2 1" stroke-linecap="round"/>
+<circle cx="170.65" cy="199.80" r="0.80" fill="#fff" stroke="none"/>
+<circle cx="170.65" cy="199.80" r="0.90" fill="#fff" stroke="#7a4a1a" stroke-width="0.18"/>
+<text x="170.65" y="197.60" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.3" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#7a4a1a">СМ+СШ</text>
+<line x1="180.69" y1="194.80" x2="184.85" y2="190.40" stroke="#7a4a1a" stroke-width="0.35" stroke-dasharray="2 1" stroke-linecap="round"/>
+<circle cx="180.69" cy="194.80" r="0.80" fill="#fff" stroke="none"/>
+<circle cx="180.69" cy="194.80" r="0.90" fill="#fff" stroke="#7a4a1a" stroke-width="0.18"/>
+<text x="180.69" y="192.60" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.3" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#7a4a1a">Ум</text>
+<line x1="122.15" y1="187.00" x2="110.03" y2="191.20" stroke="#7a4a1a" stroke-width="0.35" stroke-dasharray="2 1" stroke-linecap="round"/>
+<circle cx="122.15" cy="187.00" r="0.80" fill="#fff" stroke="none"/>
+<circle cx="122.15" cy="187.00" r="0.90" fill="#fff" stroke="#7a4a1a" stroke-width="0.18"/>
+<text x="122.15" y="184.80" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.3" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#7a4a1a">Ун</text>
+<line x1="108.64" y1="187.60" x2="110.03" y2="191.20" stroke="#7a4a1a" stroke-width="0.35" stroke-dasharray="2 1" stroke-linecap="round"/>
+<circle cx="108.64" cy="187.60" r="0.80" fill="#fff" stroke="none"/>
+<circle cx="108.64" cy="187.60" r="0.90" fill="#fff" stroke="#7a4a1a" stroke-width="0.18"/>
+<text x="108.64" y="185.40" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.3" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#7a4a1a">Ум</text>
+<line x1="115.57" y1="191.60" x2="110.03" y2="191.20" stroke="#7a4a1a" stroke-width="0.35" stroke-dasharray="2 1" stroke-linecap="round"/>
+<circle cx="115.57" cy="191.60" r="0.80" fill="#fff" stroke="none"/>
+<circle cx="115.57" cy="191.60" r="0.90" fill="#fff" stroke="#7a4a1a" stroke-width="0.18"/>
+<text x="115.57" y="189.40" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.3" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#7a4a1a">Д</text>
+<line x1="207.02" y1="247.20" x2="207.02" y2="235.20" stroke="#1a5fb4" stroke-width="0.7" stroke-linecap="round"/>
+<text x="203.02" y="253.20" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.7" text-anchor="end" dominant-baseline="middle" font-weight="normal" fill="#1a5fb4">В1 ввод ПНД Ø32 (−1,600)</text>
+<line x1="207.02" y1="235.20" x2="194.55" y2="226.40" stroke="#1a5fb4" stroke-width="0.7" stroke-linecap="round"/>
+<text x="190.55" y="224.40" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.5" text-anchor="end" dominant-baseline="middle" font-weight="normal" fill="#1a5fb4">ГА, фильтры, ВО, счётчик</text>
+<line x1="194.55" y1="226.40" x2="187.62" y2="214.40" stroke="#1a5fb4" stroke-width="0.7" stroke-linecap="round"/>
+<polygon points="189.01,217.60 190.39,216.80 186.24,214.40 184.85,215.20" fill="#fff" stroke="#1a5fb4" stroke-width="0.35" stroke-linejoin="round"/>
+<text x="188.24" y="217.40" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.5" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#1a5fb4">коллектор ХВС 1 эт.</text>
+<line x1="179.31" y1="213.60" x2="179.31" y2="187.20" stroke="#1a5fb4" stroke-width="0.7" stroke-linecap="round"/>
+<line x1="179.31" y1="187.20" x2="169.61" y2="177.60" stroke="#1a5fb4" stroke-width="0.7" stroke-linecap="round"/>
+<polygon points="170.30,180.40 171.69,179.60 167.53,177.20 166.14,178.00" fill="#fff" stroke="#1a5fb4" stroke-width="0.35" stroke-linejoin="round"/>
+<text x="169.53" y="180.20" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.5" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#1a5fb4">коллектор ХВС 2 эт.</text>
+<text x="181.31" y="201.60" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.4" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#1a5fb4">стояк PP-R 32</text>
+<polygon points="205.63,236.80 209.79,234.40 205.63,232.00 201.48,234.40" fill="#fff" stroke="#c00" stroke-width="0.35" stroke-linejoin="round"/>
+<text x="205.63" y="219.60" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.5" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#c00">БКН 200 л</text>
+<line x1="205.63" y1="234.40" x2="205.63" y2="221.60" stroke="#c00" stroke-width="0.35" stroke-linecap="round"/>
+<line x1="207.71" y1="223.60" x2="188.66" y2="213.00" stroke="#c00" stroke-width="0.7" stroke-linecap="round"/>
+<line x1="180.00" y1="212.40" x2="180.00" y2="186.00" stroke="#c00" stroke-width="0.7" stroke-linecap="round"/>
+<line x1="180.00" y1="186.00" x2="170.65" y2="176.20" stroke="#c00" stroke-width="0.7" stroke-linecap="round"/>
+<line x1="170.65" y1="176.20" x2="178.61" y2="188.40" stroke="#e08a00" stroke-width="0.35" stroke-dasharray="3 1" stroke-linecap="round"/>
+<line x1="178.61" y1="188.40" x2="178.61" y2="212.40" stroke="#e08a00" stroke-width="0.35" stroke-dasharray="3 1" stroke-linecap="round"/>
+<line x1="178.61" y1="212.40" x2="203.56" y2="230.80" stroke="#e08a00" stroke-width="0.35" stroke-dasharray="3 1" stroke-linecap="round"/>
+<text x="176.61" y="206.80" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.4" text-anchor="end" dominant-baseline="middle" font-weight="normal" fill="#e08a00">рециркуляция Ø16</text>
+<line x1="187.62" y1="217.44" x2="223.65" y2="194.24" stroke="#1a5fb4" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="188.66" y1="216.36" x2="224.69" y2="193.16" stroke="#c00" stroke-width="0.18" stroke-linecap="round"/>
+<text x="223.65" y="191.20" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.4" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#1a5fb4">1.05</text>
+<line x1="187.62" y1="217.44" x2="193.86" y2="227.44" stroke="#1a5fb4" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="188.66" y1="216.36" x2="194.90" y2="226.36" stroke="#c00" stroke-width="0.18" stroke-linecap="round"/>
+<text x="193.86" y="224.40" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.4" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#1a5fb4">1.12</text>
+<line x1="187.62" y1="217.44" x2="98.94" y2="209.44" stroke="#1a5fb4" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="188.66" y1="216.36" x2="99.98" y2="208.36" stroke="#c00" stroke-width="0.18" stroke-linecap="round"/>
+<text x="98.94" y="206.40" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.4" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#1a5fb4">1.08</text>
+<line x1="187.62" y1="217.44" x2="78.85" y2="199.44" stroke="#1a5fb4" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="188.66" y1="216.36" x2="79.89" y2="198.36" stroke="#c00" stroke-width="0.18" stroke-linecap="round"/>
+<text x="78.85" y="196.40" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.4" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#1a5fb4">полив</text>
+<line x1="187.62" y1="217.44" x2="160.60" y2="152.24" stroke="#1a5fb4" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="188.66" y1="216.36" x2="161.64" y2="151.16" stroke="#c00" stroke-width="0.18" stroke-linecap="round"/>
+<text x="160.60" y="149.20" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.4" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#1a5fb4">полив</text>
+<line x1="169.61" y1="180.64" x2="147.44" y2="203.84" stroke="#1a5fb4" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="170.65" y1="179.56" x2="148.48" y2="202.76" stroke="#c00" stroke-width="0.18" stroke-linecap="round"/>
+<text x="147.44" y="200.80" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.4" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#1a5fb4">2.08</text>
+<line x1="169.61" y1="180.64" x2="175.15" y2="197.44" stroke="#1a5fb4" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="170.65" y1="179.56" x2="176.19" y2="196.36" stroke="#c00" stroke-width="0.18" stroke-linecap="round"/>
+<text x="175.15" y="194.40" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.4" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#1a5fb4">2.09</text>
+<line x1="169.61" y1="180.64" x2="225.73" y2="166.64" stroke="#1a5fb4" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="170.65" y1="179.56" x2="226.77" y2="165.56" stroke="#c00" stroke-width="0.18" stroke-linecap="round"/>
+<text x="225.73" y="163.60" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.4" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#1a5fb4">2.03</text>
+<line x1="169.61" y1="180.64" x2="114.18" y2="188.64" stroke="#1a5fb4" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="170.65" y1="179.56" x2="115.22" y2="187.56" stroke="#c00" stroke-width="0.18" stroke-linecap="round"/>
+<text x="114.18" y="185.60" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.4" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#1a5fb4">2.11</text>
+<line x1="300.00" y1="30.00" x2="314.00" y2="30.00" stroke="#1a5fb4" stroke-width="0.35" stroke-linecap="round"/>
+<text x="317.00" y="30.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.9" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">В1 — хозяйственно-питьевой водопровод (PP-R 32/25, PEX 16–20 в стяжке)</text>
+<line x1="300.00" y1="35.00" x2="314.00" y2="35.00" stroke="#c00" stroke-width="0.35" stroke-linecap="round"/>
+<text x="317.00" y="35.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.9" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">Т3 — горячее водоснабжение 60 °С (PP-R PN25 / PEX)</text>
+<line x1="300.00" y1="40.00" x2="314.00" y2="40.00" stroke="#e08a00" stroke-width="0.35" stroke-dasharray="3 1" stroke-linecap="round"/>
+<text x="317.00" y="40.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.9" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">Т4 — циркуляция ГВС Ø16, насос по таймеру</text>
+<line x1="300.00" y1="45.00" x2="314.00" y2="45.00" stroke="#7a4a1a" stroke-width="0.35" stroke-linecap="round"/>
+<text x="317.00" y="45.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.9" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">К1 — бытовая канализация ПП Ø50/110, стояки с вент. частью</text>
+<line x1="300.00" y1="50.00" x2="314.00" y2="50.00" stroke="#7a4a1a" stroke-width="0.35" stroke-dasharray="2 1" stroke-linecap="round"/>
+<text x="317.00" y="50.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.9" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">отводы от приборов Ø50 (Ø110 — унитазы), i = 0,035</text>
+<text x="255.00" y="59.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.7" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">Ун — унитаз, Ум — умывальник, В — ванна, Д — душ, М — мойка, ПМ — посудомоечная, СМ — стиральная, СШ — сушильная машина.</text>
+<text x="255.00" y="62.40" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.7" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">Отметки: коллекторы 1 эт. +0,300, 2 эт. +3,600; стояки Ст1, Ст2 — вентиляционная часть выше кровли на 0,5 м в шахтах В3, В2;</text>
+<text x="255.00" y="65.80" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.7" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">Ст3 — вакуумный клапан на отм. +5,800 (в шкафу). Выпуск К1 — через гильзу Ø160 в плите, отм. лотка −1,100.</text>
+<text x="255.00" y="69.20" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.7" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">Ввод В1 — ПНД Ø32 SDR11 на глубине 1,6 м, гильза Ø50 в плите, кран, фильтр 100 мкм, обратный клапан, счётчик, редуктор.</text>
+<text x="255.00" y="72.60" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.7" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">Гидравлический расчёт — docs/09: Δp ввода 25 м ≈ 3 кПа, напор насоса 64 м при 3 м³/ч; самоочищающие скорости</text>
+<text x="255.00" y="76.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.7" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">в канализации ≥ 0,7 м/с.</text>
+</svg>

@@ -42,8 +42,6 @@ def window(v, u1, u2, z1, z2, tag):
 def vent_stacks(v, side, U):
     """Вентвыходы над кровлей на фасаде."""
     for x1, y1, x2, y2, name, desc, floors in VENT_SHAFTS:
-        if name in ("В1",):
-            continue
         xc = (x1 + x2) / 2
         base = roof_z(xc)
         top = base + 0.7
@@ -141,7 +139,7 @@ def draw_elevation(sh, side, x_left, oy, scale=100):
             # раздвижные двери на террасу
             for s, a1, a2, h, tag, kind in EXT_DOORS[1]:
                 if s == "S":
-                    zb = -0.02
+                    zb = 0.0
                     v.rect(U(a1), zb, U(a2), zb + h, fill=C_FRAME, stroke="#000", sw="mid")
                     f = 0.06
                     v.rect(U(a1) + f, zb + f, U(a2) - f, zb + h - f, fill=C_GLASS, stroke=None)

@@ -25,9 +25,9 @@
 <text x="504.0" y="405.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.3" text-anchor="middle" dominant-baseline="middle" font-weight="normal">Масштаб 1:100, 1:50</text>
 <text x="504.0" y="411.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.2" text-anchor="middle" dominant-baseline="middle" font-weight="normal">Стадия: ЭП</text>
 <text x="551.0" y="395.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.2" text-anchor="middle" dominant-baseline="middle" font-weight="normal">Лист</text>
-<text x="551.0" y="405.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="3.0" text-anchor="middle" dominant-baseline="middle" font-weight="bold">10</text>
+<text x="551.0" y="405.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="3.0" text-anchor="middle" dominant-baseline="middle" font-weight="bold">18</text>
 <text x="576.0" y="395.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.2" text-anchor="middle" dominant-baseline="middle" font-weight="normal">Листов</text>
-<text x="576.0" y="405.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="3.0" text-anchor="middle" dominant-baseline="middle" font-weight="bold">20</text>
+<text x="576.0" y="405.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="3.0" text-anchor="middle" dominant-baseline="middle" font-weight="bold">32</text>
 <text x="551.0" y="413.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.7" text-anchor="middle" dominant-baseline="middle" font-weight="normal">Эскизный проект — не для строительства</text>
 <text x="60.00" y="20.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="4.2" text-anchor="start" dominant-baseline="middle" font-weight="bold" fill="#000">Схема расположения элементов стропильной системы (план)   М 1:100</text>
 <path d="M58.00 58.00 H188.00 V218.00 H58.00 Z M62.00 62.00 H184.00 V214.00 H62.00 Z" fill="url(#hAerated)" fill-rule="evenodd" stroke="#000" stroke-width="0.35"/>

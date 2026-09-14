@@ -25,45 +25,45 @@
 <text x="330.0" y="282.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.3" text-anchor="middle" dominant-baseline="middle" font-weight="normal">Масштаб б/м</text>
 <text x="330.0" y="288.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.2" text-anchor="middle" dominant-baseline="middle" font-weight="normal">Стадия: ЭП</text>
 <text x="377.0" y="272.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.2" text-anchor="middle" dominant-baseline="middle" font-weight="normal">Лист</text>
-<text x="377.0" y="282.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="3.0" text-anchor="middle" dominant-baseline="middle" font-weight="bold">1</text>
+<text x="377.0" y="282.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="3.0" text-anchor="middle" dominant-baseline="middle" font-weight="bold">31</text>
 <text x="402.0" y="272.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.2" text-anchor="middle" dominant-baseline="middle" font-weight="normal">Листов</text>
-<text x="402.0" y="282.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="3.0" text-anchor="middle" dominant-baseline="middle" font-weight="bold">1</text>
+<text x="402.0" y="282.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="3.0" text-anchor="middle" dominant-baseline="middle" font-weight="bold">32</text>
 <text x="377.0" y="290.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.7" text-anchor="middle" dominant-baseline="middle" font-weight="normal">Эскизный проект — не для строительства</text>
 <text x="30.00" y="18.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="4.2" text-anchor="start" dominant-baseline="middle" font-weight="bold" fill="#000">Календарный график строительства (ориентировочно, старт — март)</text>
 <line x1="150.00" y1="28.00" x2="150.00" y2="188.00" stroke="#bbb" stroke-width="0.18" stroke-linecap="round"/>
 <text x="158.19" y="31.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.0" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">мар</text>
-<line x1="166.89" y1="28.00" x2="166.89" y2="188.00" stroke="#bbb" stroke-width="0.18" stroke-linecap="round"/>
-<text x="175.08" y="31.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.0" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">апр</text>
-<line x1="183.77" y1="28.00" x2="183.77" y2="188.00" stroke="#bbb" stroke-width="0.18" stroke-linecap="round"/>
-<text x="191.96" y="31.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.0" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">май</text>
-<line x1="200.66" y1="28.00" x2="200.66" y2="188.00" stroke="#bbb" stroke-width="0.18" stroke-linecap="round"/>
-<text x="208.85" y="31.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.0" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">июн</text>
-<line x1="217.55" y1="28.00" x2="217.55" y2="188.00" stroke="#bbb" stroke-width="0.18" stroke-linecap="round"/>
-<text x="225.74" y="31.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.0" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">июл</text>
-<line x1="234.44" y1="28.00" x2="234.44" y2="188.00" stroke="#bbb" stroke-width="0.18" stroke-linecap="round"/>
-<text x="242.62" y="31.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.0" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">авг</text>
-<line x1="251.32" y1="28.00" x2="251.32" y2="188.00" stroke="#bbb" stroke-width="0.18" stroke-linecap="round"/>
-<text x="259.51" y="31.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.0" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">сен</text>
-<line x1="268.21" y1="28.00" x2="268.21" y2="188.00" stroke="#bbb" stroke-width="0.18" stroke-linecap="round"/>
-<text x="276.40" y="31.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.0" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">окт</text>
-<line x1="285.10" y1="28.00" x2="285.10" y2="188.00" stroke="#bbb" stroke-width="0.18" stroke-linecap="round"/>
-<text x="293.29" y="31.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.0" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">ноя</text>
-<line x1="301.98" y1="28.00" x2="301.98" y2="188.00" stroke="#bbb" stroke-width="0.18" stroke-linecap="round"/>
-<text x="310.17" y="31.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.0" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">дек</text>
-<rect x="301.98" y="34.00" width="16.89" height="152.00" fill="#dbe8f5" fill-opacity="0.6" stroke="none"/>
-<line x1="318.87" y1="28.00" x2="318.87" y2="188.00" stroke="#bbb" stroke-width="0.18" stroke-linecap="round"/>
-<text x="327.06" y="31.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.0" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">янв</text>
-<rect x="318.87" y="34.00" width="16.89" height="152.00" fill="#dbe8f5" fill-opacity="0.6" stroke="none"/>
-<line x1="335.76" y1="28.00" x2="335.76" y2="188.00" stroke="#bbb" stroke-width="0.18" stroke-linecap="round"/>
-<text x="343.95" y="31.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.0" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">фев</text>
-<rect x="335.76" y="34.00" width="16.89" height="152.00" fill="#dbe8f5" fill-opacity="0.6" stroke="none"/>
-<line x1="352.64" y1="28.00" x2="352.64" y2="188.00" stroke="#bbb" stroke-width="0.18" stroke-linecap="round"/>
-<text x="360.83" y="31.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.0" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">мар</text>
-<line x1="369.53" y1="28.00" x2="369.53" y2="188.00" stroke="#bbb" stroke-width="0.18" stroke-linecap="round"/>
-<text x="377.72" y="31.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.0" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">апр</text>
-<line x1="386.42" y1="28.00" x2="386.42" y2="188.00" stroke="#bbb" stroke-width="0.18" stroke-linecap="round"/>
-<text x="394.61" y="31.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.0" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">май</text>
-<text x="323.94" y="26.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.9" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">зимний период — внутренние работы</text>
+<line x1="166.90" y1="28.00" x2="166.90" y2="188.00" stroke="#bbb" stroke-width="0.18" stroke-linecap="round"/>
+<text x="175.09" y="31.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.0" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">апр</text>
+<line x1="183.80" y1="28.00" x2="183.80" y2="188.00" stroke="#bbb" stroke-width="0.18" stroke-linecap="round"/>
+<text x="191.99" y="31.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.0" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">май</text>
+<line x1="200.70" y1="28.00" x2="200.70" y2="188.00" stroke="#bbb" stroke-width="0.18" stroke-linecap="round"/>
+<text x="208.89" y="31.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.0" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">июн</text>
+<line x1="217.60" y1="28.00" x2="217.60" y2="188.00" stroke="#bbb" stroke-width="0.18" stroke-linecap="round"/>
+<text x="225.79" y="31.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.0" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">июл</text>
+<line x1="234.50" y1="28.00" x2="234.50" y2="188.00" stroke="#bbb" stroke-width="0.18" stroke-linecap="round"/>
+<text x="242.69" y="31.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.0" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">авг</text>
+<line x1="251.40" y1="28.00" x2="251.40" y2="188.00" stroke="#bbb" stroke-width="0.18" stroke-linecap="round"/>
+<text x="259.59" y="31.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.0" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">сен</text>
+<line x1="268.30" y1="28.00" x2="268.30" y2="188.00" stroke="#bbb" stroke-width="0.18" stroke-linecap="round"/>
+<text x="276.49" y="31.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.0" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">окт</text>
+<line x1="285.20" y1="28.00" x2="285.20" y2="188.00" stroke="#bbb" stroke-width="0.18" stroke-linecap="round"/>
+<text x="293.39" y="31.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.0" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">ноя</text>
+<line x1="302.10" y1="28.00" x2="302.10" y2="188.00" stroke="#bbb" stroke-width="0.18" stroke-linecap="round"/>
+<text x="310.29" y="31.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.0" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">дек</text>
+<rect x="302.10" y="34.00" width="16.90" height="152.00" fill="#dbe8f5" fill-opacity="0.6" stroke="none"/>
+<line x1="319.00" y1="28.00" x2="319.00" y2="188.00" stroke="#bbb" stroke-width="0.18" stroke-linecap="round"/>
+<text x="327.19" y="31.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.0" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">янв</text>
+<rect x="319.00" y="34.00" width="16.90" height="152.00" fill="#dbe8f5" fill-opacity="0.6" stroke="none"/>
+<line x1="335.90" y1="28.00" x2="335.90" y2="188.00" stroke="#bbb" stroke-width="0.18" stroke-linecap="round"/>
+<text x="344.09" y="31.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.0" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">фев</text>
+<rect x="335.90" y="34.00" width="16.90" height="152.00" fill="#dbe8f5" fill-opacity="0.6" stroke="none"/>
+<line x1="352.80" y1="28.00" x2="352.80" y2="188.00" stroke="#bbb" stroke-width="0.18" stroke-linecap="round"/>
+<text x="360.99" y="31.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.0" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">мар</text>
+<line x1="369.70" y1="28.00" x2="369.70" y2="188.00" stroke="#bbb" stroke-width="0.18" stroke-linecap="round"/>
+<text x="377.89" y="31.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.0" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">апр</text>
+<line x1="386.60" y1="28.00" x2="386.60" y2="188.00" stroke="#bbb" stroke-width="0.18" stroke-linecap="round"/>
+<text x="394.79" y="31.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.0" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">май</text>
+<text x="324.07" y="26.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.9" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">зимний период — внутренние работы</text>
 <text x="146.00" y="38.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.9" text-anchor="end" dominant-baseline="middle" font-weight="normal" fill="#000">Изыскания, рабочий проект, уведомление, ТУ на газ/электричество</text>
 <rect x="150.00" y="35.50" width="31.20" height="5.00" fill="#1a5fb4" fill-opacity="0.85" stroke="none"/>
 <text x="183.20" y="38.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.7" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">8 нед. (до начала стройки)</text>
@@ -129,5 +129,5 @@
 <rect x="150.00" y="204.00" width="8.00" height="4.00" fill="#e08a00" stroke="none"/>
 <text x="161.00" y="206.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.0" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">отделка, благоустройство, сдача</text>
 <text x="30.00" y="215.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.2" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">Общая продолжительность ≈ 59 недель (≈ 14 месяцев) при непрерывном финансировании и бригаде 6–8 человек на общестроительных работах.</text>
-<text x="30.00" y="220.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.0" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">Критический путь: фундамент → стены → перекрытия → кровля → тепловой контур → стяжки/штукатурка → чистовая отделка. Инженерные сети и благоустройство — параллельно.</text>
+<text x="30.00" y="220.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.0" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">Критический путь: фундамент → стены → перекрытия → кровля → тепловой контур → стяжки/штукатурка → чистовая отделка. Инженерные сети и благоустройство — параллельно. Финансирование по месяцам — лист ФГ-1.</text>
 </svg>

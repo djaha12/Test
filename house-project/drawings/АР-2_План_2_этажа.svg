@@ -25,9 +25,9 @@
 <text x="751.0" y="579.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.3" text-anchor="middle" dominant-baseline="middle" font-weight="normal">Масштаб 1:50</text>
 <text x="751.0" y="585.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.2" text-anchor="middle" dominant-baseline="middle" font-weight="normal">Стадия: ЭП</text>
 <text x="798.0" y="569.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.2" text-anchor="middle" dominant-baseline="middle" font-weight="normal">Лист</text>
-<text x="798.0" y="579.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="3.0" text-anchor="middle" dominant-baseline="middle" font-weight="bold">3</text>
+<text x="798.0" y="579.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="3.0" text-anchor="middle" dominant-baseline="middle" font-weight="bold">6</text>
 <text x="823.0" y="569.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.2" text-anchor="middle" dominant-baseline="middle" font-weight="normal">Листов</text>
-<text x="823.0" y="579.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="3.0" text-anchor="middle" dominant-baseline="middle" font-weight="bold">20</text>
+<text x="823.0" y="579.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="3.0" text-anchor="middle" dominant-baseline="middle" font-weight="bold">32</text>
 <text x="798.0" y="587.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.7" text-anchor="middle" dominant-baseline="middle" font-weight="normal">Эскизный проект — не для строительства</text>
 <text x="470.00" y="22.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="5" text-anchor="start" dominant-baseline="middle" font-weight="bold" fill="#000">План 2-го этажа на отм. +3,300   М 1:50</text>
 <rect x="75.00" y="411.00" width="252.00" height="60.00" fill="none" stroke="#000" stroke-width="0.18"/>
@@ -40,18 +40,18 @@
 <rect x="51.00" y="71.00" width="300.00" height="360.00" fill="none" stroke="#000" stroke-width="0.18" stroke-dasharray="0.5 1"/>
 <path d="M71.00 91.00 H331.00 V411.00 H71.00 Z M79.00 99.00 H323.00 V403.00 H79.00 Z" fill="url(#hAerated)" fill-rule="evenodd" stroke="#000" stroke-width="0.7"/>
 <rect x="198.50" y="99.00" width="5.00" height="304.00" fill="url(#hAerated)" stroke="#000" stroke-width="0.35"/>
-<rect x="79.00" y="185.00" width="119.50" height="2.00" fill="#d9d9d9" stroke="#000" stroke-width="0.18"/>
-<rect x="139.00" y="187.00" width="2.00" height="68.00" fill="#d9d9d9" stroke="#000" stroke-width="0.18"/>
+<rect x="79.00" y="185.00" width="119.50" height="3.00" fill="#c4c8cc" stroke="#000" stroke-width="0.18"/>
+<rect x="139.00" y="188.00" width="2.00" height="67.00" fill="#d9d9d9" stroke="#000" stroke-width="0.18"/>
 <rect x="79.00" y="255.00" width="119.50" height="2.00" fill="#d9d9d9" stroke="#000" stroke-width="0.18"/>
-<rect x="79.00" y="283.00" width="119.50" height="2.00" fill="#d9d9d9" stroke="#000" stroke-width="0.18"/>
-<rect x="127.00" y="285.00" width="2.00" height="44.00" fill="#d9d9d9" stroke="#000" stroke-width="0.18"/>
-<rect x="167.00" y="285.00" width="2.00" height="44.00" fill="#d9d9d9" stroke="#000" stroke-width="0.18"/>
-<rect x="79.00" y="329.00" width="119.50" height="2.00" fill="#d9d9d9" stroke="#000" stroke-width="0.18"/>
+<rect x="79.00" y="282.00" width="119.50" height="3.00" fill="#c4c8cc" stroke="#000" stroke-width="0.18"/>
+<rect x="127.00" y="285.00" width="2.00" height="43.00" fill="#d9d9d9" stroke="#000" stroke-width="0.18"/>
+<rect x="167.00" y="285.00" width="2.00" height="43.00" fill="#d9d9d9" stroke="#000" stroke-width="0.18"/>
+<rect x="79.00" y="328.00" width="119.50" height="3.00" fill="#c4c8cc" stroke="#000" stroke-width="0.18"/>
 <rect x="283.00" y="173.00" width="40.00" height="2.00" fill="#d9d9d9" stroke="#000" stroke-width="0.18"/>
-<rect x="283.00" y="175.00" width="2.00" height="108.00" fill="#d9d9d9" stroke="#000" stroke-width="0.18"/>
+<rect x="283.00" y="175.00" width="2.00" height="107.00" fill="#d9d9d9" stroke="#000" stroke-width="0.18"/>
 <rect x="285.00" y="231.00" width="38.00" height="2.00" fill="#d9d9d9" stroke="#000" stroke-width="0.18"/>
-<rect x="203.50" y="283.00" width="119.50" height="2.00" fill="#d9d9d9" stroke="#000" stroke-width="0.18"/>
-<rect x="259.00" y="285.00" width="2.00" height="118.00" fill="#d9d9d9" stroke="#000" stroke-width="0.18"/>
+<rect x="203.50" y="282.00" width="119.50" height="3.00" fill="#c4c8cc" stroke="#000" stroke-width="0.18"/>
+<rect x="259.00" y="285.00" width="3.00" height="118.00" fill="#c4c8cc" stroke="#000" stroke-width="0.18"/>
 <rect x="95.00" y="91.00" width="30.00" height="8.00" fill="#fff" stroke="none"/>
 <line x1="95.00" y1="91.00" x2="95.00" y2="99.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
 <line x1="125.00" y1="91.00" x2="125.00" y2="99.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
@@ -171,30 +171,30 @@
 <line x1="159.00" y1="255.00" x2="159.00" y2="237.00" stroke="#000" stroke-width="0.35" stroke-linecap="round"/>
 <path d="M159.00 237.00 A18.00 18.00 0 0 1 177.00 255.00" fill="none" stroke="#000" stroke-width="0.18" stroke-linecap="round" stroke-linejoin="round"/>
 <text x="168.00" y="261.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.8" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">Д-2</text>
-<rect x="175.00" y="283.00" width="18.00" height="2.00" fill="#fff" stroke="none"/>
-<line x1="175.00" y1="283.00" x2="175.00" y2="285.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
-<line x1="193.00" y1="283.00" x2="193.00" y2="285.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<rect x="175.00" y="282.00" width="18.00" height="3.00" fill="#fff" stroke="none"/>
+<line x1="175.00" y1="282.00" x2="175.00" y2="285.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="193.00" y1="282.00" x2="193.00" y2="285.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
 <line x1="193.00" y1="285.00" x2="193.00" y2="303.00" stroke="#000" stroke-width="0.35" stroke-linecap="round"/>
 <path d="M193.00 303.00 A18.00 18.00 0 0 1 175.00 285.00" fill="none" stroke="#000" stroke-width="0.18" stroke-linecap="round" stroke-linejoin="round"/>
-<text x="184.00" y="280.50" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.8" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">Д-2</text>
-<rect x="175.00" y="329.00" width="18.00" height="2.00" fill="#fff" stroke="none"/>
-<line x1="175.00" y1="329.00" x2="175.00" y2="331.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
-<line x1="193.00" y1="329.00" x2="193.00" y2="331.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<text x="184.00" y="280.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.8" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">Д-2</text>
+<rect x="175.00" y="328.00" width="18.00" height="3.00" fill="#fff" stroke="none"/>
+<line x1="175.00" y1="328.00" x2="175.00" y2="331.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="193.00" y1="328.00" x2="193.00" y2="331.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
 <line x1="193.00" y1="331.00" x2="193.00" y2="349.00" stroke="#000" stroke-width="0.35" stroke-linecap="round"/>
 <path d="M193.00 349.00 A18.00 18.00 0 0 1 175.00 331.00" fill="none" stroke="#000" stroke-width="0.18" stroke-linecap="round" stroke-linejoin="round"/>
-<text x="184.00" y="326.50" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.8" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">Д-2</text>
-<rect x="139.00" y="329.00" width="16.00" height="2.00" fill="#fff" stroke="none"/>
-<line x1="139.00" y1="329.00" x2="139.00" y2="331.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
-<line x1="155.00" y1="329.00" x2="155.00" y2="331.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
-<line x1="139.00" y1="329.00" x2="139.00" y2="313.00" stroke="#000" stroke-width="0.35" stroke-linecap="round"/>
-<path d="M139.00 313.00 A16.00 16.00 0 0 1 155.00 329.00" fill="none" stroke="#000" stroke-width="0.18" stroke-linecap="round" stroke-linejoin="round"/>
-<text x="147.00" y="335.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.8" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">Д-3</text>
-<rect x="99.00" y="329.00" width="16.00" height="2.00" fill="#fff" stroke="none"/>
-<line x1="99.00" y1="329.00" x2="99.00" y2="331.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
-<line x1="115.00" y1="329.00" x2="115.00" y2="331.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
-<line x1="115.00" y1="329.00" x2="115.00" y2="313.00" stroke="#000" stroke-width="0.35" stroke-linecap="round"/>
-<path d="M115.00 313.00 A16.00 16.00 0 0 0 99.00 329.00" fill="none" stroke="#000" stroke-width="0.18" stroke-linecap="round" stroke-linejoin="round"/>
-<text x="107.00" y="335.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.8" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">Д-3</text>
+<text x="184.00" y="326.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.8" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">Д-2</text>
+<rect x="139.00" y="328.00" width="16.00" height="3.00" fill="#fff" stroke="none"/>
+<line x1="139.00" y1="328.00" x2="139.00" y2="331.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="155.00" y1="328.00" x2="155.00" y2="331.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="139.00" y1="328.00" x2="139.00" y2="312.00" stroke="#000" stroke-width="0.35" stroke-linecap="round"/>
+<path d="M139.00 312.00 A16.00 16.00 0 0 1 155.00 328.00" fill="none" stroke="#000" stroke-width="0.18" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="147.00" y="334.50" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.8" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">Д-3</text>
+<rect x="99.00" y="328.00" width="16.00" height="3.00" fill="#fff" stroke="none"/>
+<line x1="99.00" y1="328.00" x2="99.00" y2="331.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="115.00" y1="328.00" x2="115.00" y2="331.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="115.00" y1="328.00" x2="115.00" y2="312.00" stroke="#000" stroke-width="0.35" stroke-linecap="round"/>
+<path d="M115.00 312.00 A16.00 16.00 0 0 0 99.00 328.00" fill="none" stroke="#000" stroke-width="0.18" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="107.00" y="334.50" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.8" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">Д-3</text>
 <rect x="283.00" y="181.00" width="2.00" height="16.00" fill="#fff" stroke="none"/>
 <line x1="283.00" y1="181.00" x2="285.00" y2="181.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
 <line x1="283.00" y1="197.00" x2="285.00" y2="197.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
@@ -207,18 +207,18 @@
 <line x1="285.00" y1="259.00" x2="301.00" y2="259.00" stroke="#000" stroke-width="0.35" stroke-linecap="round"/>
 <path d="M301.00 259.00 A16.00 16.00 0 0 0 285.00 243.00" fill="none" stroke="#000" stroke-width="0.18" stroke-linecap="round" stroke-linejoin="round"/>
 <text x="279.50" y="251.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.8" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000" transform="rotate(-90 279.50 251.00)">Д-3</text>
-<rect x="215.00" y="283.00" width="18.00" height="2.00" fill="#fff" stroke="none"/>
-<line x1="215.00" y1="283.00" x2="215.00" y2="285.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
-<line x1="233.00" y1="283.00" x2="233.00" y2="285.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<rect x="215.00" y="282.00" width="18.00" height="3.00" fill="#fff" stroke="none"/>
+<line x1="215.00" y1="282.00" x2="215.00" y2="285.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="233.00" y1="282.00" x2="233.00" y2="285.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
 <line x1="215.00" y1="285.00" x2="215.00" y2="303.00" stroke="#000" stroke-width="0.35" stroke-linecap="round"/>
 <path d="M215.00 303.00 A18.00 18.00 0 0 0 233.00 285.00" fill="none" stroke="#000" stroke-width="0.18" stroke-linecap="round" stroke-linejoin="round"/>
-<text x="224.00" y="280.50" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.8" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">Д-2</text>
-<rect x="265.00" y="283.00" width="18.00" height="2.00" fill="#fff" stroke="none"/>
-<line x1="265.00" y1="283.00" x2="265.00" y2="285.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
-<line x1="283.00" y1="283.00" x2="283.00" y2="285.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<text x="224.00" y="280.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.8" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">Д-2</text>
+<rect x="265.00" y="282.00" width="18.00" height="3.00" fill="#fff" stroke="none"/>
+<line x1="265.00" y1="282.00" x2="265.00" y2="285.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="283.00" y1="282.00" x2="283.00" y2="285.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
 <line x1="283.00" y1="285.00" x2="283.00" y2="303.00" stroke="#000" stroke-width="0.35" stroke-linecap="round"/>
 <path d="M283.00 303.00 A18.00 18.00 0 0 1 265.00 285.00" fill="none" stroke="#000" stroke-width="0.18" stroke-linecap="round" stroke-linejoin="round"/>
-<text x="274.00" y="280.50" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.8" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">Д-2</text>
+<text x="274.00" y="280.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.8" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">Д-2</text>
 <rect x="203.50" y="181.60" width="50.00" height="73.40" fill="#fff" stroke="#000" stroke-width="0.35"/>
 <line x1="203.50" y1="232.00" x2="226.50" y2="232.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
 <text x="208.00" y="229.20" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.6" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">11</text>
@@ -259,9 +259,12 @@
 <circle cx="215.00" cy="184.60" r="0.80" fill="#000" stroke="#000" stroke-width="0.35"/>
 <polygon points="242.00,185.10 241.00,187.60 243.00,187.60" fill="#000" stroke="none" stroke-linejoin="round"/>
 <text x="268.00" y="243.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.8" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">вниз 19×174</text>
-<rect x="190.50" y="187.00" width="8.00" height="8.00" fill="url(#hConcrete)" stroke="#000" stroke-width="0.18"/>
-<rect x="196.40" y="189.50" width="5.20" height="3.00" fill="#fff" fill-opacity="0.9" stroke="none"/>
-<text x="199.00" y="191.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.8" text-anchor="middle" dominant-baseline="middle" font-weight="bold" fill="#000">В2</text>
+<rect x="190.50" y="99.00" width="8.00" height="8.00" fill="url(#hConcrete)" stroke="#000" stroke-width="0.18"/>
+<rect x="196.40" y="101.50" width="6.70" height="3.00" fill="#fff" fill-opacity="0.9" stroke="none"/>
+<text x="199.00" y="103.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.8" text-anchor="middle" dominant-baseline="middle" font-weight="bold" fill="#000">В1*</text>
+<rect x="190.50" y="188.00" width="8.00" height="8.00" fill="url(#hConcrete)" stroke="#000" stroke-width="0.18"/>
+<rect x="196.40" y="190.50" width="5.20" height="3.00" fill="#fff" fill-opacity="0.9" stroke="none"/>
+<text x="199.00" y="192.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.8" text-anchor="middle" dominant-baseline="middle" font-weight="bold" fill="#000">В2</text>
 <rect x="285.00" y="175.00" width="8.00" height="8.00" fill="url(#hConcrete)" stroke="#000" stroke-width="0.18"/>
 <rect x="281.90" y="177.50" width="5.20" height="3.00" fill="#fff" fill-opacity="0.9" stroke="none"/>
 <text x="284.50" y="179.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.8" text-anchor="middle" dominant-baseline="middle" font-weight="bold" fill="#000">В3</text>
@@ -271,9 +274,12 @@
 <rect x="119.00" y="285.00" width="8.00" height="8.00" fill="url(#hConcrete)" stroke="#000" stroke-width="0.18"/>
 <rect x="124.90" y="287.50" width="5.20" height="3.00" fill="#fff" fill-opacity="0.9" stroke="none"/>
 <text x="127.50" y="289.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.8" text-anchor="middle" dominant-baseline="middle" font-weight="bold" fill="#000">В5</text>
-<rect x="131.00" y="187.00" width="8.00" height="8.00" fill="url(#hConcrete)" stroke="#000" stroke-width="0.18"/>
-<rect x="136.90" y="189.50" width="5.20" height="3.00" fill="#fff" fill-opacity="0.9" stroke="none"/>
-<text x="139.50" y="191.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.8" text-anchor="middle" dominant-baseline="middle" font-weight="bold" fill="#000">В6</text>
+<rect x="131.00" y="188.00" width="8.00" height="8.00" fill="url(#hConcrete)" stroke="#000" stroke-width="0.18"/>
+<rect x="136.90" y="190.50" width="5.20" height="3.00" fill="#fff" fill-opacity="0.9" stroke="none"/>
+<text x="139.50" y="192.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.8" text-anchor="middle" dominant-baseline="middle" font-weight="bold" fill="#000">В6</text>
+<rect x="145.00" y="99.00" width="8.00" height="8.00" fill="url(#hConcrete)" stroke="#000" stroke-width="0.18"/>
+<rect x="150.90" y="101.50" width="6.70" height="3.00" fill="#fff" fill-opacity="0.9" stroke="none"/>
+<text x="153.50" y="103.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.8" text-anchor="middle" dominant-baseline="middle" font-weight="bold" fill="#000">В7*</text>
 <rect x="255.00" y="101.00" width="60.00" height="18.00" fill="#fff" stroke="#666" stroke-width="0.18"/>
 <line x1="255.00" y1="105.00" x2="315.00" y2="105.00" stroke="#666" stroke-width="0.18" stroke-linecap="round"/>
 <line x1="259.00" y1="105.00" x2="259.00" y2="119.00" stroke="#666" stroke-width="0.18" stroke-linecap="round"/>
@@ -291,8 +297,8 @@
 <line x1="198.00" y1="100.00" x2="173.00" y2="141.00" stroke="#666" stroke-width="0.18" stroke-dasharray="1 1" stroke-linecap="round"/>
 <rect x="81.00" y="101.00" width="28.00" height="14.00" fill="#fff" stroke="#666" stroke-width="0.18"/>
 <circle cx="95.00" cy="122.00" r="5.00" fill="none" stroke="#666" stroke-width="0.18"/>
-<rect x="80.00" y="188.00" width="34.00" height="15.00" fill="#fff" stroke="#666" stroke-width="0.18" rx="1.5"/>
-<rect x="82.00" y="190.00" width="30.00" height="11.00" fill="none" stroke="#666" stroke-width="0.18" rx="2"/>
+<rect x="80.00" y="189.00" width="34.00" height="15.00" fill="#fff" stroke="#666" stroke-width="0.18" rx="1.5"/>
+<rect x="82.00" y="191.00" width="30.00" height="11.00" fill="none" stroke="#666" stroke-width="0.18" rx="2"/>
 <rect x="79.40" y="231.00" width="16.00" height="16.00" fill="#fff" stroke="#666" stroke-width="0.18"/>
 <line x1="79.40" y1="231.00" x2="95.40" y2="247.00" stroke="#666" stroke-width="0.18" stroke-linecap="round"/>
 <line x1="95.40" y1="231.00" x2="79.40" y2="247.00" stroke="#666" stroke-width="0.18" stroke-linecap="round"/>
@@ -301,12 +307,12 @@
 <ellipse cx="132.00" cy="246.00" rx="3.60" ry="5.40" fill="#fff" stroke="#666" stroke-width="0.18"/>
 <rect x="131.00" y="214.00" width="8.00" height="10.00" fill="#fff" stroke="#666" stroke-width="0.18" rx="0.8"/>
 <circle cx="135.00" cy="219.00" r="0.80" fill="none" stroke="#666" stroke-width="0.18"/>
-<rect x="142.00" y="188.00" width="12.00" height="12.00" fill="#fff" stroke="#666" stroke-width="0.18"/>
-<circle cx="148.00" cy="194.00" r="4.00" fill="none" stroke="#666" stroke-width="0.18"/>
-<rect x="155.00" y="188.00" width="12.00" height="12.00" fill="#fff" stroke="#666" stroke-width="0.18"/>
-<circle cx="161.00" cy="194.00" r="4.00" fill="none" stroke="#666" stroke-width="0.18"/>
-<rect x="170.00" y="187.00" width="10.00" height="8.00" fill="#fff" stroke="#666" stroke-width="0.18" rx="0.8"/>
-<circle cx="175.00" cy="191.00" r="0.80" fill="none" stroke="#666" stroke-width="0.18"/>
+<rect x="142.00" y="189.00" width="12.00" height="12.00" fill="#fff" stroke="#666" stroke-width="0.18"/>
+<circle cx="148.00" cy="195.00" r="4.00" fill="none" stroke="#666" stroke-width="0.18"/>
+<rect x="155.00" y="189.00" width="12.00" height="12.00" fill="#fff" stroke="#666" stroke-width="0.18"/>
+<circle cx="161.00" cy="195.00" r="4.00" fill="none" stroke="#666" stroke-width="0.18"/>
+<rect x="170.00" y="188.00" width="10.00" height="8.00" fill="#fff" stroke="#666" stroke-width="0.18" rx="0.8"/>
+<circle cx="175.00" cy="192.00" r="0.80" fill="none" stroke="#666" stroke-width="0.18"/>
 <rect x="143.00" y="235.00" width="30.00" height="8.00" fill="#fff" stroke="#666" stroke-width="0.18"/>
 <rect x="187.00" y="197.00" width="11.00" height="56.00" fill="#fff" stroke="#666" stroke-width="0.18"/>
 <line x1="187.00" y1="197.00" x2="198.00" y2="253.00" stroke="#666" stroke-width="0.18" stroke-dasharray="1 1" stroke-linecap="round"/>
@@ -337,9 +343,9 @@
 <line x1="293.00" y1="300.00" x2="321.00" y2="300.00" stroke="#666" stroke-width="0.18" stroke-linecap="round"/>
 <rect x="281.00" y="387.00" width="28.00" height="14.00" fill="#fff" stroke="#666" stroke-width="0.18"/>
 <circle cx="295.00" cy="380.00" r="5.00" fill="none" stroke="#666" stroke-width="0.18"/>
-<rect x="262.00" y="315.00" width="12.00" height="40.00" fill="#fff" stroke="#666" stroke-width="0.18"/>
-<line x1="262.00" y1="315.00" x2="274.00" y2="355.00" stroke="#666" stroke-width="0.18" stroke-dasharray="1 1" stroke-linecap="round"/>
-<line x1="274.00" y1="315.00" x2="262.00" y2="355.00" stroke="#666" stroke-width="0.18" stroke-dasharray="1 1" stroke-linecap="round"/>
+<rect x="263.00" y="315.00" width="12.00" height="40.00" fill="#fff" stroke="#666" stroke-width="0.18"/>
+<line x1="263.00" y1="315.00" x2="275.00" y2="355.00" stroke="#666" stroke-width="0.18" stroke-dasharray="1 1" stroke-linecap="round"/>
+<line x1="275.00" y1="315.00" x2="263.00" y2="355.00" stroke="#666" stroke-width="0.18" stroke-dasharray="1 1" stroke-linecap="round"/>
 <rect x="156.00" y="353.00" width="42.00" height="36.00" fill="#fff" stroke="#666" stroke-width="0.18"/>
 <rect x="188.00" y="355.00" width="8.00" height="15.00" fill="none" stroke="#666" stroke-width="0.18"/>
 <rect x="188.00" y="372.00" width="8.00" height="15.00" fill="none" stroke="#666" stroke-width="0.18"/>
@@ -368,51 +374,51 @@
 <rect x="272.46" y="211.00" width="15.57" height="10.40" fill="#fff" fill-opacity="0.85" stroke="none"/>
 <text x="280.25" y="212.80" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.21" text-anchor="middle" dominant-baseline="middle" font-weight="bold" fill="#000">2.02</text>
 <text x="280.25" y="216.20" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.6" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">Коридор</text>
-<text x="280.25" y="219.40" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.3400000000000003" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">11,07 м²</text>
+<text x="280.25" y="219.40" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.3400000000000003" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">10,87 м²</text>
 <rect x="291.69" y="199.00" width="24.62" height="10.40" fill="#fff" fill-opacity="0.85" stroke="none"/>
 <text x="304.00" y="200.80" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.21" text-anchor="middle" dominant-baseline="middle" font-weight="bold" fill="#000">2.03</text>
 <text x="304.00" y="204.20" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.6" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">Санузел детский</text>
 <text x="304.00" y="207.40" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.3400000000000003" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">5,32 м²</text>
-<rect x="296.21" y="254.00" width="15.57" height="10.40" fill="#fff" fill-opacity="0.85" stroke="none"/>
-<text x="304.00" y="255.80" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.21" text-anchor="middle" dominant-baseline="middle" font-weight="bold" fill="#000">2.04</text>
-<text x="304.00" y="259.20" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.6" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">Бельевая</text>
-<text x="304.00" y="262.40" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.3400000000000003" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">4,75 м²</text>
+<rect x="296.21" y="253.50" width="15.57" height="10.40" fill="#fff" fill-opacity="0.85" stroke="none"/>
+<text x="304.00" y="255.30" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.21" text-anchor="middle" dominant-baseline="middle" font-weight="bold" fill="#000">2.04</text>
+<text x="304.00" y="258.70" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.6" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">Бельевая</text>
+<text x="304.00" y="261.90" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.3400000000000003" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">4,65 м²</text>
 <rect x="223.46" y="340.00" width="15.57" height="10.40" fill="#fff" fill-opacity="0.85" stroke="none"/>
 <text x="231.25" y="341.80" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.21" text-anchor="middle" dominant-baseline="middle" font-weight="bold" fill="#000">2.05</text>
 <text x="231.25" y="345.20" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.6" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">Спальня 3</text>
 <text x="231.25" y="348.40" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.3400000000000003" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">16,37 м²</text>
-<rect x="284.21" y="340.00" width="15.57" height="10.40" fill="#fff" fill-opacity="0.85" stroke="none"/>
-<text x="292.00" y="341.80" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.21" text-anchor="middle" dominant-baseline="middle" font-weight="bold" fill="#000">2.06</text>
-<text x="292.00" y="345.20" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.6" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">Спальня 4</text>
-<text x="292.00" y="348.40" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.3400000000000003" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">18,29 м²</text>
+<rect x="284.71" y="340.00" width="15.57" height="10.40" fill="#fff" fill-opacity="0.85" stroke="none"/>
+<text x="292.50" y="341.80" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.21" text-anchor="middle" dominant-baseline="middle" font-weight="bold" fill="#000">2.06</text>
+<text x="292.50" y="345.20" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.6" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">Спальня 4</text>
+<text x="292.50" y="348.40" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.3400000000000003" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">18,00 м²</text>
 <rect x="122.67" y="156.00" width="32.16" height="10.40" fill="#fff" fill-opacity="0.85" stroke="none"/>
 <text x="138.75" y="157.80" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.21" text-anchor="middle" dominant-baseline="middle" font-weight="bold" fill="#000">2.07</text>
 <text x="138.75" y="161.20" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.6" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">Спальня 2 (гостевая)</text>
 <text x="138.75" y="164.40" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.3400000000000003" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">25,69 м²</text>
-<rect x="98.95" y="217.00" width="20.10" height="10.40" fill="#fff" fill-opacity="0.85" stroke="none"/>
-<text x="109.00" y="218.80" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.21" text-anchor="middle" dominant-baseline="middle" font-weight="bold" fill="#000">2.08</text>
-<text x="109.00" y="222.20" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.6" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">Ванная общая</text>
-<text x="109.00" y="225.40" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.3400000000000003" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">10,20 м²</text>
-<rect x="152.16" y="217.00" width="35.18" height="10.40" fill="#fff" fill-opacity="0.85" stroke="none"/>
-<text x="169.75" y="218.80" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.21" text-anchor="middle" dominant-baseline="middle" font-weight="bold" fill="#000">2.09</text>
-<text x="169.75" y="222.20" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.6" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">Постирочная-гладильная</text>
-<text x="169.75" y="225.40" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.3400000000000003" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">9,78 м²</text>
-<rect x="127.19" y="266.00" width="23.11" height="10.40" fill="#fff" fill-opacity="0.85" stroke="none"/>
-<text x="138.75" y="267.80" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.21" text-anchor="middle" dominant-baseline="middle" font-weight="bold" fill="#000">2.10</text>
-<text x="138.75" y="271.20" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.6" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">Коридор (зап.)</text>
-<text x="138.75" y="274.40" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.3400000000000003" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">7,77 м²</text>
-<rect x="91.44" y="303.00" width="23.11" height="10.40" fill="#fff" fill-opacity="0.85" stroke="none"/>
-<text x="103.00" y="304.80" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.21" text-anchor="middle" dominant-baseline="middle" font-weight="bold" fill="#000">2.11</text>
-<text x="103.00" y="308.20" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.6" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">Санузел мастер</text>
-<text x="103.00" y="311.40" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.3400000000000003" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">5,28 м²</text>
-<rect x="138.71" y="303.00" width="18.59" height="10.40" fill="#fff" fill-opacity="0.85" stroke="none"/>
-<text x="148.00" y="304.80" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.21" text-anchor="middle" dominant-baseline="middle" font-weight="bold" fill="#000">2.12</text>
-<text x="148.00" y="308.20" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.6" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">Гардеробная</text>
-<text x="148.00" y="311.40" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.3400000000000003" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">4,18 м²</text>
-<rect x="170.69" y="303.00" width="26.13" height="10.40" fill="#fff" fill-opacity="0.85" stroke="none"/>
-<text x="183.75" y="304.80" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.21" text-anchor="middle" dominant-baseline="middle" font-weight="bold" fill="#000">2.13</text>
-<text x="183.75" y="308.20" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.6" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">Прихожая спальни</text>
-<text x="183.75" y="311.40" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.3400000000000003" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">3,24 м²</text>
+<rect x="98.95" y="217.50" width="20.10" height="10.40" fill="#fff" fill-opacity="0.85" stroke="none"/>
+<text x="109.00" y="219.30" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.21" text-anchor="middle" dominant-baseline="middle" font-weight="bold" fill="#000">2.08</text>
+<text x="109.00" y="222.70" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.6" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">Ванная общая</text>
+<text x="109.00" y="225.90" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.3400000000000003" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">10,05 м²</text>
+<rect x="152.16" y="217.50" width="35.18" height="10.40" fill="#fff" fill-opacity="0.85" stroke="none"/>
+<text x="169.75" y="219.30" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.21" text-anchor="middle" dominant-baseline="middle" font-weight="bold" fill="#000">2.09</text>
+<text x="169.75" y="222.70" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.6" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">Постирочная-гладильная</text>
+<text x="169.75" y="225.90" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.3400000000000003" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">9,63 м²</text>
+<rect x="127.19" y="265.50" width="23.11" height="10.40" fill="#fff" fill-opacity="0.85" stroke="none"/>
+<text x="138.75" y="267.30" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.21" text-anchor="middle" dominant-baseline="middle" font-weight="bold" fill="#000">2.10</text>
+<text x="138.75" y="270.70" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.6" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">Коридор (зап.)</text>
+<text x="138.75" y="273.90" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.3400000000000003" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">7,47 м²</text>
+<rect x="91.44" y="302.50" width="23.11" height="10.40" fill="#fff" fill-opacity="0.85" stroke="none"/>
+<text x="103.00" y="304.30" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.21" text-anchor="middle" dominant-baseline="middle" font-weight="bold" fill="#000">2.11</text>
+<text x="103.00" y="307.70" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.6" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">Санузел мастер</text>
+<text x="103.00" y="310.90" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.3400000000000003" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">5,16 м²</text>
+<rect x="138.71" y="302.50" width="18.59" height="10.40" fill="#fff" fill-opacity="0.85" stroke="none"/>
+<text x="148.00" y="304.30" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.21" text-anchor="middle" dominant-baseline="middle" font-weight="bold" fill="#000">2.12</text>
+<text x="148.00" y="307.70" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.6" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">Гардеробная</text>
+<text x="148.00" y="310.90" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.3400000000000003" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">4,08 м²</text>
+<rect x="170.69" y="302.50" width="26.13" height="10.40" fill="#fff" fill-opacity="0.85" stroke="none"/>
+<text x="183.75" y="304.30" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.21" text-anchor="middle" dominant-baseline="middle" font-weight="bold" fill="#000">2.13</text>
+<text x="183.75" y="307.70" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.6" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">Прихожая спальни</text>
+<text x="183.75" y="310.90" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.3400000000000003" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">3,17 м²</text>
 <rect x="108.93" y="351.00" width="27.64" height="10.40" fill="#fff" fill-opacity="0.85" stroke="none"/>
 <text x="122.75" y="352.80" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.21" text-anchor="middle" dominant-baseline="middle" font-weight="bold" fill="#000">2.14</text>
 <text x="122.75" y="356.20" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.6" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#000">Спальня родителей</text>
@@ -633,7 +639,7 @@
 <line x1="198.50" y1="345.00" x2="198.50" y2="347.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
 <line x1="203.50" y1="345.00" x2="203.50" y2="347.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
 <line x1="259.00" y1="345.00" x2="259.00" y2="347.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
-<line x1="261.00" y1="345.00" x2="261.00" y2="347.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="262.00" y1="345.00" x2="262.00" y2="347.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
 <line x1="323.00" y1="345.00" x2="323.00" y2="347.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
 <line x1="331.00" y1="345.00" x2="331.00" y2="347.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
 <line x1="71.00" y1="345.00" x2="331.00" y2="345.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
@@ -646,21 +652,21 @@
 <line x1="202.66" y1="345.84" x2="204.34" y2="344.16" stroke="#000" stroke-width="0.35" stroke-linecap="round"/>
 <text x="231.25" y="343.80" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.9" text-anchor="middle" dominant-baseline="auto" font-weight="normal" fill="#000">2775</text>
 <line x1="258.16" y1="345.84" x2="259.84" y2="344.16" stroke="#000" stroke-width="0.35" stroke-linecap="round"/>
-<text x="260.00" y="343.80" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.9" text-anchor="middle" dominant-baseline="auto" font-weight="normal" fill="#000">100</text>
-<line x1="260.16" y1="345.84" x2="261.84" y2="344.16" stroke="#000" stroke-width="0.35" stroke-linecap="round"/>
-<text x="292.00" y="343.80" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.9" text-anchor="middle" dominant-baseline="auto" font-weight="normal" fill="#000">3100</text>
+<text x="260.50" y="343.80" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.9" text-anchor="middle" dominant-baseline="auto" font-weight="normal" fill="#000">150</text>
+<line x1="261.16" y1="345.84" x2="262.84" y2="344.16" stroke="#000" stroke-width="0.35" stroke-linecap="round"/>
+<text x="292.50" y="343.80" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.9" text-anchor="middle" dominant-baseline="auto" font-weight="normal" fill="#000">3050</text>
 <line x1="322.16" y1="345.84" x2="323.84" y2="344.16" stroke="#000" stroke-width="0.35" stroke-linecap="round"/>
 <text x="327.00" y="343.80" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.9" text-anchor="middle" dominant-baseline="auto" font-weight="normal" fill="#000">400</text>
 <line x1="330.16" y1="345.84" x2="331.84" y2="344.16" stroke="#000" stroke-width="0.35" stroke-linecap="round"/>
 <line x1="105.00" y1="91.00" x2="107.00" y2="91.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
 <line x1="105.00" y1="99.00" x2="107.00" y2="99.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
 <line x1="105.00" y1="185.00" x2="107.00" y2="185.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
-<line x1="105.00" y1="187.00" x2="107.00" y2="187.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="105.00" y1="188.00" x2="107.00" y2="188.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
 <line x1="105.00" y1="255.00" x2="107.00" y2="255.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
 <line x1="105.00" y1="257.00" x2="107.00" y2="257.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
-<line x1="105.00" y1="283.00" x2="107.00" y2="283.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="105.00" y1="282.00" x2="107.00" y2="282.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
 <line x1="105.00" y1="285.00" x2="107.00" y2="285.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
-<line x1="105.00" y1="329.00" x2="107.00" y2="329.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="105.00" y1="328.00" x2="107.00" y2="328.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
 <line x1="105.00" y1="331.00" x2="107.00" y2="331.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
 <line x1="105.00" y1="403.00" x2="107.00" y2="403.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
 <line x1="105.00" y1="411.00" x2="107.00" y2="411.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
@@ -670,19 +676,19 @@
 <line x1="104.16" y1="99.84" x2="105.84" y2="98.16" stroke="#000" stroke-width="0.35" stroke-linecap="round"/>
 <text x="103.80" y="142.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.9" text-anchor="middle" dominant-baseline="auto" font-weight="normal" fill="#000" transform="rotate(-90 103.80 142.00)">4300</text>
 <line x1="104.16" y1="185.84" x2="105.84" y2="184.16" stroke="#000" stroke-width="0.35" stroke-linecap="round"/>
-<text x="103.80" y="186.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.9" text-anchor="middle" dominant-baseline="auto" font-weight="normal" fill="#000" transform="rotate(-90 103.80 186.00)">100</text>
-<line x1="104.16" y1="187.84" x2="105.84" y2="186.16" stroke="#000" stroke-width="0.35" stroke-linecap="round"/>
-<text x="103.80" y="221.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.9" text-anchor="middle" dominant-baseline="auto" font-weight="normal" fill="#000" transform="rotate(-90 103.80 221.00)">3400</text>
+<text x="103.80" y="186.50" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.9" text-anchor="middle" dominant-baseline="auto" font-weight="normal" fill="#000" transform="rotate(-90 103.80 186.50)">150</text>
+<line x1="104.16" y1="188.84" x2="105.84" y2="187.16" stroke="#000" stroke-width="0.35" stroke-linecap="round"/>
+<text x="103.80" y="221.50" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.9" text-anchor="middle" dominant-baseline="auto" font-weight="normal" fill="#000" transform="rotate(-90 103.80 221.50)">3350</text>
 <line x1="104.16" y1="255.84" x2="105.84" y2="254.16" stroke="#000" stroke-width="0.35" stroke-linecap="round"/>
 <text x="103.80" y="256.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.9" text-anchor="middle" dominant-baseline="auto" font-weight="normal" fill="#000" transform="rotate(-90 103.80 256.00)">100</text>
 <line x1="104.16" y1="257.84" x2="105.84" y2="256.16" stroke="#000" stroke-width="0.35" stroke-linecap="round"/>
-<text x="103.80" y="270.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.9" text-anchor="middle" dominant-baseline="auto" font-weight="normal" fill="#000" transform="rotate(-90 103.80 270.00)">1300</text>
-<line x1="104.16" y1="283.84" x2="105.84" y2="282.16" stroke="#000" stroke-width="0.35" stroke-linecap="round"/>
-<text x="103.80" y="284.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.9" text-anchor="middle" dominant-baseline="auto" font-weight="normal" fill="#000" transform="rotate(-90 103.80 284.00)">100</text>
+<text x="103.80" y="269.50" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.9" text-anchor="middle" dominant-baseline="auto" font-weight="normal" fill="#000" transform="rotate(-90 103.80 269.50)">1250</text>
+<line x1="104.16" y1="282.84" x2="105.84" y2="281.16" stroke="#000" stroke-width="0.35" stroke-linecap="round"/>
+<text x="103.80" y="283.50" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.9" text-anchor="middle" dominant-baseline="auto" font-weight="normal" fill="#000" transform="rotate(-90 103.80 283.50)">150</text>
 <line x1="104.16" y1="285.84" x2="105.84" y2="284.16" stroke="#000" stroke-width="0.35" stroke-linecap="round"/>
-<text x="103.80" y="307.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.9" text-anchor="middle" dominant-baseline="auto" font-weight="normal" fill="#000" transform="rotate(-90 103.80 307.00)">2200</text>
-<line x1="104.16" y1="329.84" x2="105.84" y2="328.16" stroke="#000" stroke-width="0.35" stroke-linecap="round"/>
-<text x="103.80" y="330.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.9" text-anchor="middle" dominant-baseline="auto" font-weight="normal" fill="#000" transform="rotate(-90 103.80 330.00)">100</text>
+<text x="103.80" y="306.50" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.9" text-anchor="middle" dominant-baseline="auto" font-weight="normal" fill="#000" transform="rotate(-90 103.80 306.50)">2150</text>
+<line x1="104.16" y1="328.84" x2="105.84" y2="327.16" stroke="#000" stroke-width="0.35" stroke-linecap="round"/>
+<text x="103.80" y="329.50" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.9" text-anchor="middle" dominant-baseline="auto" font-weight="normal" fill="#000" transform="rotate(-90 103.80 329.50)">150</text>
 <line x1="104.16" y1="331.84" x2="105.84" y2="330.16" stroke="#000" stroke-width="0.35" stroke-linecap="round"/>
 <text x="103.80" y="367.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.9" text-anchor="middle" dominant-baseline="auto" font-weight="normal" fill="#000" transform="rotate(-90 103.80 367.00)">3600</text>
 <line x1="104.16" y1="403.84" x2="105.84" y2="402.16" stroke="#000" stroke-width="0.35" stroke-linecap="round"/>
@@ -694,7 +700,7 @@
 <line x1="305.00" y1="175.00" x2="307.00" y2="175.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
 <line x1="305.00" y1="231.00" x2="307.00" y2="231.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
 <line x1="305.00" y1="233.00" x2="307.00" y2="233.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
-<line x1="305.00" y1="283.00" x2="307.00" y2="283.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="305.00" y1="282.00" x2="307.00" y2="282.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
 <line x1="305.00" y1="285.00" x2="307.00" y2="285.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
 <line x1="305.00" y1="403.00" x2="307.00" y2="403.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
 <line x1="305.00" y1="411.00" x2="307.00" y2="411.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
@@ -710,9 +716,9 @@
 <line x1="304.16" y1="231.84" x2="305.84" y2="230.16" stroke="#000" stroke-width="0.35" stroke-linecap="round"/>
 <text x="303.80" y="232.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.9" text-anchor="middle" dominant-baseline="auto" font-weight="normal" fill="#000" transform="rotate(-90 303.80 232.00)">100</text>
 <line x1="304.16" y1="233.84" x2="305.84" y2="232.16" stroke="#000" stroke-width="0.35" stroke-linecap="round"/>
-<text x="303.80" y="258.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.9" text-anchor="middle" dominant-baseline="auto" font-weight="normal" fill="#000" transform="rotate(-90 303.80 258.00)">2500</text>
-<line x1="304.16" y1="283.84" x2="305.84" y2="282.16" stroke="#000" stroke-width="0.35" stroke-linecap="round"/>
-<text x="303.80" y="284.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.9" text-anchor="middle" dominant-baseline="auto" font-weight="normal" fill="#000" transform="rotate(-90 303.80 284.00)">100</text>
+<text x="303.80" y="257.50" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.9" text-anchor="middle" dominant-baseline="auto" font-weight="normal" fill="#000" transform="rotate(-90 303.80 257.50)">2450</text>
+<line x1="304.16" y1="282.84" x2="305.84" y2="281.16" stroke="#000" stroke-width="0.35" stroke-linecap="round"/>
+<text x="303.80" y="283.50" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.9" text-anchor="middle" dominant-baseline="auto" font-weight="normal" fill="#000" transform="rotate(-90 303.80 283.50)">150</text>
 <line x1="304.16" y1="285.84" x2="305.84" y2="284.16" stroke="#000" stroke-width="0.35" stroke-linecap="round"/>
 <text x="303.80" y="344.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.9" text-anchor="middle" dominant-baseline="auto" font-weight="normal" fill="#000" transform="rotate(-90 303.80 344.00)">5900</text>
 <line x1="304.16" y1="403.84" x2="305.84" y2="402.16" stroke="#000" stroke-width="0.35" stroke-linecap="round"/>
@@ -761,7 +767,7 @@
 <line x1="484.00" y1="52.70" x2="484.00" y2="58.22" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
 <text x="485.20" y="55.46" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.4" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">Коридор</text>
 <line x1="546.00" y1="52.70" x2="546.00" y2="58.22" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
-<text x="568.80" y="55.46" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.4" text-anchor="end" dominant-baseline="middle" font-weight="normal" fill="#000">11,07</text>
+<text x="568.80" y="55.46" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.4" text-anchor="end" dominant-baseline="middle" font-weight="normal" fill="#000">10,87</text>
 <line x1="570.00" y1="52.70" x2="570.00" y2="58.22" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
 <text x="571.20" y="55.46" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.4" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">паркетная доска</text>
 <rect x="470.00" y="58.22" width="144.00" height="5.52" fill="none" stroke="#000" stroke-width="0.18"/>
@@ -779,7 +785,7 @@
 <line x1="484.00" y1="63.74" x2="484.00" y2="69.26" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
 <text x="485.20" y="66.50" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.4" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">Бельевая</text>
 <line x1="546.00" y1="63.74" x2="546.00" y2="69.26" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
-<text x="568.80" y="66.50" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.4" text-anchor="end" dominant-baseline="middle" font-weight="normal" fill="#000">4,75</text>
+<text x="568.80" y="66.50" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.4" text-anchor="end" dominant-baseline="middle" font-weight="normal" fill="#000">4,65</text>
 <line x1="570.00" y1="63.74" x2="570.00" y2="69.26" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
 <text x="571.20" y="66.50" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.4" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">паркетная доска</text>
 <rect x="470.00" y="69.26" width="144.00" height="5.52" fill="none" stroke="#000" stroke-width="0.18"/>
@@ -797,7 +803,7 @@
 <line x1="484.00" y1="74.78" x2="484.00" y2="80.30" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
 <text x="485.20" y="77.54" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.4" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">Спальня 4</text>
 <line x1="546.00" y1="74.78" x2="546.00" y2="80.30" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
-<text x="568.80" y="77.54" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.4" text-anchor="end" dominant-baseline="middle" font-weight="normal" fill="#000">18,29</text>
+<text x="568.80" y="77.54" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.4" text-anchor="end" dominant-baseline="middle" font-weight="normal" fill="#000">18,00</text>
 <line x1="570.00" y1="74.78" x2="570.00" y2="80.30" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
 <text x="571.20" y="77.54" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.4" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">паркетная доска</text>
 <rect x="470.00" y="80.30" width="144.00" height="5.52" fill="none" stroke="#000" stroke-width="0.18"/>
@@ -815,7 +821,7 @@
 <line x1="484.00" y1="85.82" x2="484.00" y2="91.34" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
 <text x="485.20" y="88.58" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.4" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">Ванная общая</text>
 <line x1="546.00" y1="85.82" x2="546.00" y2="91.34" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
-<text x="568.80" y="88.58" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.4" text-anchor="end" dominant-baseline="middle" font-weight="normal" fill="#000">10,20</text>
+<text x="568.80" y="88.58" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.4" text-anchor="end" dominant-baseline="middle" font-weight="normal" fill="#000">10,05</text>
 <line x1="570.00" y1="85.82" x2="570.00" y2="91.34" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
 <text x="571.20" y="88.58" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.4" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">керамогранит</text>
 <rect x="470.00" y="91.34" width="144.00" height="5.52" fill="none" stroke="#000" stroke-width="0.18"/>
@@ -824,7 +830,7 @@
 <line x1="484.00" y1="91.34" x2="484.00" y2="96.86" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
 <text x="485.20" y="94.10" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.4" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">Постирочная-гладильная</text>
 <line x1="546.00" y1="91.34" x2="546.00" y2="96.86" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
-<text x="568.80" y="94.10" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.4" text-anchor="end" dominant-baseline="middle" font-weight="normal" fill="#000">9,78</text>
+<text x="568.80" y="94.10" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.4" text-anchor="end" dominant-baseline="middle" font-weight="normal" fill="#000">9,63</text>
 <line x1="570.00" y1="91.34" x2="570.00" y2="96.86" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
 <text x="571.20" y="94.10" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.4" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">керамогранит</text>
 <rect x="470.00" y="96.86" width="144.00" height="5.52" fill="none" stroke="#000" stroke-width="0.18"/>
@@ -833,7 +839,7 @@
 <line x1="484.00" y1="96.86" x2="484.00" y2="102.38" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
 <text x="485.20" y="99.62" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.4" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">Коридор (зап.)</text>
 <line x1="546.00" y1="96.86" x2="546.00" y2="102.38" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
-<text x="568.80" y="99.62" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.4" text-anchor="end" dominant-baseline="middle" font-weight="normal" fill="#000">7,77</text>
+<text x="568.80" y="99.62" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.4" text-anchor="end" dominant-baseline="middle" font-weight="normal" fill="#000">7,47</text>
 <line x1="570.00" y1="96.86" x2="570.00" y2="102.38" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
 <text x="571.20" y="99.62" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.4" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">паркетная доска</text>
 <rect x="470.00" y="102.38" width="144.00" height="5.52" fill="none" stroke="#000" stroke-width="0.18"/>
@@ -842,7 +848,7 @@
 <line x1="484.00" y1="102.38" x2="484.00" y2="107.90" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
 <text x="485.20" y="105.14" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.4" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">Санузел мастер</text>
 <line x1="546.00" y1="102.38" x2="546.00" y2="107.90" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
-<text x="568.80" y="105.14" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.4" text-anchor="end" dominant-baseline="middle" font-weight="normal" fill="#000">5,28</text>
+<text x="568.80" y="105.14" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.4" text-anchor="end" dominant-baseline="middle" font-weight="normal" fill="#000">5,16</text>
 <line x1="570.00" y1="102.38" x2="570.00" y2="107.90" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
 <text x="571.20" y="105.14" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.4" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">керамогранит</text>
 <rect x="470.00" y="107.90" width="144.00" height="5.52" fill="none" stroke="#000" stroke-width="0.18"/>
@@ -851,7 +857,7 @@
 <line x1="484.00" y1="107.90" x2="484.00" y2="113.42" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
 <text x="485.20" y="110.66" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.4" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">Гардеробная</text>
 <line x1="546.00" y1="107.90" x2="546.00" y2="113.42" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
-<text x="568.80" y="110.66" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.4" text-anchor="end" dominant-baseline="middle" font-weight="normal" fill="#000">4,18</text>
+<text x="568.80" y="110.66" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.4" text-anchor="end" dominant-baseline="middle" font-weight="normal" fill="#000">4,08</text>
 <line x1="570.00" y1="107.90" x2="570.00" y2="113.42" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
 <text x="571.20" y="110.66" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.4" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">паркетная доска</text>
 <rect x="470.00" y="113.42" width="144.00" height="5.52" fill="none" stroke="#000" stroke-width="0.18"/>
@@ -860,7 +866,7 @@
 <line x1="484.00" y1="113.42" x2="484.00" y2="118.94" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
 <text x="485.20" y="116.18" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.4" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">Прихожая спальни</text>
 <line x1="546.00" y1="113.42" x2="546.00" y2="118.94" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
-<text x="568.80" y="116.18" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.4" text-anchor="end" dominant-baseline="middle" font-weight="normal" fill="#000">3,24</text>
+<text x="568.80" y="116.18" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.4" text-anchor="end" dominant-baseline="middle" font-weight="normal" fill="#000">3,17</text>
 <line x1="570.00" y1="113.42" x2="570.00" y2="118.94" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
 <text x="571.20" y="116.18" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.4" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">паркетная доска</text>
 <rect x="470.00" y="118.94" width="144.00" height="5.52" fill="none" stroke="#000" stroke-width="0.18"/>
@@ -878,7 +884,7 @@
 <line x1="484.00" y1="124.46" x2="484.00" y2="129.98" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
 <text x="485.20" y="127.22" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.4" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">Итого по этажу</text>
 <line x1="546.00" y1="124.46" x2="546.00" y2="129.98" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
-<text x="568.80" y="127.22" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.4" text-anchor="end" dominant-baseline="middle" font-weight="normal" fill="#000">165,56</text>
+<text x="568.80" y="127.22" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.4" text-anchor="end" dominant-baseline="middle" font-weight="normal" fill="#000">164,09</text>
 <line x1="570.00" y1="124.46" x2="570.00" y2="129.98" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
 <text x="571.20" y="127.22" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.4" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000"></text>
 <rect x="470.00" y="40.00" width="144.00" height="89.98" fill="none" stroke="#000" stroke-width="0.35"/>
@@ -889,19 +895,22 @@
 <text x="483.00" y="157.48" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.3" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">Внутренняя несущая стена по оси 2 — газобетон D500 B3.5, 250 мм</text>
 <rect x="470.00" y="162.48" width="10.00" height="5.00" fill="url(#hMasonry)" stroke="#000" stroke-width="0.18"/>
 <text x="483.00" y="164.98" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.3" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">Перегородки 200 мм (гараж, котельная) — газобетон D500, REI 45</text>
-<rect x="470.00" y="169.98" width="10.00" height="5.00" fill="#d9d9d9" stroke="#000" stroke-width="0.18"/>
-<text x="483.00" y="172.48" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.3" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">Перегородки 100 мм — газобетон D500 (в мокрых зонах — гидроизоляция)</text>
-<rect x="470.00" y="177.48" width="10.00" height="5.00" fill="url(#hConcrete)" stroke="#000" stroke-width="0.18"/>
-<text x="483.00" y="179.98" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.3" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">Вентиляционные каналы В1…В7 (сталь/пластик Ø125–160 в шахте)</text>
-<text x="470.00" y="195.48" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="3.0" text-anchor="start" dominant-baseline="middle" font-weight="bold" fill="#000">Примечания</text>
-<text x="470.00" y="201.48" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.3" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">1. Отметка ±0,000 соответствует уровню чистого пола 1-го этажа; планировочная отметка земли −0,450.</text>
-<text x="470.00" y="205.68" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.3" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">2. Высота этажа 3,300 (в чистоте 3,000). Перекрытия — монолитные ж/б плиты 200 мм по СП 63.13330.</text>
-<text x="470.00" y="209.88" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.3" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">3. Наружные стены — газобетон D400 B2.5 400 мм на клею (шов 2–3 мм), наружная отделка — паропроницаемая</text>
-<text x="470.00" y="214.08" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.3" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">   штукатурка 10 мм, фронтоны — планкен из лиственницы; цоколь — клинкерная плитка по ЭППС 50 мм.</text>
-<text x="470.00" y="218.28" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.3" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">4. Перемычки — из U-блоков с монолитным ж/б заполнением (см. КР-2), над проёмами ≥ 2,4 м — монолитные балки.</text>
-<text x="470.00" y="222.48" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.3" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">5. Окна — ПВХ 70 мм, 2-камерный стеклопакет с i-стеклом и аргоном, R ≥ 0,72 м²·°С/Вт; цвет — антрацит.</text>
-<text x="470.00" y="226.68" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.3" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">6. Полы 1-го этажа: по плите — ЭППС/ПСБ-С 150 мм, стяжка 120 мм с трубами тёплого пола, покрытие.</text>
-<text x="470.00" y="230.88" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.3" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">7. Гараж — отапливаемый (+10 °С), отделён противопожарными перегородками EI 45 и дверью EI 30.</text>
-<text x="470.00" y="235.08" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.3" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">8. Котельная: газовый конденсационный котёл 32 кВт, окно 0,9×1,2 (≥0,03 м²/м³), вентканал В1, дверь EI 30.</text>
-<text x="470.00" y="239.28" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.3" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">9. Расстановка мебели и оборудования — условная, для проверки функциональности планировки.</text>
+<rect x="470.00" y="169.98" width="10.00" height="5.00" fill="#c4c8cc" stroke="#000" stroke-width="0.18"/>
+<text x="483.00" y="172.48" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.3" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">Перегородки 150 мм — газобетон D500, ограждающие спальни и кабинет (Rw ≈ 45 дБ)</text>
+<rect x="470.00" y="177.48" width="10.00" height="5.00" fill="#d9d9d9" stroke="#000" stroke-width="0.18"/>
+<text x="483.00" y="179.98" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.3" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">Перегородки 100 мм — газобетон D500 (в мокрых зонах — гидроизоляция)</text>
+<rect x="470.00" y="184.98" width="10.00" height="5.00" fill="url(#hConcrete)" stroke="#000" stroke-width="0.18"/>
+<text x="483.00" y="187.48" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.3" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">Вентиляционные каналы В1…В7 (сталь/пластик Ø125–160 в шахте); В1*, В7* на 2 этаже — короб EI 30 (ГКЛО 2×12,5 / газобетон 100)</text>
+<text x="470.00" y="202.98" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="3.0" text-anchor="start" dominant-baseline="middle" font-weight="bold" fill="#000">Примечания</text>
+<text x="470.00" y="208.98" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.3" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">1. Отметка ±0,000 соответствует уровню чистого пола 1-го этажа; планировочная отметка земли −0,450.</text>
+<text x="470.00" y="213.18" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.3" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">2. Высота этажа 3,300 (в чистоте 3,000). Перекрытия — монолитные ж/б плиты 200 мм по СП 63.13330.</text>
+<text x="470.00" y="217.38" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.3" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">3. Наружные стены — газобетон D400 B2.5 400 мм на клею (шов 2–3 мм), наружная отделка — паропроницаемая</text>
+<text x="470.00" y="221.58" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.3" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">   перегородки спален/кабинета — 150 мм (Rw ≈ 45 дБ), прочие — 100 мм; гараж и котельная — 200 мм (REI 45).</text>
+<text x="470.00" y="225.78" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.3" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">   штукатурка 10 мм, фронтоны — планкен из лиственницы; цоколь — клинкерная плитка по ЭППС 50 мм.</text>
+<text x="470.00" y="229.98" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.3" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">4. Перемычки — из U-блоков с монолитным ж/б заполнением (см. КР-2), над проёмами ≥ 2,4 м — монолитные балки.</text>
+<text x="470.00" y="234.18" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.3" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">5. Окна — ПВХ 70 мм, 2-камерный стеклопакет с i-стеклом и аргоном, R ≥ 0,72 м²·°С/Вт; цвет — антрацит.</text>
+<text x="470.00" y="238.38" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.3" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">6. Полы 1-го этажа: по плите — ЭППС/ПСБ-С 150 мм, стяжка 120 мм с трубами тёплого пола, покрытие.</text>
+<text x="470.00" y="242.58" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.3" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">7. Гараж — отапливаемый (+10 °С), отделён противопожарными перегородками EI 45 и дверью EI 30.</text>
+<text x="470.00" y="246.78" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.3" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">8. Котельная: газовый конденсационный котёл 32 кВт, окно 0,9×1,2 (≥0,03 м²/м³), вентканал В1, дверь EI 30.</text>
+<text x="470.00" y="250.98" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.3" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">9. Расстановка мебели и оборудования — условная, для проверки функциональности планировки.</text>
 </svg>

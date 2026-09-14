@@ -57,8 +57,6 @@ def build():
             items.append(box(xa, yy - 0.05, xb, yy + 0.05, ze - 0.5, ze - 0.4, "roof_dark"))
     # вентвыходы
     for x1, y1, x2, y2, name, desc, floors in VENT_SHAFTS:
-        if name == "В1":
-            continue
         xc = (x1 + x2) / 2
         items.append(box(x1, y1, x2, y2, roof_z(xc) - 0.2, roof_z(xc) + 0.7, "roof_dark"))
     # окна и двери — панели на фасаде (чуть выступают)
@@ -74,7 +72,7 @@ def build():
             zb = LEVELS["garage_floor"] if kind == "garage" else LEVELS["porch"]
             items.append(box(a1, o[1] - 0.03, a2, o[1] + 0.12, zb, zb + h, "door" if kind != "garage" else "garage"))
         else:
-            items.append(box(a1, o[3] - 0.12, a2, o[3] + 0.03, -0.02, -0.02 + h, "glass"))
+            items.append(box(a1, o[3] - 0.12, a2, o[3] + 0.03, 0.0, h, "glass"))
     # терраса, крыльцо, козырёк, пандус
     t = TERRACE["rect"]
     items.append(box(t[0], t[1], t[2], t[3], LEVELS["grade"], TERRACE["level"], "paving"))
@@ -124,6 +122,73 @@ def build():
             "summary": summary()}
 
 
+MTL = {"wall": (0.95, 0.94, 0.91), "wall_int": (0.97, 0.96, 0.94), "plinth": (0.36, 0.33, 0.31), "wood": (0.79, 0.60, 0.36), "slab": (0.81, 0.81, 0.81),
+       "roof": (0.24, 0.25, 0.26), "roof_dark": (0.17, 0.18, 0.19), "glass": (0.56, 0.72, 0.85), "door": (0.29, 0.31, 0.32), "garage": (0.54, 0.55, 0.56),
+       "paving": (0.72, 0.71, 0.67), "asphalt": (0.55, 0.55, 0.55), "concrete": (0.79, 0.79, 0.79), "fence": (0.42, 0.44, 0.45), "stair": (0.85, 0.83, 0.80),
+       "grass": (0.50, 0.69, 0.41), "trunk": (0.42, 0.29, 0.16), "crown": (0.31, 0.56, 0.25)}
+
+
+def write_obj(data, path):
+    """Экспорт в Wavefront OBJ (+MTL). Оси: Y — вверх (x, z, −y), метры."""
+    V = []
+    F = {}   # material -> list of faces (списки индексов вершин, 1-based)
+
+    def vtx(x, y, z):
+        V.append((x, z, -y))
+        return len(V)
+
+    def quad(mat, a, b, c, d):
+        F.setdefault(mat, []).append((a, b, c, d))
+
+    def box(it):
+        x1, x2 = it["x"]; y1, y2 = it["y"]; z1, z2 = it["z"]
+        m = it["m"]
+        p = [vtx(x1, y1, z1), vtx(x2, y1, z1), vtx(x2, y2, z1), vtx(x1, y2, z1), vtx(x1, y1, z2), vtx(x2, y1, z2), vtx(x2, y2, z2), vtx(x1, y2, z2)]
+        quad(m, p[0], p[3], p[2], p[1])   # низ
+        quad(m, p[4], p[5], p[6], p[7])   # верх
+        quad(m, p[0], p[1], p[5], p[4])   # y1
+        quad(m, p[2], p[3], p[7], p[6])   # y2
+        quad(m, p[0], p[4], p[7], p[3])   # x1
+        quad(m, p[1], p[2], p[6], p[5])   # x2
+
+    def extrude(it):
+        pts, ya, yb, m = it["pts"], it["y"], it["y2"], it["m"]
+        a = [vtx(x, ya, z) for x, z in pts]
+        b = [vtx(x, yb, z) for x, z in pts]
+        F.setdefault(m, []).append(tuple(reversed(a)))
+        F.setdefault(m, []).append(tuple(b))
+        n = len(pts)
+        for k in range(n):
+            quad(m, a[k], a[(k + 1) % n], b[(k + 1) % n], b[k])
+
+    for it in data["items"] + data["site_items"] + data["fence"]:
+        if it["t"] == "box":
+            box(it)
+        else:
+            extrude(it)
+    s = data["site"]
+    g = [vtx(s["x"][0], s["y"][0], s["z"]), vtx(s["x"][1], s["y"][0], s["z"]), vtx(s["x"][1], s["y"][1], s["z"]), vtx(s["x"][0], s["y"][1], s["z"])]
+    F.setdefault("grass", []).append(tuple(g))
+    for t in data["trees"]:
+        r, h = t["r"], t["h"]
+        box({"x": [t["x"] - 0.1, t["x"] + 0.1], "y": [t["y"] - 0.1, t["y"] + 0.1], "z": [s["z"], s["z"] + h * 0.45], "m": "trunk"})
+        box({"x": [t["x"] - r, t["x"] + r], "y": [t["y"] - r, t["y"] + r], "z": [s["z"] + h * 0.45, s["z"] + h * 0.45 + 1.6 * r], "m": "crown"})
+    mtl_path = os.path.splitext(path)[0] + ".mtl"
+    with open(mtl_path, "w", encoding="utf-8") as f:
+        for m, (r_, g_, b_) in MTL.items():
+            f.write(f"newmtl {m}\nKd {r_:.3f} {g_:.3f} {b_:.3f}\nKa 0.2 0.2 0.2\nKs 0.05 0.05 0.05\nd {0.6 if m == 'glass' else 1.0}\n\n")
+    with open(path, "w", encoding="utf-8") as f:
+        f.write("# Индивидуальный жилой дом 13×16 м — параметрическая модель (стадия ЭП). Единицы: м, Y — вверх.\n")
+        f.write(f"mtllib {os.path.basename(mtl_path)}\n")
+        for x, y, z in V:
+            f.write(f"v {x:.4f} {y:.4f} {z:.4f}\n")
+        for m, faces in F.items():
+            f.write(f"g {m}\nusemtl {m}\n")
+            for fc in faces:
+                f.write("f " + " ".join(str(i) for i in fc) + "\n")
+    return len(V), sum(len(v) for v in F.values())
+
+
 if __name__ == "__main__":
     out = os.path.join(os.path.dirname(__file__), "..", "3d")
     os.makedirs(out, exist_ok=True)
@@ -132,4 +197,5 @@ if __name__ == "__main__":
         json.dump(data, f, ensure_ascii=False)
     with open(os.path.join(out, "model.js"), "w", encoding="utf-8") as f:
         f.write("window.HOUSE_MODEL = " + json.dumps(data, ensure_ascii=False) + ";")
-    print("items:", len(data["items"]))
+    nv, nf = write_obj(data, os.path.join(out, "house.obj"))
+    print("items:", len(data["items"]), "obj:", nv, "vertices,", nf, "faces")

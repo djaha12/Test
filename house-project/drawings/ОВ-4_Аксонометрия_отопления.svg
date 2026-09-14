@@ -1,0 +1,231 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1260" height="891" viewBox="0 0 420 297">
+<defs><pattern id="hConcrete" patternUnits="userSpaceOnUse" width="3" height="3" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="3" stroke="#333" stroke-width="0.18"/><circle cx="1.5" cy="1.5" r="0.22" fill="#333"/></pattern><pattern id="hMasonry" patternUnits="userSpaceOnUse" width="2.2" height="2.2" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="2.2" stroke="#444" stroke-width="0.18"/></pattern><pattern id="hAerated" patternUnits="userSpaceOnUse" width="4" height="4" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="4" stroke="#555" stroke-width="0.18"/><circle cx="2" cy="2" r="0.25" fill="none" stroke="#555" stroke-width="0.15"/></pattern><pattern id="hInsul" patternUnits="userSpaceOnUse" width="4" height="4"><path d="M0 2 Q1 0 2 2 T4 2" fill="none" stroke="#666" stroke-width="0.18"/></pattern><pattern id="hWood" patternUnits="userSpaceOnUse" width="3" height="3" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="3" stroke="#7a4a1a" stroke-width="0.15"/><line x1="1.2" y1="0" x2="1.2" y2="3" stroke="#7a4a1a" stroke-width="0.15"/></pattern><pattern id="hEarth" patternUnits="userSpaceOnUse" width="5" height="5"><line x1="0" y1="2.5" x2="2.5" y2="2.5" stroke="#777" stroke-width="0.18"/><line x1="3.5" y1="1" x2="5" y2="1" stroke="#777" stroke-width="0.18"/><line x1="2" y1="4.2" x2="4.5" y2="4.2" stroke="#777" stroke-width="0.18"/></pattern><pattern id="hSand" patternUnits="userSpaceOnUse" width="3" height="3"><circle cx="0.7" cy="0.8" r="0.2" fill="#777"/><circle cx="2.1" cy="2.2" r="0.2" fill="#777"/></pattern><pattern id="hGravel" patternUnits="userSpaceOnUse" width="5" height="5"><circle cx="1.2" cy="1.2" r="0.6" fill="none" stroke="#666" stroke-width="0.15"/><circle cx="3.6" cy="3.4" r="0.8" fill="none" stroke="#666" stroke-width="0.15"/></pattern><pattern id="hGrass" patternUnits="userSpaceOnUse" width="6" height="6"><path d="M1 5 l1 -2 l1 2 M4 4 l1 -2 l1 2" fill="none" stroke="#5a9a3a" stroke-width="0.2"/></pattern><pattern id="hPaving" patternUnits="userSpaceOnUse" width="4" height="4"><rect x="0" y="0" width="4" height="4" fill="none" stroke="#999" stroke-width="0.15"/></pattern><pattern id="hGlass" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(-45)"><line x1="0" y1="0" x2="0" y2="6" stroke="#5b8fc7" stroke-width="0.25"/></pattern><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#000"/></marker><marker id="arrowR" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#c00"/></marker><marker id="arrowB" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#1a5fb4"/></marker></defs>
+<rect x="0" y="0" width="420" height="297" fill="#fff"/>
+<rect x="20.0" y="5.0" width="395.0" height="287.0" fill="none" stroke="#000" stroke-width="0.7"/>
+<rect x="230.0" y="252.0" width="185" height="40" fill="#fff" stroke="#000" stroke-width="0.7"/>
+<line x1="230.0" y1="260.0" x2="415.0" y2="260.0" stroke="#000" stroke-width="0.35"/>
+<line x1="230.0" y1="268.0" x2="415.0" y2="268.0" stroke="#000" stroke-width="0.35"/>
+<line x1="230.0" y1="276.0" x2="415.0" y2="276.0" stroke="#000" stroke-width="0.35"/>
+<line x1="230.0" y1="284.0" x2="415.0" y2="284.0" stroke="#000" stroke-width="0.35"/>
+<line x1="295.0" y1="252.0" x2="295.0" y2="292.0" stroke="#000" stroke-width="0.7"/>
+<line x1="365.0" y1="268.0" x2="365.0" y2="292.0" stroke="#000" stroke-width="0.7"/>
+<line x1="390.0" y1="268.0" x2="390.0" y2="292.0" stroke="#000" stroke-width="0.35"/>
+<text x="232.0" y="256.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.2" text-anchor="start" dominant-baseline="middle" font-weight="normal">Разраб.</text>
+<text x="252.0" y="256.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.2" text-anchor="start" dominant-baseline="middle" font-weight="normal">Claude (ИИ)</text>
+<text x="232.0" y="264.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.2" text-anchor="start" dominant-baseline="middle" font-weight="normal">Пров.</text>
+<text x="252.0" y="264.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.0" text-anchor="start" dominant-baseline="middle" font-weight="normal">— (требуется ГИП/ГАП)</text>
+<text x="232.0" y="272.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.2" text-anchor="start" dominant-baseline="middle" font-weight="normal">Стадия</text>
+<text x="232.0" y="280.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.2" text-anchor="start" dominant-baseline="middle" font-weight="normal">Шифр</text>
+<text x="252.0" y="280.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.4" text-anchor="start" dominant-baseline="middle" font-weight="bold">ОВ-4</text>
+<text x="232.0" y="288.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.2" text-anchor="start" dominant-baseline="middle" font-weight="normal">Дата</text>
+<text x="252.0" y="288.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.2" text-anchor="start" dominant-baseline="middle" font-weight="normal">09.2026</text>
+<text x="330.0" y="257.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.6" text-anchor="middle" dominant-baseline="middle" font-weight="bold">Индивидуальный жилой дом, 2 этажа, ~400 м²</text>
+<text x="330.0" y="264.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.2" text-anchor="middle" dominant-baseline="middle" font-weight="normal">Участок 6 соток (20×30 м), 2 этажа + холодный чердак</text>
+<text x="330.0" y="275.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="3.0" text-anchor="middle" dominant-baseline="middle" font-weight="bold">Аксонометрическая схема системы отопления</text>
+<text x="330.0" y="282.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.3" text-anchor="middle" dominant-baseline="middle" font-weight="normal">Масштаб 1:125</text>
+<text x="330.0" y="288.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.2" text-anchor="middle" dominant-baseline="middle" font-weight="normal">Стадия: ЭП</text>
+<text x="377.0" y="272.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.2" text-anchor="middle" dominant-baseline="middle" font-weight="normal">Лист</text>
+<text x="377.0" y="282.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="3.0" text-anchor="middle" dominant-baseline="middle" font-weight="bold">23</text>
+<text x="402.0" y="272.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.2" text-anchor="middle" dominant-baseline="middle" font-weight="normal">Листов</text>
+<text x="402.0" y="282.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="3.0" text-anchor="middle" dominant-baseline="middle" font-weight="bold">32</text>
+<text x="377.0" y="290.0" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.7" text-anchor="middle" dominant-baseline="middle" font-weight="normal">Эскизный проект — не для строительства</text>
+<text x="30.00" y="16.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="4.0" text-anchor="start" dominant-baseline="middle" font-weight="bold" fill="#000">Аксонометрическая схема системы отопления (тёплый пол, котельная)   1:125</text>
+<polygon points="180.00,260.40 264.52,211.60 159.22,150.80 74.69,199.60" fill="none" stroke="#999" stroke-width="0.18" stroke-linejoin="round"/>
+<line x1="222.26" y1="236.00" x2="116.95" y2="175.20" stroke="#bbb" stroke-width="0.18" stroke-dasharray="2 1" stroke-linecap="round"/>
+<text x="162.22" y="152.80" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.0" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#666">±0,000</text>
+<polygon points="180.00,234.00 264.52,185.20 159.22,124.40 74.69,173.20" fill="none" stroke="#999" stroke-width="0.18" stroke-linejoin="round"/>
+<line x1="222.26" y1="209.60" x2="116.95" y2="148.80" stroke="#bbb" stroke-width="0.18" stroke-dasharray="2 1" stroke-linecap="round"/>
+<text x="162.22" y="126.40" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.0" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#666">+3,300</text>
+<polygon points="180.00,208.40 264.52,159.60 159.22,98.80 74.69,147.60" fill="none" stroke="#999" stroke-width="0.18" stroke-linejoin="round"/>
+<line x1="222.26" y1="184.00" x2="116.95" y2="123.20" stroke="#bbb" stroke-width="0.18" stroke-dasharray="2 1" stroke-linecap="round"/>
+<text x="162.22" y="100.80" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="2.0" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#666">+6,500 (чердак)</text>
+<polygon points="208.75,235.40 212.22,233.40 212.22,227.00 208.75,229.00" fill="#fff" stroke="#c00" stroke-width="0.35" stroke-linejoin="round"/>
+<text x="210.48" y="225.20" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.6" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#c00">котёл 32 кВт</text>
+<line x1="210.48" y1="228.00" x2="211.18" y2="228.00" stroke="#666" stroke-width="0.35" stroke-linecap="round"/>
+<text x="209.18" y="228.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.3" text-anchor="end" dominant-baseline="middle" font-weight="normal" fill="#000">дымоход Ø60/100</text>
+<polygon points="207.37,230.20 208.75,229.40 208.75,221.40 207.37,222.20" fill="#fff" stroke="#c00" stroke-width="0.35" stroke-linejoin="round"/>
+<text x="210.75" y="220.60" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.4" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#c00">гидрострелка</text>
+<line x1="212.22" y1="229.40" x2="207.37" y2="223.80" stroke="#c00" stroke-width="0.7" stroke-linecap="round"/>
+<line x1="212.22" y1="231.80" x2="207.37" y2="228.60" stroke="#1a5fb4" stroke-width="0.7" stroke-linecap="round"/>
+<polygon points="205.63,236.80 209.79,234.40 205.63,232.00 201.48,234.40" fill="#fff" stroke="#c00" stroke-width="0.18" stroke-linejoin="round"/>
+<text x="205.63" y="238.40" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.4" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#c00">БКН</text>
+<line x1="208.06" y1="225.00" x2="204.94" y2="229.20" stroke="#c00" stroke-width="0.35" stroke-linecap="round"/>
+<line x1="208.06" y1="227.40" x2="203.56" y2="230.00" stroke="#1a5fb4" stroke-width="0.35" stroke-linecap="round"/>
+<polygon points="199.75,222.60 201.13,221.80 194.20,217.80 192.82,218.60" fill="#fff" stroke="#c00" stroke-width="0.35" stroke-linejoin="round"/>
+<text x="196.20" y="220.80" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.5" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#c00">К1 (20 петель), смесит. узел</text>
+<line x1="208.75" y1="223.80" x2="196.63" y2="220.40" stroke="#c00" stroke-width="0.7" stroke-linecap="round"/>
+<line x1="208.75" y1="226.20" x2="195.59" y2="221.40" stroke="#1a5fb4" stroke-width="0.7" stroke-linecap="round"/>
+<line x1="183.46" y1="215.20" x2="183.46" y2="189.60" stroke="#c00" stroke-width="0.7" stroke-linecap="round"/>
+<line x1="182.77" y1="216.80" x2="182.77" y2="191.20" stroke="#1a5fb4" stroke-width="0.7" stroke-linecap="round"/>
+<line x1="195.24" y1="218.80" x2="183.46" y2="215.20" stroke="#c00" stroke-width="0.7" stroke-linecap="round"/>
+<line x1="194.20" y1="219.80" x2="182.77" y2="216.80" stroke="#1a5fb4" stroke-width="0.7" stroke-linecap="round"/>
+<text x="185.46" y="202.40" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.4" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#c00">стояк PP-R 25 (штраба)</text>
+<polygon points="181.73,185.80 183.12,185.00 176.19,181.00 174.80,181.80" fill="#fff" stroke="#c00" stroke-width="0.35" stroke-linejoin="round"/>
+<text x="178.19" y="184.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.5" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#c00">К2 (19 петель), смесит. узел</text>
+<line x1="183.46" y1="189.60" x2="179.65" y2="183.80" stroke="#c00" stroke-width="0.7" stroke-linecap="round"/>
+<line x1="182.77" y1="191.20" x2="177.92" y2="184.40" stroke="#1a5fb4" stroke-width="0.7" stroke-linecap="round"/>
+<polygon points="184.85,252.80 195.93,246.40 195.93,241.60 184.85,248.00" fill="#fff" stroke="#c00" stroke-width="0.35" stroke-linejoin="round"/>
+<text x="190.39" y="242.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.4" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#c00">Р-1 1,5 кВт</text>
+<line x1="199.05" y1="221.40" x2="195.93" y2="245.60" stroke="#c00" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="198.36" y1="221.80" x2="195.93" y2="246.40" stroke="#1a5fb4" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="196.63" y1="222.96" x2="223.39" y2="227.51" stroke="#e9a3a3" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="196.63" y1="223.20" x2="224.43" y2="227.15" stroke="#a9bfe3" stroke-width="0.18" stroke-linecap="round"/>
+<polygon points="222.00,233.11 233.09,226.71 224.77,221.91 213.69,228.31" fill="none" stroke="#c00" stroke-width="0.18" stroke-dasharray="1 1" stroke-linejoin="round"/>
+<text x="223.39" y="226.01" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.2" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#c00">ТП-1.01 43 м</text>
+<line x1="196.63" y1="222.96" x2="224.43" y2="211.71" stroke="#e9a3a3" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="196.63" y1="223.20" x2="225.47" y2="211.35" stroke="#a9bfe3" stroke-width="0.18" stroke-linecap="round"/>
+<polygon points="223.04,217.31 234.13,210.91 225.81,206.11 214.73,212.51" fill="none" stroke="#c00" stroke-width="0.18" stroke-dasharray="1 1" stroke-linejoin="round"/>
+<text x="224.43" y="210.21" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.2" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#c00">ТП-1.02 108 м</text>
+<line x1="196.63" y1="222.96" x2="251.71" y2="211.16" stroke="#e9a3a3" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="196.63" y1="223.20" x2="252.75" y2="210.80" stroke="#a9bfe3" stroke-width="0.18" stroke-linecap="round"/>
+<polygon points="250.32,216.76 261.41,210.36 253.09,205.56 242.01,211.96" fill="none" stroke="#c00" stroke-width="0.18" stroke-dasharray="1 1" stroke-linejoin="round"/>
+<text x="251.71" y="209.66" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.2" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#c00">ТП-1.03 44 м</text>
+<line x1="196.63" y1="222.96" x2="196.71" y2="203.71" stroke="#e9a3a3" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="196.63" y1="223.20" x2="197.75" y2="203.35" stroke="#a9bfe3" stroke-width="0.18" stroke-linecap="round"/>
+<polygon points="195.33,209.31 206.41,202.91 198.10,198.11 187.01,204.51" fill="none" stroke="#c00" stroke-width="0.18" stroke-dasharray="1 1" stroke-linejoin="round"/>
+<text x="196.71" y="202.21" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.2" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#c00">ТП-1.04 119 м</text>
+<line x1="196.63" y1="222.96" x2="224.34" y2="195.36" stroke="#e9a3a3" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="196.63" y1="223.20" x2="225.38" y2="195.00" stroke="#a9bfe3" stroke-width="0.18" stroke-linecap="round"/>
+<polygon points="222.95,200.96 234.04,194.56 225.73,189.76 214.64,196.16" fill="none" stroke="#c00" stroke-width="0.18" stroke-dasharray="1 1" stroke-linejoin="round"/>
+<text x="224.34" y="193.86" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.2" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#c00">ТП-1.05 36 м</text>
+<line x1="196.63" y1="222.96" x2="210.14" y2="187.16" stroke="#e9a3a3" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="196.63" y1="223.20" x2="211.18" y2="186.80" stroke="#a9bfe3" stroke-width="0.18" stroke-linecap="round"/>
+<polygon points="208.75,192.76 219.84,186.36 211.52,181.56 200.44,187.96" fill="none" stroke="#c00" stroke-width="0.18" stroke-dasharray="1 1" stroke-linejoin="round"/>
+<text x="210.14" y="185.66" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.2" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#c00">ТП-1.06 32 м</text>
+<line x1="196.63" y1="222.96" x2="163.81" y2="176.71" stroke="#e9a3a3" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="196.63" y1="223.20" x2="164.84" y2="176.35" stroke="#a9bfe3" stroke-width="0.18" stroke-linecap="round"/>
+<polygon points="162.42,182.31 173.50,175.91 165.19,171.11 154.11,177.51" fill="none" stroke="#c00" stroke-width="0.18" stroke-dasharray="1 1" stroke-linejoin="round"/>
+<text x="163.81" y="175.21" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.2" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#c00">ТП-1.07 313 м</text>
+<line x1="196.63" y1="222.96" x2="112.88" y2="197.11" stroke="#e9a3a3" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="196.63" y1="223.20" x2="113.92" y2="196.75" stroke="#a9bfe3" stroke-width="0.18" stroke-linecap="round"/>
+<polygon points="111.50,202.71 122.58,196.31 114.27,191.51 103.18,197.91" fill="none" stroke="#c00" stroke-width="0.18" stroke-dasharray="1 1" stroke-linejoin="round"/>
+<text x="112.88" y="195.61" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.2" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#c00">ТП-1.08 219 м</text>
+<line x1="196.63" y1="222.96" x2="151.68" y2="203.71" stroke="#e9a3a3" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="196.63" y1="223.20" x2="152.72" y2="203.35" stroke="#a9bfe3" stroke-width="0.18" stroke-linecap="round"/>
+<polygon points="150.30,209.31 161.38,202.91 153.07,198.11 141.98,204.51" fill="none" stroke="#c00" stroke-width="0.18" stroke-dasharray="1 1" stroke-linejoin="round"/>
+<text x="151.68" y="202.21" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.2" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#c00">ТП-1.09 35 м</text>
+<line x1="196.63" y1="222.96" x2="163.81" y2="210.71" stroke="#e9a3a3" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="196.63" y1="223.20" x2="164.84" y2="210.35" stroke="#a9bfe3" stroke-width="0.18" stroke-linecap="round"/>
+<polygon points="162.42,216.31 173.50,209.91 165.19,205.11 154.11,211.51" fill="none" stroke="#c00" stroke-width="0.18" stroke-dasharray="1 1" stroke-linejoin="round"/>
+<text x="163.81" y="209.21" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.2" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#c00">ТП-1.10 28 м</text>
+<line x1="196.63" y1="222.96" x2="135.66" y2="218.96" stroke="#e9a3a3" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="196.63" y1="223.20" x2="136.70" y2="218.60" stroke="#a9bfe3" stroke-width="0.18" stroke-linecap="round"/>
+<polygon points="134.27,224.56 145.36,218.16 137.05,213.36 125.96,219.76" fill="none" stroke="#c00" stroke-width="0.18" stroke-dasharray="1 1" stroke-linejoin="round"/>
+<text x="135.66" y="217.46" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.2" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#c00">ТП-1.11 98 м</text>
+<line x1="196.63" y1="222.96" x2="182.34" y2="221.61" stroke="#e9a3a3" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="196.63" y1="223.20" x2="183.38" y2="221.25" stroke="#a9bfe3" stroke-width="0.18" stroke-linecap="round"/>
+<polygon points="180.95,227.21 192.04,220.81 183.72,216.01 172.64,222.41" fill="none" stroke="#c00" stroke-width="0.18" stroke-dasharray="1 1" stroke-linejoin="round"/>
+<text x="182.34" y="220.11" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.2" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#c00">ТП-1.12 60 м</text>
+<line x1="196.63" y1="222.96" x2="204.85" y2="234.61" stroke="#e9a3a3" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="196.63" y1="223.20" x2="205.89" y2="234.25" stroke="#a9bfe3" stroke-width="0.18" stroke-linecap="round"/>
+<polygon points="203.47,240.21 214.55,233.81 206.24,229.01 195.16,235.41" fill="none" stroke="#c00" stroke-width="0.18" stroke-dasharray="1 1" stroke-linejoin="round"/>
+<text x="204.85" y="233.11" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.2" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#c00">ТП-1.13 47 м</text>
+<line x1="178.61" y1="186.16" x2="231.01" y2="189.11" stroke="#e9a3a3" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="178.61" y1="186.40" x2="232.05" y2="188.75" stroke="#a9bfe3" stroke-width="0.18" stroke-linecap="round"/>
+<polygon points="229.62,194.71 240.71,188.31 232.39,183.51 221.31,189.91" fill="none" stroke="#c00" stroke-width="0.18" stroke-dasharray="1 1" stroke-linejoin="round"/>
+<text x="231.01" y="187.61" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.2" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#c00">ТП-2.01 163 м</text>
+<line x1="178.61" y1="186.16" x2="205.37" y2="172.31" stroke="#e9a3a3" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="178.61" y1="186.40" x2="206.41" y2="171.95" stroke="#a9bfe3" stroke-width="0.18" stroke-linecap="round"/>
+<polygon points="204.42,177.66 214.64,171.76 206.33,166.96 196.11,172.86" fill="none" stroke="#c00" stroke-width="0.18" stroke-dasharray="1 1" stroke-linejoin="round"/>
+<text x="205.37" y="170.81" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.2" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#c00">ТП-2.02 84 м</text>
+<line x1="178.61" y1="186.16" x2="221.92" y2="167.56" stroke="#e9a3a3" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="178.61" y1="186.40" x2="222.95" y2="167.20" stroke="#a9bfe3" stroke-width="0.18" stroke-linecap="round"/>
+<polygon points="220.53,173.16 231.62,166.76 223.30,161.96 212.22,168.36" fill="none" stroke="#c00" stroke-width="0.18" stroke-dasharray="1 1" stroke-linejoin="round"/>
+<text x="221.92" y="166.06" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.2" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#c00">ТП-2.03 45 м</text>
+<line x1="178.61" y1="186.16" x2="203.04" y2="156.66" stroke="#e9a3a3" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="178.61" y1="186.40" x2="204.08" y2="156.30" stroke="#a9bfe3" stroke-width="0.18" stroke-linecap="round"/>
+<polygon points="201.65,162.26 212.74,155.86 204.42,151.06 193.34,157.46" fill="none" stroke="#c00" stroke-width="0.18" stroke-dasharray="1 1" stroke-linejoin="round"/>
+<text x="203.04" y="155.16" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.2" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#c00">ТП-2.04 41 м</text>
+<line x1="178.61" y1="186.16" x2="147.87" y2="153.91" stroke="#e9a3a3" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="178.61" y1="186.40" x2="148.91" y2="153.55" stroke="#a9bfe3" stroke-width="0.18" stroke-linecap="round"/>
+<polygon points="146.48,159.51 157.57,153.11 149.26,148.31 138.17,154.71" fill="none" stroke="#c00" stroke-width="0.18" stroke-dasharray="1 1" stroke-linejoin="round"/>
+<text x="147.87" y="152.41" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.2" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#c00">ТП-2.05 123 м</text>
+<line x1="178.61" y1="186.16" x2="169.09" y2="141.66" stroke="#e9a3a3" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="178.61" y1="186.40" x2="170.13" y2="141.30" stroke="#a9bfe3" stroke-width="0.18" stroke-linecap="round"/>
+<polygon points="167.70,147.26 178.79,140.86 170.47,136.06 159.39,142.46" fill="none" stroke="#c00" stroke-width="0.18" stroke-dasharray="1 1" stroke-linejoin="round"/>
+<text x="169.09" y="140.16" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.2" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#c00">ТП-2.06 134 м</text>
+<line x1="178.61" y1="186.16" x2="185.80" y2="212.81" stroke="#e9a3a3" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="178.61" y1="186.40" x2="186.84" y2="212.45" stroke="#a9bfe3" stroke-width="0.18" stroke-linecap="round"/>
+<polygon points="184.42,218.41 195.50,212.01 187.19,207.21 176.10,213.61" fill="none" stroke="#c00" stroke-width="0.18" stroke-dasharray="1 1" stroke-linejoin="round"/>
+<text x="185.80" y="211.31" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.2" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#c00">ТП-2.07 188 м</text>
+<line x1="178.61" y1="186.16" x2="147.96" y2="202.86" stroke="#e9a3a3" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="178.61" y1="186.40" x2="149.00" y2="202.50" stroke="#a9bfe3" stroke-width="0.18" stroke-linecap="round"/>
+<polygon points="146.57,208.46 157.66,202.06 149.34,197.26 138.26,203.66" fill="none" stroke="#c00" stroke-width="0.18" stroke-dasharray="1 1" stroke-linejoin="round"/>
+<text x="147.96" y="201.36" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.2" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#c00">ТП-2.08 78 м</text>
+<line x1="178.61" y1="186.16" x2="169.00" y2="190.71" stroke="#e9a3a3" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="178.61" y1="186.40" x2="170.04" y2="190.35" stroke="#a9bfe3" stroke-width="0.18" stroke-linecap="round"/>
+<polygon points="167.62,196.31 178.70,189.91 170.39,185.11 159.30,191.51" fill="none" stroke="#c00" stroke-width="0.18" stroke-dasharray="1 1" stroke-linejoin="round"/>
+<text x="169.00" y="189.21" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.2" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#c00">ТП-2.09 75 м</text>
+<line x1="178.61" y1="186.16" x2="141.64" y2="187.31" stroke="#e9a3a3" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="178.61" y1="186.40" x2="142.67" y2="186.95" stroke="#a9bfe3" stroke-width="0.18" stroke-linecap="round"/>
+<polygon points="140.25,192.91 151.33,186.51 143.02,181.71 131.94,188.11" fill="none" stroke="#c00" stroke-width="0.18" stroke-dasharray="1 1" stroke-linejoin="round"/>
+<text x="141.64" y="185.81" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.2" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#c00">ТП-2.10 60 м</text>
+<line x1="178.61" y1="186.16" x2="116.43" y2="187.06" stroke="#e9a3a3" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="178.61" y1="186.40" x2="117.47" y2="186.70" stroke="#a9bfe3" stroke-width="0.18" stroke-linecap="round"/>
+<polygon points="115.05,192.66 126.13,186.26 117.82,181.46 106.73,187.86" fill="none" stroke="#c00" stroke-width="0.18" stroke-dasharray="1 1" stroke-linejoin="round"/>
+<text x="116.43" y="185.56" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.2" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#c00">ТП-2.11 44 м</text>
+<line x1="178.61" y1="186.16" x2="132.02" y2="178.06" stroke="#e9a3a3" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="178.61" y1="186.40" x2="133.06" y2="177.70" stroke="#a9bfe3" stroke-width="0.18" stroke-linecap="round"/>
+<polygon points="130.64,183.66 141.72,177.26 133.41,172.46 122.32,178.86" fill="none" stroke="#c00" stroke-width="0.18" stroke-dasharray="1 1" stroke-linejoin="round"/>
+<text x="132.02" y="176.56" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.2" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#c00">ТП-2.12 37 м</text>
+<line x1="178.61" y1="186.16" x2="144.41" y2="170.91" stroke="#e9a3a3" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="178.61" y1="186.40" x2="145.45" y2="170.55" stroke="#a9bfe3" stroke-width="0.18" stroke-linecap="round"/>
+<polygon points="143.45,176.26 153.67,170.36 145.36,165.56 135.14,171.46" fill="none" stroke="#c00" stroke-width="0.18" stroke-dasharray="1 1" stroke-linejoin="round"/>
+<text x="144.41" y="169.41" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.2" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#c00">ТП-2.13 30 м</text>
+<line x1="178.61" y1="186.16" x2="107.86" y2="167.81" stroke="#e9a3a3" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="178.61" y1="186.40" x2="108.90" y2="167.45" stroke="#a9bfe3" stroke-width="0.18" stroke-linecap="round"/>
+<polygon points="106.47,173.41 117.56,167.01 109.25,162.21 98.16,168.61" fill="none" stroke="#c00" stroke-width="0.18" stroke-dasharray="1 1" stroke-linejoin="round"/>
+<text x="107.86" y="166.31" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.2" text-anchor="middle" dominant-baseline="middle" font-weight="normal" fill="#c00">ТП-2.14 159 м</text>
+<line x1="300.00" y1="30.00" x2="314.00" y2="30.00" stroke="#c00" stroke-width="0.35" stroke-linecap="round"/>
+<text x="317.00" y="30.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.9" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">подающий трубопровод / петли ТП (PE-Xa 16×2,0, шаг 150/100)</text>
+<line x1="300.00" y1="35.00" x2="314.00" y2="35.00" stroke="#1a5fb4" stroke-width="0.35" stroke-linecap="round"/>
+<text x="317.00" y="35.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.9" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">обратный трубопровод</text>
+<line x1="300.00" y1="40.00" x2="314.00" y2="40.00" stroke="#666" stroke-width="0.35" stroke-linecap="round"/>
+<text x="317.00" y="40.00" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.9" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">дымоход, оборудование</text>
+<rect x="300.00" y="49.00" width="118.00" height="7.80" fill="#e9e9e9" stroke="#000" stroke-width="0.35"/>
+<line x1="300.00" y1="49.00" x2="300.00" y2="56.80" stroke="#000" stroke-width="0.35" stroke-linecap="round"/>
+<text x="320.00" y="52.90" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.7" text-anchor="middle" dominant-baseline="middle" font-weight="bold" fill="#000">Элемент</text>
+<line x1="340.00" y1="49.00" x2="340.00" y2="56.80" stroke="#000" stroke-width="0.35" stroke-linecap="round"/>
+<text x="379.00" y="52.90" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.7" text-anchor="middle" dominant-baseline="middle" font-weight="bold" fill="#000">Характеристика</text>
+<rect x="300.00" y="56.80" width="118.00" height="6.00" fill="none" stroke="#000" stroke-width="0.18"/>
+<line x1="300.00" y1="56.80" x2="300.00" y2="62.80" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<text x="301.20" y="59.80" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.7" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">Котёл</text>
+<line x1="340.00" y1="56.80" x2="340.00" y2="62.80" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<text x="341.20" y="59.80" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.7" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">конденсационный 32 кВт, 60/45 °С (первичный контур)</text>
+<rect x="300.00" y="62.80" width="118.00" height="6.00" fill="none" stroke="#000" stroke-width="0.18"/>
+<line x1="300.00" y1="62.80" x2="300.00" y2="68.80" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<text x="301.20" y="65.80" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.7" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">Гидрострелка</text>
+<line x1="340.00" y1="62.80" x2="340.00" y2="68.80" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<text x="341.20" y="65.80" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.7" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">DN 32, с воздухоотводчиком и грязевиком</text>
+<rect x="300.00" y="68.80" width="118.00" height="6.00" fill="none" stroke="#000" stroke-width="0.18"/>
+<line x1="300.00" y1="68.80" x2="300.00" y2="74.80" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<text x="301.20" y="71.80" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.7" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">К1 / К2</text>
+<line x1="340.00" y1="68.80" x2="340.00" y2="74.80" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<text x="341.20" y="71.80" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.7" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">20 / 19 выходов, расходомеры 0–4 л/мин, насос 25-60, 3-ход. клапан, 40/33 °С</text>
+<rect x="300.00" y="74.80" width="118.00" height="6.00" fill="none" stroke="#000" stroke-width="0.18"/>
+<line x1="300.00" y1="74.80" x2="300.00" y2="80.80" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<text x="301.20" y="77.80" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.7" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">Магистрали</text>
+<line x1="340.00" y1="74.80" x2="340.00" y2="80.80" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<text x="341.20" y="77.80" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.7" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">PP-R PN20 Ø32 (котельная → К1), Ø25 стояк → К2, в изоляции 9 мм</text>
+<rect x="300.00" y="80.80" width="118.00" height="6.00" fill="none" stroke="#000" stroke-width="0.18"/>
+<line x1="300.00" y1="80.80" x2="300.00" y2="86.80" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<text x="301.20" y="83.80" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.7" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">Труба ТП</text>
+<line x1="340.00" y1="80.80" x2="340.00" y2="86.80" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<text x="341.20" y="83.80" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.7" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">PE-Xa 16×2,0, всего ≈ 2445 м, макс. петля 100 м</text>
+<rect x="300.00" y="86.80" width="118.00" height="6.00" fill="none" stroke="#000" stroke-width="0.18"/>
+<line x1="300.00" y1="86.80" x2="300.00" y2="92.80" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<text x="301.20" y="89.80" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.7" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">РБ / группа безопасности</text>
+<line x1="340.00" y1="86.80" x2="340.00" y2="92.80" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<text x="341.20" y="89.80" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.7" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">35 л (1,5 бар) / 3 бар, манометр, воздухоотводчик</text>
+<rect x="300.00" y="92.80" width="118.00" height="6.00" fill="none" stroke="#000" stroke-width="0.18"/>
+<line x1="300.00" y1="92.80" x2="300.00" y2="98.80" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<text x="301.20" y="95.80" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.7" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">Автоматика</text>
+<line x1="340.00" y1="92.80" x2="340.00" y2="98.80" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<text x="341.20" y="95.80" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.7" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">погодозависимая, комнатные термостаты → сервоприводы, приоритет ГВС</text>
+<rect x="300.00" y="98.80" width="118.00" height="6.00" fill="none" stroke="#000" stroke-width="0.18"/>
+<line x1="300.00" y1="98.80" x2="300.00" y2="104.80" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<text x="301.20" y="101.80" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.7" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">Гидравлика</text>
+<line x1="340.00" y1="98.80" x2="340.00" y2="104.80" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<text x="341.20" y="101.80" font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="1.7" text-anchor="start" dominant-baseline="middle" font-weight="normal" fill="#000">Δp самой длинной петли 9.4 кПа; напор узла ≈ 2.5 м (docs/09)</text>
+<rect x="300.00" y="49.00" width="118.00" height="55.80" fill="none" stroke="#000" stroke-width="0.35"/>
+</svg>

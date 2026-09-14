@@ -5,7 +5,7 @@ from model import *
 from svg import Sheet, door_symbol, mm, fmt
 import furniture as F
 
-WALL_FILL = {"ext": "url(#hAerated)", "bear": "url(#hAerated)", "fire": "url(#hMasonry)", "part": "#d9d9d9"}
+WALL_FILL = {"ext": "url(#hAerated)", "bear": "url(#hAerated)", "fire": "url(#hMasonry)", "part": "#d9d9d9", "part150": "#c4c8cc"}
 
 
 def all_wall_rects(floor):
@@ -185,8 +185,9 @@ def draw_vents(v, floor, label=True):
             if label:
                 X, Y = v.P((x1 + x2) / 2, (y1 + y2) / 2)
                 side = -1 if x1 > 6.3 else 1
-                v.s.prect(X + side * 4.5 - 2.6, Y - 1.5, 5.2, 3.0, fill="#fff", stroke=None, opacity=0.9)
-                v.s.ptext(X + side * 4.5, Y, name, size=1.8, weight="bold", anchor="middle")
+                lbl = name + ("*" if (floor == 2 and name in ("В1", "В7")) else "")
+                v.s.prect(X + side * 4.5 - 2.6, Y - 1.5, 5.2 + (1.5 if "*" in lbl else 0), 3.0, fill="#fff", stroke=None, opacity=0.9)
+                v.s.ptext(X + side * 4.5, Y, lbl, size=1.8, weight="bold", anchor="middle")
 
 
 def draw_room_labels(v, floor, light=False, size=2.6, only_names=False):
@@ -344,7 +345,7 @@ def draw_furniture(v, floor):
         F.wardrobe(v, 4.1, 5.9, 6.175, 6.6)
         F.desk(v, 0.35, 8.2, 1.5, 0.75, chair="E")
         F.wardrobe(v, 3.5, 6.85, 4.0, 8.5)
-        F.wardrobe(v, 4.1, 6.8, 4.5, 8.2); F.wardrobe(v, 5.775, 6.8, 6.175, 8.2)
+        F.wardrobe(v, 4.15, 6.8, 4.55, 8.2); F.wardrobe(v, 5.775, 6.8, 6.175, 8.2)
         F.counter(v, 0.2, 10.35, 0.8, 15.0, sink=(0.5, 12.3))
         F.counter(v, 0.8, 10.35, 4.5, 10.95, hob=(2.8, 10.65))
         F.counter(v, 2.2, 12.2, 3.4, 13.9)
@@ -363,16 +364,16 @@ def draw_furniture(v, floor):
         F.bed(v, 2.0, 2.3, 1.8, 2.1, head="S")
         F.wardrobe(v, 4.9, 0.25, 6.15, 2.3)
         F.desk(v, 0.3, 0.3, 1.4, 0.7, chair="S")
-        F.bath(v, 0.25, 4.65)
+        F.bath(v, 0.25, 4.7)
         F.shower(v, 0.22, 6.8, 0.8)
         F.wc(v, 2.85, 8.0, "N"); F.basin(v, 3.2, 6.2, orient="W")
-        F.washer(v, 3.35, 4.65); F.washer(v, 4.0, 4.65); F.basin(v, 5.0, 4.6, orient="S")
+        F.washer(v, 3.35, 4.7); F.washer(v, 4.0, 4.7); F.basin(v, 5.0, 4.65, orient="S")
         v.rect(3.4, 7.0, 4.9, 7.4, stroke="#666", sw="thin", fill="#fff")
         F.wardrobe(v, 5.6, 5.1, 6.15, 7.9)
         F.bath(v, 10.55, 6.0); F.wc(v, 11.9, 4.0, "S"); F.basin(v, 12.4, 5.2, orient="W")
         F.wardrobe(v, 10.5, 6.95, 12.4, 7.5); F.wardrobe(v, 11.9, 7.5, 12.4, 9.35)
         F.single_bed(v, 8.25, 9.6, head="N"); F.desk(v, 7.3, 14.6, 1.4, 0.7, chair="N"); F.wardrobe(v, 6.45, 9.55, 6.95, 11.5)
-        F.bed(v, 10.9, 9.55, 1.4, 2.0, head="N"); F.desk(v, 10.3, 14.6, 1.4, 0.7, chair="N"); F.wardrobe(v, 9.35, 11.0, 9.95, 13.0)
+        F.bed(v, 10.9, 9.55, 1.4, 2.0, head="N"); F.desk(v, 10.3, 14.6, 1.4, 0.7, chair="N"); F.wardrobe(v, 9.4, 11.0, 10.0, 13.0)
         F.bed(v, 4.05, 12.9, 2.1, 1.8, head="E")
         v.rect(4.05, 12.4, 4.55, 12.85, stroke="#666", sw="thin"); v.rect(4.05, 14.75, 4.55, 15.2, stroke="#666", sw="thin")
         v.rect(0.25, 12.9, 0.75, 14.2, stroke="#666", sw="thin", fill="#fff")
@@ -430,8 +431,9 @@ def legend(sh, x, y):
         ("url(#hAerated)", "Наружные стены — газобетон D400 B2.5, 400 мм (несущие)"),
         ("url(#hAerated)", "Внутренняя несущая стена по оси 2 — газобетон D500 B3.5, 250 мм"),
         ("url(#hMasonry)", "Перегородки 200 мм (гараж, котельная) — газобетон D500, REI 45"),
+        ("#c4c8cc", "Перегородки 150 мм — газобетон D500, ограждающие спальни и кабинет (Rw ≈ 45 дБ)"),
         ("#d9d9d9", "Перегородки 100 мм — газобетон D500 (в мокрых зонах — гидроизоляция)"),
-        ("url(#hConcrete)", "Вентиляционные каналы В1…В7 (сталь/пластик Ø125–160 в шахте)"),
+        ("url(#hConcrete)", "Вентиляционные каналы В1…В7 (сталь/пластик Ø125–160 в шахте); В1*, В7* на 2 этаже — короб EI 30 (ГКЛО 2×12,5 / газобетон 100)"),
     ]
     yy = y + 6
     for fill, txt in items:
@@ -480,6 +482,7 @@ def floor_plan_sheet(floor, sheet_no, total):
         "1. Отметка ±0,000 соответствует уровню чистого пола 1-го этажа; планировочная отметка земли −0,450.",
         "2. Высота этажа 3,300 (в чистоте 3,000). Перекрытия — монолитные ж/б плиты 200 мм по СП 63.13330.",
         "3. Наружные стены — газобетон D400 B2.5 400 мм на клею (шов 2–3 мм), наружная отделка — паропроницаемая",
+        "   перегородки спален/кабинета — 150 мм (Rw ≈ 45 дБ), прочие — 100 мм; гараж и котельная — 200 мм (REI 45).",
         "   штукатурка 10 мм, фронтоны — планкен из лиственницы; цоколь — клинкерная плитка по ЭППС 50 мм.",
         "4. Перемычки — из U-блоков с монолитным ж/б заполнением (см. КР-2), над проёмами ≥ 2,4 м — монолитные балки.",
         "5. Окна — ПВХ 70 мм, 2-камерный стеклопакет с i-стеклом и аргоном, R ≥ 0,72 м²·°С/Вт; цвет — антрацит.",
