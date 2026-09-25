@@ -57,6 +57,7 @@ a:hover{text-decoration-thickness:2px}
 /* Hero */
 .hero{padding-block:clamp(32px,6vw,64px) 0}
 .eyebrow{font-family:var(--f-mono);font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);display:flex;flex-wrap:wrap;gap:4px 14px;margin:0}
+.hero .eyebrow span+span::before{content:"·";margin-right:14px}
 .hero h1{font-family:var(--f-display);font-weight:600;font-size:clamp(27px,5vw,50px);line-height:1.12;letter-spacing:-.015em;margin:14px 0 18px;max-width:21ch;text-wrap:balance}
 .hero .lead{font-size:clamp(17px,2.1vw,19.5px);line-height:1.55;max-width:62ch;margin:0;color:var(--ink-2)}
 .hero .meta{display:flex;flex-wrap:wrap;gap:6px 22px;margin-top:18px;font-family:var(--f-mono);font-size:12.5px;color:var(--muted)}
@@ -167,6 +168,7 @@ h3,h4{text-wrap:balance}
 .money h3{font-size:17px;margin:0 0 6px}
 .money ul{margin:0;padding-left:18px}
 .money li{margin:7px 0;font-size:15px}
+.money li ul{margin-top:4px}
 .rules-title{font-family:var(--f-display);font-weight:600;font-size:clamp(17px,2.2vw,20px);margin:36px 0 12px}
 .rules{columns:2 340px;column-gap:36px;margin:0;padding-left:20px}
 .rules li{break-inside:avoid;margin:0 0 12px;font-size:15px}
@@ -312,11 +314,73 @@ footer{margin-top:56px;padding-block:22px 36px;border-top:1px solid var(--line);
   <section id="money">
     <div class="sec-head">
       <h2>Как здесь зарабатывать на софте</h2>
-      <p><!--__MONEY_LEAD__--></p>
+      <p>Шпаргалка по платежам, налогам, законам о данных и ИИ. Нормы, которые агенты сверили с текстами законов и сайтами платёжных систем, даны с источниками. Всё, что подтвердить не удалось, помечено.</p>
     </div>
-    <div class="money"><!--__MONEY__--></div>
+    <div class="money">
+      <article>
+        <h3>Приём оплаты</h3>
+        <ul>
+          <li><b>Kaspi Pay</b> подключает любой ИП или ТОО, Smart POS бесплатный, комиссия с Kaspi Gold — от 0,95%. Для сервисов есть «удалённая оплата»: счёт по номеру телефона или по ссылке.</li>
+          <li>Публичного API и автосписаний у Kaspi нет, поэтому подписку продают пакетами или годовым тарифом.</li>
+          <li>Карты онлайн в Казахстане: TipTop Pay — от 2,5%, Robokassa — 2,7–3,9%, Halyk ePay — 2,5–4%, Freedom Pay — 3,5–8,9%. Stripe в обеих странах недоступен (агенты не перепроверили).</li>
+          <li>В Кыргызстане — MBank и национальный QR: 42,7 млн QR-платежей на 48,8 млрд сомов за 2022–2024 годы. Finik принимает оплату из любого банковского приложения, подключение за день.</li>
+          <li>App Store берёт 15% при выручке до $1 млн. Telegram Stars выводятся через TON с задержкой — это неудобно.</li>
+        </ul>
+      </article>
+      <article>
+        <h3>Юрлицо и налоги</h3>
+        <ul>
+          <li><b>Казахстан, старт:</b> ИП на упрощённой декларации — 4% с дохода (маслихат может менять ставку в пределах 2–6%), без НДС и соцналога, лимит 600 тыс. МРП в год. Для части видов деятельности режим закрыт, поэтому проверьте свой ОКЭД.</li>
+          <li>НДС 16% начинается с оборота 10 000 МРП, это около 43 млн ₸.</li>
+          <li><b>Astana Hub</b> — только для ТОО, у которого не меньше 90% дохода приходится на ИТ. Льготы: 0% корпоративного налога, освобождение от НДС, без ИПН и соцналога с зарплат, без «НДС за нерезидента» при оплате облаков и API. Все льготы действуют до 01.01.2029.</li>
+          <li><b>Кыргызстан:</b> ИП на патенте или едином налоге. Парк высоких технологий — 1% выручки вместо налога на прибыль, НДС и налога с продаж, подоходный налог сотрудников 5% (условия ПВТ агенты не подтвердили).</li>
+        </ul>
+      </article>
+      <article>
+        <h3>Данные и ИИ</h3>
+        <ul>
+          <li>Закон Казахстана о персональных данных требует хранить базу на территории страны. За границу данные можно передавать в страны с надёжной защитой данных или с согласия человека.</li>
+          <li><b>Claude API</b> официально доступен в Казахстане и Кыргызстане, но данные обрабатываются в США. Отправляйте в модель минимум персональных данных и берите согласие на передачу за границу.</li>
+          <li>Закон Казахстана «Об искусственном интеллекте» (№ 230-VIII от 17.11.2025) требует:
+            <ul>
+              <li>предупреждать пользователя, что с ним работает ИИ;</li>
+              <li>маркировать сгенерированный контент;</li>
+              <li>вести документацию;</li>
+              <li>определить класс риска системы.</li>
+            </ul>
+          </li>
+          <li>В Кыргызстане действует Цифровой кодекс 2025 года с главами о персональных данных и об ИИ-системах.</li>
+          <li><b>Языки:</b> для казахского есть открытые модели и распознавание речи (KazLLM, Qolda, Whisper). Кыргызский Whisper не поддерживает, а текст и синтез речи на кыргызском нужно вычитывать.</li>
+        </ul>
+      </article>
+      <article>
+        <h3>Рынок и деньги на старт</h3>
+        <ul>
+          <li><b>Казахстан:</b> 20,5 млн человек, около $15 тыс. ВВП на человека, онлайн-покупки на 3,7 трлн ₸ за 2025 год, 86% из них — через маркетплейсы. WhatsApp пользуются 83% населения.</li>
+          <li><b>Кыргызстан:</b> 7,4 млн человек, около $3 тыс. на человека, e-commerce около $525 млн. Продукт для Бишкека стоит сразу планировать и для Казахстана.</li>
+          <li>ИИ стоит дёшево: диалог поддержки на Claude Haiku 4.5 обходится примерно в 2 ₸. Цену продукта определяет польза для клиента, а не себестоимость.</li>
+          <li><b>Финансирование на старте:</b>
+            <ul>
+              <li>Казахстан — Astana Hub, QazInnovations, Tech Garden, фонды MOST Ventures, White Hill Capital, Big Sky Capital;</li>
+              <li>Кыргызстан — ПВТ, программы UNDP, GIZ, ЕС; программы USAID закрыты в 2025 году.</li>
+            </ul>
+            Условия программ агенты не подтвердили, сверьте их на сайтах.</li>
+        </ul>
+      </article>
+    </div>
     <h3 class="rules-title">Правила монетизации</h3>
-    <ul class="rules"><!--__RULES__--></ul>
+    <ul class="rules">
+      <li>Берите оплату через Kaspi-счёт или QR, в Кыргызстане — через MBank и QR-агрегатор. Автосписаний в Kaspi нет, поэтому продавайте пакеты и годовые тарифы.</li>
+      <li>Не стройте бизнес на неофициальных API Kaspi: сессии обрываются, правила меняются. Держите запасной способ оплаты.</li>
+      <li>Встраивайтесь в экосистемы Kaspi, MBank и Wildberries, а не конкурируйте с ними. Самые платёжеспособные клиенты — продавцы и сервисный бизнес, которые уже платят за трафик.</li>
+      <li>Работайте там, где уже сидят клиенты: в Казахстане это WhatsApp (им пользуются 83% людей), в Кыргызстане — ещё и Telegram. Instagram служит витриной малого бизнеса.</li>
+      <li>Продавайте B2B с измеримой пользой: сэкономленные часы бухгалтера, выигранные тендеры, записанные клиенты. B2C-подписки здесь работают плохо.</li>
+      <li>Опирайтесь на сроки из законов: новые налоги, маркировка лекарств, RuID, реформа ОСИ. Дедлайн продаёт лучше рекламы.</li>
+      <li>Начинайте как ИП: упрощёнка 4% в Казахстане, патент в Кыргызстане. ТОО и Astana Hub или ПВТ оформляйте, когда появится экспорт или команда; льготы Astana Hub действуют до 2029 года.</li>
+      <li>Храните базу клиентов в Казахстане, в ИИ отправляйте минимум персональных данных и берите согласие на передачу за границу.</li>
+      <li>С первого дня выполняйте закон об ИИ: сообщайте, что отвечает ИИ, маркируйте сгенерированное, ведите документацию.</li>
+      <li>Проектируйте продукт сразу на обе страны: Кыргызстан меньше Казахстана в 2,8 раза по населению и примерно в 5 раз по доходу на человека. Кыргызский текст и голос проверяйте вручную.</li>
+    </ul>
   </section>
 
   <section id="roles">
@@ -809,8 +873,33 @@ footer{margin-top:56px;padding-block:22px 36px;border-top:1px solid var(--line);
     ["Маркетплейсы", "ibot.kz — тарифы репрайсера", "https://ibot.kz/pricing/"],
     ["Клиники", "Forbes.kz — рынок медуслуг", "https://forbes.kz/articles/kak-kazahstanskiy-servis-po-poisku-vrachey-menyaet-rynok-meduslug-i-vyhodit-v-drugie-strany"],
     ["ОСИ", "Zakon.kz — новые типовые уставы ОСИ", "https://www.zakon.kz/pravo/6493257-novye-tipovye-ustavy-osi-i-ksk-utverdili-v-kazakhstane.html"],
-    ["Энергетика", "Kaktus — первые договоры на продажу солнечной энергии", "https://kaktus.media/doc/552014_v_kyrgyzstane_pervye_solnechnye_paneli_na_domah_chastnikov_podkluchili_k_energosisteme_strany.html"]
-    /*__MONEY_SOURCES__*/
+    ["Энергетика", "Kaktus — первые договоры на продажу солнечной энергии", "https://kaktus.media/doc/552014_v_kyrgyzstane_pervye_solnechnye_paneli_na_domah_chastnikov_podkluchili_k_energosisteme_strany.html"],
+    ["Платежи", "Kaspi Pay — подключение", "https://guide.kaspi.kz/partner/ru/app/connection/q1381"],
+    ["Платежи", "Kaspi Pay — тарифы", "https://guide.kaspi.kz/partner/ru/app/conditions/q1445"],
+    ["Платежи", "Kaspi — удалённая оплата", "https://guide.kaspi.kz/partner/ru/pos/payments/general/q1861"],
+    ["Платежи", "Astana Hub — сравнение эквайрингов", "https://astanahub.com/ru/blog/sravnenie-ekvairingov-v-kazakhstane"],
+    ["Платежи", "Halyk ePay", "https://halykbank.kz/en/business/payments/internet-acquiring-epay"],
+    ["Платежи", "TipTop Pay — тарифы", "https://tiptoppay.kz/tarify"],
+    ["Платежи", "Robokassa KZ", "https://robokassa.kz/"],
+    ["Платежи", "Freedom Pay — эквайринг", "https://freedompay.kz/blog/vygodnyy-ekvayring"],
+    ["Платежи", "НБКР — национальный QR", "https://www.nbkr.kg/contout.jsp?item=2145&lang=RUS&material=124592"],
+    ["Платежи", "Finik", "https://www.finik.kg/"],
+    ["Платежи", "Economist.kg — QR-платежи Kaspi и O!Bank", "https://economist.kg/dengi/2026/09/13/kazakhstan-kyrgyzstan-qr-platezhi/"],
+    ["Платежи", "Apple — программа для малого бизнеса", "https://developer.apple.com/app-store/small-business-program/"],
+    ["Рынок", "DataReportal — Казахстан 2026", "https://datareportal.com/reports/digital-2026-kazakhstan"],
+    ["Рынок", "DataReportal — Кыргызстан 2026", "https://datareportal.com/reports/digital-2026-kyrgyzstan"],
+    ["Рынок", "Kursiv — WhatsApp в Казахстане", "https://kz.kursiv.media/en/2025-04-10/engk-yeri-digital-habits-why-kazakhstan-loves-whatsapp-and-uzbekistan-prefers-telegram/"],
+    ["Рынок", "Inform.kz — онлайн-покупки в 2025 году", "https://www.inform.kz/ru/kazahstantsi-potratili-37-trln-tenge-na-onlayn-pokupki-za-godot-smartfonov-do-pr-2b3fec70"],
+    ["Рынок", "Inform.kz — маркетплейсы в 2025 году", "https://www.inform.kz/ru/kazahstantsi-sdelali-bolee-291-mln-zakazov-na-marketpleysah-pochti-vdvoe-bolshe--cd44c785"],
+    ["Рынок", "Tengrinews — население Казахстана", "https://tengrinews.kz/kazakhstan_news/nazvana-chislennost-naseleniya-kazahstana-1-yanvarya-2026-591705/"],
+    ["Рынок", "Economist.kg — население Кыргызстана", "https://economist.kg/society/2026/03/28/chisliennost-nasielieniia-kyrghyzstana-dostighla-7-4-mln-chieloviek/"],
+    ["Налоги и законы", "Adilet — официальные тексты законов Казахстана", "https://adilet.zan.kz/"],
+    ["Налоги и законы", "Всемирный банк — налоговый обзор Кыргызстана", "https://openknowledge.worldbank.org/server/api/core/bitstreams/3fcb0a01-69c8-4bad-a03c-818df808d8e5/content"],
+    ["ИИ", "Anthropic — страны, где доступен Claude", "https://www.anthropic.com/supported-countries"],
+    ["ИИ", "Claude — где обрабатываются данные", "https://platform.claude.com/docs/en/manage-claude/data-residency"],
+    ["ИИ", "Claude — цены", "https://platform.claude.com/docs/en/about-claude/pricing"],
+    ["ИИ", "ISSAI — KazLLM", "https://github.com/IS2AI/KazLLM_Benchmark"],
+    ["ИИ", "Awesome Kyrgyz NLP — языковые ресурсы", "https://github.com/alexeyev/awesome-kyrgyz-nlp"]
   ];
 
   var COUNTRY = { kg: { s: 'KG', l: 'Кыргызстан' }, kz: { s: 'KZ', l: 'Казахстан' } };
@@ -831,6 +920,7 @@ footer{margin-top:56px;padding-block:22px 36px;border-top:1px solid var(--line);
     }).join('');
   }
   function mvpLabel(i) { return i.mvp + ' нед.'; }
+  function fmt(n) { return n.toFixed(1).replace('.', ','); }
   function ideaById(id) { for (var k = 0; k < IDEAS.length; k++) if (IDEAS[k].id === id) return IDEAS[k]; return null; }
 
   function renderPicks() {
@@ -840,7 +930,7 @@ footer{margin-top:56px;padding-block:22px 36px;border-top:1px solid var(--line);
         '<div class="rank" aria-label="Место ' + i.top + '">' + i.top + '</div>' +
         '<div>' +
           '<div class="head"><h3>' + i.title + '</h3>' + chips(i.countries) +
-          '<span class="score-badge" title="Итоговый балл из 10">' + total(i).toFixed(1) + '</span></div>' +
+          '<span class="score-badge" title="Итоговый балл из 10">' + fmt(total(i)) + '</span></div>' +
           '<p class="pain">' + i.problem + '</p>' +
           '<dl class="facts">' +
             '<div><dt>Кто платит</dt><dd>' + i.who + '</dd></div>' +
@@ -882,7 +972,7 @@ footer{margin-top:56px;padding-block:22px 36px;border-top:1px solid var(--line);
           '<div class="r-chips">' + chips(i.countries) + '</div>' +
           '<div class="r-comp">' + compPills(i) + '</div>' +
           '<div class="r-mvp" title="Срок MVP">' + mvpLabel(i) + '</div>' +
-          '<div class="r-score"><b>' + t.toFixed(1) + '</b><span class="bar" aria-hidden="true"><i style="width:' + (t * 10) + '%"></i></span></div>' +
+          '<div class="r-score"><b>' + fmt(t) + '</b><span class="bar" aria-hidden="true"><i style="width:' + (t * 10) + '%"></i></span></div>' +
         '</summary>' +
         '<div class="r-body">' +
           '<div><h4>Кто платит и сколько</h4><p>' + i.who + ': ' + i.price + '. ' + i.money + '</p></div>' +

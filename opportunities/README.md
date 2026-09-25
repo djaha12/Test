@@ -3,6 +3,7 @@
 Какие проблемы Кыргызстана и Казахстана можно превратить в софтверный бизнес. Исследование на 25.09.2026.
 
 - Интерактивная версия: [`site/index.html`](site/index.html) — топ-5, матрица идей с фильтрами, карта проблем, монетизация, план на 30 дней.
+- Опубликованная страница: https://claude.ai/artifact/6Tp544mq333HE8aG4FAU5w (приватная: откроется у владельца и у тех, с кем он поделится через меню Share).
 - Как собиралось: четыре ИИ-агента параллельно изучили Кыргызстан, Казахстан, монетизацию и конкурентов по открытым источникам 2024–2026 годов.
 - Ограничения данных — в разделе [«Что перепроверить»](#9-что-перепроверить).
 
@@ -205,7 +206,85 @@
 
 ## 6. Как зарабатывать
 
-<!--__MONEY_MD__-->
+### Рынок
+
+| | Казахстан | Кыргызстан |
+|---|---|---|
+| Население | 20,5 млн (01.01.2026) | 7,4 млн (01.02.2026) |
+| ВВП на человека, 2025 | ≈ $15 000 | ≈ $3 000; рост ВВП 11,1% |
+| Интернет | 93,4% | 88,5% |
+| Онлайн-торговля | 3,7 трлн ₸ за 2025 год, 86% — через маркетплейсы (Kaspi ≈ 48%, Wildberries ≈ 17%) | ≈ $525 млн; продажи продавцов из Кыргызстана на WB +53% |
+| Главные каналы малого бизнеса | Kaspi и WhatsApp (им пользуются 83% населения) | Instagram, WhatsApp, Telegram, Wildberries |
+
+### Приём оплаты
+
+- **Kaspi Pay.**
+  - Подключает любой ИП или ТОО, Smart POS бесплатный, комиссия с Kaspi Gold — от 0,95%.
+  - Для сервисов есть «удалённая оплата»: счёт по номеру телефона или по ссылке.
+  - Публичного API и автосписаний нет, поэтому подписку продают пакетами или годовым тарифом.
+  - Неофициальные надстройки есть (ApiPay и другие), но сессии кассира обрываются, так что опираться на них рискованно.
+- **Карты онлайн (Казахстан).**
+  - Комиссии: TipTop Pay — от 2,5%; Robokassa — 2,7–3,9%; Halyk ePay — 2,5–4%; Freedom Pay — 3,5–8,9%.
+  - Единый QR Нацбанка работает с 19.07.2026, но по тарифам пока проигрывает Halyk QR и Freedom QR.
+- **Кыргызстан.**
+  - MBank; национальный QR (ELQR) — 42,7 млн платежей на 48,8 млрд сомов за 2022–2024 годы.
+  - Finik принимает оплату из любого банковского приложения, подключение за день.
+  - С октября 2025 года клиенты Kaspi могут платить по QR O!Bank.
+- **Сторы и Telegram.**
+  - Apple берёт 15% при выручке до $1 млн.
+  - Stripe в обеих странах недоступен (не подтверждено).
+  - Telegram Stars выводятся через TON с задержкой.
+
+### Юрлицо и налоги
+
+- **Казахстан, старт — ИП на упрощённой декларации.**
+  - 4% с дохода; маслихат может менять ставку в пределах 2–6%.
+  - Без НДС и соцналога, лимит 600 тыс. МРП в год.
+  - Для части видов деятельности режим закрыт.
+  - НДС 16% начинается с оборота 10 000 МРП (около 43 млн ₸).
+- **Astana Hub.**
+  - Только для ТОО, у которого не меньше 90% дохода приходится на ИТ.
+  - Льготы: 0% корпоративного налога, освобождение от НДС, без ИПН и соцналога с зарплат, без «НДС за нерезидента» на облака и API.
+  - Все льготы действуют до 01.01.2029.
+- **Кыргызстан.**
+  - ИП на патенте или едином налоге.
+  - ПВТ — 1% выручки вместо налога на прибыль, НДС и налога с продаж; подоходный налог сотрудников 5% (не подтверждено).
+
+### Данные и ИИ
+
+- **Персональные данные (Казахстан).** Базу нужно хранить на территории Казахстана. За границу данные можно передавать в страны с надёжной защитой данных или с согласия человека.
+- **Claude API.**
+  - Официально доступен в Казахстане и Кыргызстане, но данные обрабатываются в США.
+  - Отправлять в модель стоит минимум персональных данных и брать согласие на передачу за границу.
+  - Диалог поддержки на Claude Haiku 4.5 стоит около 2 ₸.
+- **Закон Казахстана «Об ИИ» (№ 230-VIII от 17.11.2025).**
+  - Пользователя нужно предупреждать, что с ним работает ИИ.
+  - Сгенерированный контент маркируется.
+  - Нужны документация и класс риска системы.
+  - Запрещены манипуляция, социальный скоринг и распознавание эмоций без согласия.
+- **Кыргызстан.** Цифровой кодекс 2025 года с главами о персональных данных и об ИИ-системах.
+- **Языки.**
+  - Для казахского есть открытые модели и распознавание речи: KazLLM и Qolda от ISSAI, Whisper, корпус KSC2 на 1 151 час.
+  - Кыргызский Whisper не поддерживает; есть Meta Omnilingual, но текст и синтез речи на кыргызском нужно вычитывать.
+
+### Деньги на старт
+
+- **Казахстан:** Astana Hub, QazInnovations, Tech Garden, фонды MOST Ventures, White Hill Capital, Big Sky Capital.
+- **Кыргызстан:** ПВТ, программы UNDP, GIZ, ЕС; программы USAID закрыты в 2025 году.
+- Условия программ агенты не подтвердили, их нужно сверить на сайтах.
+
+### Правила монетизации
+
+1. Берите оплату через Kaspi-счёт или QR, в Кыргызстане — через MBank и QR-агрегатор. Автосписаний в Kaspi нет, поэтому продавайте пакеты и годовые тарифы.
+2. Не стройте бизнес на неофициальных API Kaspi. Держите запасной способ оплаты.
+3. Встраивайтесь в экосистемы Kaspi, MBank и Wildberries, а не конкурируйте с ними. Самые платёжеспособные клиенты — продавцы и сервисный бизнес, которые уже платят за трафик.
+4. Работайте там, где уже сидят клиенты: в Казахстане это WhatsApp, в Кыргызстане — ещё и Telegram. Instagram служит витриной.
+5. Продавайте B2B с измеримой пользой: сэкономленные часы, выигранные тендеры, записанные клиенты. B2C-подписки здесь работают плохо.
+6. Опирайтесь на сроки из законов: новые налоги, маркировка лекарств, RuID, реформа ОСИ. Дедлайн продаёт лучше рекламы.
+7. Начинайте как ИП. ТОО и Astana Hub или ПВТ оформляйте, когда появится экспорт или команда; льготы Astana Hub действуют до 2029 года.
+8. Храните базу клиентов в Казахстане, в ИИ отправляйте минимум персональных данных и берите согласие.
+9. С первого дня выполняйте закон об ИИ: сообщайте, что отвечает ИИ, маркируйте сгенерированное, ведите документацию.
+10. Проектируйте продукт сразу на обе страны: Кыргызстан меньше в 2,8 раза по населению и примерно в 5 раз по доходу на человека.
 
 ---
 
@@ -275,4 +354,8 @@
 - Медицина: [Pharmreviews](https://pharmreviews.kz/analitika/kak-uvelichilis-tseny-na-platnye-meditsinskie-uslugi-v-2025-godu-i-za-poslednie-5-let), [Tengrinews — ОСМС](https://tengrinews.kz/tengri-health/novyie-pravila-osms-poluchit-meditsinskuyu-pomosch-scht-589069/), [Forbes.kz](https://forbes.kz/articles/kak-kazahstanskiy-servis-po-poisku-vrachey-menyaet-rynok-meduslug-i-vyhodit-v-drugie-strany)
 - Конкуренты ИИ-продавцов: [Pleep](https://pleep.app/), [Chats.kg](https://chats.kg/pricing), [AI-Bot.kz](https://ai-bot.kz/)
 
-<!--__MONEY_SOURCES_MD__-->
+### Рынок, платежи, налоги, ИИ
+- Рынок: [DataReportal — Казахстан](https://datareportal.com/reports/digital-2026-kazakhstan), [DataReportal — Кыргызстан](https://datareportal.com/reports/digital-2026-kyrgyzstan), [Kursiv — WhatsApp](https://kz.kursiv.media/en/2025-04-10/engk-yeri-digital-habits-why-kazakhstan-loves-whatsapp-and-uzbekistan-prefers-telegram/), [Inform.kz — e-commerce](https://www.inform.kz/ru/kazahstantsi-potratili-37-trln-tenge-na-onlayn-pokupki-za-godot-smartfonov-do-pr-2b3fec70), [Inform.kz — маркетплейсы](https://www.inform.kz/ru/kazahstantsi-sdelali-bolee-291-mln-zakazov-na-marketpleysah-pochti-vdvoe-bolshe--cd44c785), [Tengrinews — население РК](https://tengrinews.kz/kazakhstan_news/nazvana-chislennost-naseleniya-kazahstana-1-yanvarya-2026-591705/), [Economist.kg — население КР](https://economist.kg/society/2026/03/28/chisliennost-nasielieniia-kyrghyzstana-dostighla-7-4-mln-chieloviek/), [Нацстатком — рост ВВП](https://stat.gov.kg/ru/news/po-itogam-2025-goda-rost-vvp-sostavil-111-procenta/)
+- Платежи: [Kaspi Pay — подключение](https://guide.kaspi.kz/partner/ru/app/connection/q1381), [Kaspi Pay — тарифы](https://guide.kaspi.kz/partner/ru/app/conditions/q1445), [Kaspi — удалённая оплата](https://guide.kaspi.kz/partner/ru/pos/payments/general/q1861), [Astana Hub — сравнение эквайрингов](https://astanahub.com/ru/blog/sravnenie-ekvairingov-v-kazakhstane), [Halyk ePay](https://halykbank.kz/en/business/payments/internet-acquiring-epay), [TipTop Pay](https://tiptoppay.kz/tarify), [Robokassa](https://robokassa.kz/), [Freedom Pay](https://freedompay.kz/blog/vygodnyy-ekvayring), [НБКР — ELQR](https://www.nbkr.kg/contout.jsp?item=2145&lang=RUS&material=124592), [Finik](https://www.finik.kg/), [Economist.kg — QR Kaspi и O!Bank](https://economist.kg/dengi/2026/09/13/kazakhstan-kyrgyzstan-qr-platezhi/), [Apple — Small Business Program](https://developer.apple.com/app-store/small-business-program/)
+- Налоги и законы: [Adilet — официальные тексты РК](https://adilet.zan.kz/) (Налоговый кодекс № 214-VIII, закон «Об ИИ» № 230-VIII; агенты читали неофициальные копии, сверьте с официальным текстом), [Всемирный банк — налоги Кыргызстана](https://openknowledge.worldbank.org/server/api/core/bitstreams/3fcb0a01-69c8-4bad-a03c-818df808d8e5/content)
+- ИИ: [Anthropic — поддерживаемые страны](https://www.anthropic.com/supported-countries), [Claude — резидентность данных](https://platform.claude.com/docs/en/manage-claude/data-residency), [Claude — цены](https://platform.claude.com/docs/en/about-claude/pricing), [ISSAI — KazLLM](https://github.com/IS2AI/KazLLM_Benchmark), [Awesome Kyrgyz NLP](https://github.com/alexeyev/awesome-kyrgyz-nlp)
