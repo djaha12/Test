@@ -1,0 +1,26 @@
+{
+  "name": "stopstavka",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Стоп-ставка — веб-приложение, которое помогает бросить ставки",
+  "type": "module",
+  "engines": {
+    "node": ">=22.5"
+  },
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning --env-file-if-exists=.env server/index.js",
+    "dev": "node --disable-warning=ExperimentalWarning --env-file-if-exists=.env --watch server/index.js",
+    "test": "node --disable-warning=ExperimentalWarning --test \"test/*.test.js\"",
+    "e2e": "node --disable-warning=ExperimentalWarning test/e2e/run.js",
+    "codes": "node --disable-warning=ExperimentalWarning --env-file-if-exists=.env server/admin.js",
+    "vendor": "node scripts/vendor.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.128.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.2",
+    "htm": "^3.1.1",
+    "preact": "^10.29.8"
+  }
+}
