@@ -1,8 +1,0 @@
-node_modules
-data
-test
-test-results
-scripts
-dist
-.env
-*.md
